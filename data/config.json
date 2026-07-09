@@ -1,0 +1,430 @@
+{
+  "version": "1.0",
+  "_comment": "======== AI+教育 / 地理教育 博主定制配置 ========",
+  "ai": {
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "temperature": 0.3,
+    "max_tokens": 4096,
+    "throttle_sec": 0,
+    "analysis_concurrency": 1,
+    "enrichment_concurrency": 1,
+    "languages": [
+      "zh",
+      "en"
+    ]
+  },
+  "sources": {
+    "_comment_sources": "===== 信源配置 =====",
+    "github": [
+      {
+        "_comment": "AI/教育相关的 GitHub 仓库",
+        "type": "user_events",
+        "username": "karpathy",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "huggingface",
+        "repo": "transformers",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "langchain-ai",
+        "repo": "langchain",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "Qiskit",
+        "repo": "qiskit",
+        "enabled": false
+      },
+      {
+        "type": "repo_releases",
+        "owner": "openai",
+        "repo": "openai-cookbook",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "microsoft",
+        "repo": "AI-For-Beginners",
+        "enabled": true
+      }
+    ],
+    "hackernews": {
+      "enabled": true,
+      "fetch_top_stories": 30,
+      "min_score": 50
+    },
+    "reddit": {
+      "enabled": true,
+      "fetch_comments": 5,
+      "subreddits": [
+        {
+          "_comment": "AI/技术",
+          "subreddit": "MachineLearning",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 30
+        },
+        {
+          "subreddit": "artificial",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 30
+        },
+        {
+          "subreddit": "LocalLLaMA",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 30
+        },
+        {
+          "_comment": "教育技术",
+          "subreddit": "edtech",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "week",
+          "fetch_limit": 15,
+          "min_score": 5
+        },
+        {
+          "subreddit": "education",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 20
+        },
+        {
+          "_comment": "地理/GIS",
+          "subreddit": "geography",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "week",
+          "fetch_limit": 15,
+          "min_score": 10
+        },
+        {
+          "subreddit": "gis",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "week",
+          "fetch_limit": 15,
+          "min_score": 5
+        },
+        {
+          "_comment": "数据科学",
+          "subreddit": "datascience",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 30
+        }
+      ],
+      "users": []
+    },
+    "rss": [
+      {
+        "_comment": "===== AI/科技 =====",
+        "name": "Simon Willison's Blog",
+        "url": "https://simonwillison.net/atom/everything/",
+        "enabled": true,
+        "category": "ai-tools"
+      },
+      {
+        "name": "Google AI Blog",
+        "url": "https://blog.google/technology/ai/rss/",
+        "enabled": true,
+        "category": "ai-news"
+      },
+      {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/news/rss.xml",
+        "enabled": true,
+        "category": "ai-news"
+      },
+      {
+        "name": "Anthropic Blog",
+        "url": "https://www.anthropic.com/feed.xml",
+        "enabled": true,
+        "category": "ai-news"
+      },
+      {
+        "_comment": "===== 教育科技 =====",
+        "name": "EdSurge",
+        "url": "https://www.edsurge.com/articles_rss",
+        "enabled": true,
+        "category": "edtech"
+      },
+      {
+        "name": "The Chronicle of Higher Education",
+        "url": "https://www.chronicle.com/feed",
+        "enabled": false,
+        "category": "education"
+      },
+      {
+        "name": "EdTech Magazine",
+        "url": "https://edtechmagazine.com/k12/rss.xml",
+        "enabled": true,
+        "category": "edtech"
+      },
+      {
+        "_comment": "===== 地理/GIS =====",
+        "name": "GIS Lounge",
+        "url": "https://www.gislounge.com/feed/",
+        "enabled": false,
+        "category": "geography"
+      },
+      {
+        "name": "Google Earth Blog",
+        "url": "https://www.gearthblog.com/feed",
+        "enabled": true,
+        "category": "geography"
+      },
+      {
+        "name": "Esri Blog",
+        "url": "https://www.esri.com/about/newsroom/blog/feed/",
+        "enabled": false,
+        "category": "gis"
+      },
+      {
+        "_comment": "===== 中文 AI/科技媒体（微信公众号 RSS）=====",
+        "name": "量子位 (QbitAI)",
+        "url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
+        "enabled": true,
+        "category": "ai-news"
+      },
+      {
+        "name": "新智元",
+        "url": "https://wechat2rss.xlab.app/feed/ede30346413ea70dbef5d485ea5cbb95cca446e7.xml",
+        "enabled": true,
+        "category": "ai-news"
+      },
+      {
+        "name": "机器之心 (Almost Human)",
+        "url": "https://wechat2rss.xlab.app/feed/a41ce2769a46918b458cc78eb859c56da9099e2e.xml",
+        "enabled": false,
+        "category": "ai-news"
+      },
+      {
+        "_comment": "===== 中文教育 =====",
+        "name": "教育部 (MOE China)",
+        "url": "https://wechat2rss.xlab.app/feed/7e2a2c8fe842a6e9a2263b617b7135bcb8bf8bb4.xml",
+        "enabled": false,
+        "category": "education-policy"
+      },
+      {
+        "name": "芥末堆 (Jiemodui - EdTech)",
+        "url": "https://wechat2rss.xlab.app/feed/e2b8d344dc4e7bb0231e36b8de4d20a2466f7a89.xml",
+        "enabled": false,
+        "category": "edtech"
+      },
+      {
+        "_comment": "===== 综合科技 =====",
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "enabled": true,
+        "category": "tech"
+      },
+      {
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "enabled": true,
+        "category": "tech"
+      },
+      {
+        "name": "Nature",
+        "url": "https://www.nature.com/nature.rss",
+        "enabled": true,
+        "category": "science"
+      },
+      {
+        "name": "Ethan Mollick (One Useful Thing)",
+        "url": "https://www.oneusefulthing.org/feed",
+        "enabled": true,
+        "category": "ai-news"
+      },
+      {
+        "name": "Edutopia",
+        "url": "https://www.edutopia.org/rss.xml",
+        "enabled": true,
+        "category": "education"
+      },
+      {
+        "name": "Edutopia - Technology Integration",
+        "url": "https://www.edutopia.org/topic/technology-integration/rss.xml",
+        "enabled": true,
+        "category": "edtech"
+      },
+      {
+        "name": "KQED MindShift",
+        "url": "https://www.kqed.org/mindshift/rss",
+        "enabled": true,
+        "category": "education"
+      },
+      {
+        "name": "National Geographic Education Blog",
+        "url": "https://blog.education.nationalgeographic.org/feed/",
+        "enabled": true,
+        "category": "geography"
+      },
+      {
+        "name": "Geographical Association Blog",
+        "url": "https://ga-blog.org/feed/",
+        "enabled": true,
+        "category": "geography"
+      },
+      {
+        "name": "Joseph Kerski (GIS Education)",
+        "url": "https://www.josephkerski.com/feed/",
+        "enabled": true,
+        "category": "gis"
+      },
+      {
+        "name": "The Algorithmic Bridge",
+        "url": "https://thealgorithmicbridge.substack.com/feed",
+        "enabled": true,
+        "category": "ai-news"
+      },
+      {
+        "name": "AI Supremacy",
+        "url": "https://www.aisupremacy.com/feed",
+        "enabled": true,
+        "category": "ai-news"
+      },
+      {
+        "name": "Science Daily - Educational Technology",
+        "url": "https://www.sciencedaily.com/rss/computers_math/educational_technology.xml",
+        "enabled": true,
+        "category": "edtech"
+      }
+    ],
+    "google_news": {
+      "_comment": "Google News 搜索特定关键词",
+      "enabled": false,
+      "query": "AI education OR geography education OR edtech",
+      "language": "en",
+      "country": "US",
+      "max_results": 50,
+      "category": "news"
+    },
+    "ossinsight": {
+      "_comment": "GitHub 热门仓库",
+      "enabled": true,
+      "period": "past_24_hours",
+      "languages": [
+        "All",
+        "Python",
+        "TypeScript",
+        "Jupyter Notebook"
+      ],
+      "keywords": [
+        "education",
+        "learning",
+        "teaching",
+        "ai",
+        "geography",
+        "gis"
+      ],
+      "min_stars": 10,
+      "max_items": 30
+    },
+    "gdelt": {
+      "enabled": false,
+      "query": "education OR geography OR edtech",
+      "mode": "ArtList",
+      "max_records": 75,
+      "category": "news"
+    },
+    "openbb": {
+      "enabled": false
+    },
+    "telegram": {
+      "enabled": false
+    },
+    "twitter": {
+      "enabled": false
+    }
+  },
+  "filtering": {
+    "ai_score_threshold": 5.0,
+    "time_window_hours": 48,
+    "max_items": 25,
+    "category_groups": {
+      "ai": {
+        "name": "AI / 人工智能",
+        "limit": 6,
+        "categories": [
+          "ai-news",
+          "ai-tools",
+          "machine-learning",
+          "llm"
+        ]
+      },
+      "education": {
+        "name": "教育 / EdTech",
+        "limit": 6,
+        "categories": [
+          "education",
+          "edtech",
+          "education-policy"
+        ]
+      },
+      "geography": {
+        "name": "地理 / GIS",
+        "limit": 5,
+        "categories": [
+          "geography",
+          "gis",
+          "geospatial",
+          "earth-science"
+        ]
+      },
+      "tech": {
+        "name": "科技 / 开源",
+        "limit": 4,
+        "categories": [
+          "tech",
+          "github-trending",
+          "devtools",
+          "science"
+        ]
+      }
+    },
+    "default_group": "other",
+    "default_group_limit": 3
+  },
+  "webhook": {
+    "enabled": false,
+    "url_env": "HORIZON_WEBHOOK_URL",
+    "delivery": "summary",
+    "overview_position": "first",
+    "platform": "generic",
+    "layout": "markdown",
+    "fallback_layout": "markdown",
+    "languages": null
+  },
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.qq.com",
+    "smtp_port": 465,
+    "imap_server": "imap.qq.com",
+    "imap_port": 993,
+    "email_address": "xxx@qq.com",
+    "sender_name": "AI+教育 地理日报",
+    "subscribe_keyword": "SUBSCRIBE",
+    "unsubscribe_keyword": "UNSUBSCRIBE"
+  }
+}
