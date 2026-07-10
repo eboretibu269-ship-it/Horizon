@@ -5,240 +5,306 @@ date: 2026-07-10
 lang: en
 ---
 
-> From 38 items, 11 important content pieces were selected
+> From 38 items, 13 important content pieces were selected
 
 ---
 
-1. [EU Parliament Passes Chat Control 1.0 via Procedural Trick](#item-1) ⭐️ 9.0/10
-2. [OpenAI releases GPT-5.6 with improved efficiency and ARC-AGI-3 SOTA](#item-2) ⭐️ 9.0/10
-3. [Postgres rewritten in Rust passes 100% regression tests](#item-3) ⭐️ 9.0/10
-4. [TypeScript 7.0 Released: Go Rewrite Delivers Up to 12x Speedup](#item-4) ⭐️ 9.0/10
-5. [Ant Lingbo Open-Sources LingBot-Video, First MoE Embodied Video Foundation Model](#item-5) ⭐️ 9.0/10
-6. [US Army logistics fragility threatens future war success](#item-6) ⭐️ 8.0/10
-7. [Meta Releases Muse Spark 1.1, Charging for Agentic AI](#item-7) ⭐️ 8.0/10
-8. [Meta's Superintelligence Update: RL Startup and Massive Compute](#item-8) ⭐️ 8.0/10
-9. [DJI EV50 Drone Flies Over Mount Everest at 8,861 Meters](#item-9) ⭐️ 8.0/10
-10. [Meta's self-developed AI chip to start production in September](#item-10) ⭐️ 8.0/10
-11. [OpenAI publishes national security principles, bans autonomous weapons and mass surveillance](#item-11) ⭐️ 8.0/10
+1. [OpenAI Releases GPT-5.6 with SOTA on ARC-AGI-3](#item-1) ⭐️ 9.0/10
+2. [EU Parliament Approves Chat Control 1.0, Allows Warrantless Message Scanning](#item-2) ⭐️ 8.0/10
+3. [Mitchell Hashimoto on Ghostty, Zig, and Rust Culture](#item-3) ⭐️ 8.0/10
+4. [Lisp's Enduring Appeal and Community Debate](#item-4) ⭐️ 8.0/10
+5. [Meta Announces Muse Spark 1.1 Agentic Model](#item-5) ⭐️ 8.0/10
+6. [Internal TLS certificates best practices debated](#item-6) ⭐️ 8.0/10
+7. [Meta's Superintelligence Progress Update](#item-7) ⭐️ 8.0/10
+8. [Meta to Mass Produce Custom AI Chip 'Iris' in September](#item-8) ⭐️ 8.0/10
+9. [OpenAI publishes national security principles, bans autonomous weapons and mass surveillance](#item-9) ⭐️ 8.0/10
+10. [Chinese Courts Rule Game Accounts Inheritable, Invalidating Platform Bans](#item-10) ⭐️ 8.0/10
+11. [Anthropic Web Crawler-to-Referral Ratio Hits 2800:1](#item-11) ⭐️ 8.0/10
+12. [Long March 10B achieves world's first net-based rocket stage recovery at sea](#item-12) ⭐️ 8.0/10
+13. [OpenAI, Google Allegedly Served Blacklisted Chinese Firms via Singapore](#item-13) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [EU Parliament Passes Chat Control 1.0 via Procedural Trick](https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/) ⭐️ 9.0/10
+## [OpenAI Releases GPT-5.6 with SOTA on ARC-AGI-3](https://openai.com/index/gpt-5-6/) ⭐️ 9.0/10
 
-The EU Parliament passed a one-year extension of Chat Control 1.0 on July 10, 2025, allowing US tech companies to scan private messages for child sexual abuse material without a warrant until 2028. This law undermines encryption and mass surveillance protections, affecting billions of users on platforms like Instagram, Discord, and Gmail. The controversial parliamentary maneuver—requiring an absolute majority to reject—raises serious questions about democratic legitimacy in the EU. Of 607 MEPs voting, 314 voted to reject the regulation, 276 in favor, and 17 abstained—but the rejection motion failed because it needed 361 votes (absolute majority of all MEPs). The vote was held on the last session day before summer break, with 113 MEPs absent.
+OpenAI has released GPT-5.6, a new family of models including Sol (flagship), Terra (balanced), and Luna (cost-efficient), achieving a state-of-the-art score of 7.8% on the ARC-AGI-3 benchmark. The model also introduces enhanced intent understanding and original image detail preservation. This release marks a significant step in AI agentic intelligence, as GPT-5.6 Sol is the first verified frontier model to solve an ARC-AGI-3 game. The improved intent understanding and image handling could enhance developer productivity and enable more natural human-AI interaction. The developer guide highlights that GPT-5.6 can infer user intent without explicit step-by-step instructions, though important constraints must still be stated. The model preserves original image dimensions sent to it, and the Sol variant uses max/ultra reasoning and multi-agent collaboration.
 
-hackernews · rapnie · Jul 9, 11:03 · [Discussion](https://news.ycombinator.com/item?id=48843923)
+hackernews · logickkk1 · Jul 9, 17:04 · [Discussion](https://news.ycombinator.com/item?id=48849066)
 
-**Background**: Chat Control is an EU regulation originally proposed in May 2022 to combat child sexual abuse material online. It requires platforms to proactively scan private messages, but critics argue it effectively ends end-to-end encryption. Version 1.0 was a temporary measure that expired; its extension was approved despite previous rejections.
+**Background**: ARC-AGI-3 is an interactive reasoning benchmark that tests an AI agent's ability to explore, infer goals, and plan in novel turn-based environments. It builds on the static grid tasks of ARC-AGI-1 and 2 by introducing partial observability and multi-turn dynamics. The 7.8% score represents a notable advance, though human performance remains near 100%.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Chat_Control">Chat Control - Wikipedia</a></li>
-<li><a href="https://www.techtimes.com/articles/320010/20260709/eu-parliament-passes-chat-control-default-314-meps-couldnt-block-scanning-law.htm">EU Parliament Passes Chat Control by Default: 314 MEPs Couldn ...</a></li>
+<li><a href="https://arcprize.org/arc-agi/3">ARC-AGI-3</a></li>
+<li><a href="https://arxiv.org/abs/2603.24621">ARC-AGI-3: A New Challenge for Frontier Agentic IntelligenceARC-AGI-3: A New Challenge for Frontier Agentic IntelligenceARC-AGI-3 Quickstart - ARC-AGI-3 DocsARC-AGI-3: The New Interactive Reasoning Benchmark - DataCampGPT 5.6 Sol Tops ARC-AGI 3 With 7.8%, Becomes First Model To ...ARC-AGI-3: Interactive AGI Benchmark - emergentmind.com</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters overwhelmingly criticized the parliamentary trick, calling it a 'mockery of democracy' and noting that the EU is 'on the way to becoming a totalitarian government.' Some highlighted that 314 MEPs opposed the law but were defeated by procedural rules requiring an absolute majority to reject.
+**Discussion**: Community comments show mixed reactions: some praise the ARC-AGI-3 SOTA result and the detailed developer guide, while others note that GPT-5.6's coding performance is similar to GPT-5.5 and behind Sonnet 5. There is also discussion about the exclusion of Fable 5 from certain benchmarks due to refusal behavior, and comparisons between Codex and Claude Code.
 
-**Tags**: `#privacy`, `#surveillance`, `#EU law`, `#democracy`, `#chat control`
+**Tags**: `#AI`, `#GPT-5.6`, `#OpenAI`, `#language models`, `#benchmark`
 
 ---
 
 <a id="item-2"></a>
-## [OpenAI releases GPT-5.6 with improved efficiency and ARC-AGI-3 SOTA](https://openai.com/index/gpt-5-6/) ⭐️ 9.0/10
+## [EU Parliament Approves Chat Control 1.0, Allows Warrantless Message Scanning](https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/) ⭐️ 8.0/10
 
-OpenAI has released the GPT-5.6 model family, featuring flagship model Sol, along with Terra and Luna tiers, with improved token efficiency, an extended context window of 353k tokens, and a new state-of-the-art score of 7.8% on the ARC-AGI-3 benchmark. This release marks a significant leap in AI model efficiency and reasoning capability, enabling more complex tasks with fewer tokens and reduced cost, and setting a new standard for agentic intelligence benchmarks. The GPT-5.6 family includes three tiers: Sol (maximum capability), Terra (balanced performance and cost), and Luna (high-throughput, low-cost). The context window expands from 258k to 353k tokens, and the model supports new features like max/ultra reasoning, multi-agent collaboration, and Programmatic Tool Calling.
+The European Parliament approved Chat Control 1.0, a temporary regulation that permits major tech platforms like Instagram, Discord, and Gmail to scan private messages without a warrant or prior suspicion to detect child sexual abuse material. This decision effectively reauthorizes mass surveillance of private communications, undermining digital privacy and encryption protections across the EU, and sets a concerning precedent for future surveillance legislation. The regulation passed despite a majority of voting MEPs opposing it (314 against, 276 in favor) because a motion to reject failed to reach the required absolute majority of 361 votes; it will remain in effect until April 3, 2028.
 
-hackernews · logickkk1 · Jul 9, 17:04 · [Discussion](https://news.ycombinator.com/item?id=48849066)
+hackernews · rapnie · Jul 9, 11:03 · [Discussion](https://news.ycombinator.com/item?id=48843923)
 
-**Background**: ARC-AGI-3 is an interactive reasoning benchmark for evaluating agentic intelligence, where AI agents must explore novel environments, infer goals, and plan actions without explicit instructions. It builds on previous ARC-AGI benchmarks and focuses on fluid adaptive efficiency.
+**Background**: Chat Control 1.0 is an interim measure that grants legal cover for tech companies to voluntarily scan user chats for known and unknown child sexual abuse material. It was initially rejected twice by the Parliament in March 2026, but the European Commission refused to withdraw the proposal, forcing a second reading. Critics argue that the technology for detecting unknown CSAM is unreliable and poses risks to privacy and encryption.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arcprize.org/arc-agi/3">Arc-agi-3</a></li>
-<li><a href="https://arxiv.org/abs/2603.24621">ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Chat_Control">Chat Control - Wikipedia</a></li>
+<li><a href="https://www.euronews.com/next/2026/07/10/chat-control-10-passed-the-european-parliament-through-the-back-door">Why Chat Control 1.0 is the EU's most Orwellian law yet</a></li>
+<li><a href="https://www.theregister.com/security/2026/07/09/meps-fail-to-prevent-chat-control-snoopfest-revival/5269379">EU 'Chat Control' snoopfest returns after vote to kill it falls short</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community praised the focus on token efficiency, with users like joerawr expressing hope that 'smartest per token' becomes the trend. Others noted the extended context window and ARC-AGI-3 results, while some debated the practical benefits of model switching and cost implications.
+**Discussion**: Commenters expressed outrage over the parliamentary maneuver that allowed the regulation to pass despite majority opposition, calling it undemocratic. Some highlighted that the vote was held just before summer break, reducing attendance, and that the default was acceptance. Others noted that the regulation still allows voluntary scanning, but criticizes the erosion of privacy rights.
 
-**Tags**: `#OpenAI`, `#GPT`, `#AI`, `#language model`, `#benchmark`
+**Tags**: `#privacy`, `#surveillance`, `#EU regulation`, `#chat control`, `#encryption`
 
 ---
 
 <a id="item-3"></a>
-## [Postgres rewritten in Rust passes 100% regression tests](https://github.com/malisper/pgrust) ⭐️ 9.0/10
+## [Mitchell Hashimoto on Ghostty, Zig, and Rust Culture](https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/) ⭐️ 8.0/10
 
-A developer named malisper has used LLMs to rewrite PostgreSQL in Rust, achieving 100% compatibility with the original Postgres regression tests for the first time. This experiment demonstrates the potential of LLMs to automate large-scale software rewrites, which could reduce costs and enable modernizing legacy systems. It also shows Rust's viability for building robust database systems. The rewrite, called pgrust, was generated in less than a month with over 7,100 commits, but reviewing such AI-generated code remains challenging. The project also changes the license from the PostgreSQL license to AGPL-3.0.
+Mitchell Hashimoto, creator of Ghostty, gave an interview explaining his choice to build the terminal emulator in Zig and discussing his critiques of Rust's community culture. This interview sheds light on the ongoing debate between Zig and Rust in systems programming, highlighting how community culture and engineering pragmatism influence language adoption. Hashimoto emphasized Ghostty’s use of platform-native UI and GPU acceleration for speed, and noted that forking a project requires taking on the burden of synchronization with upstream changes.
 
-hackernews · SweetSoftPillow · Jul 9, 06:18 · [Discussion](https://news.ycombinator.com/item?id=48841676)
+hackernews · veqq · Jul 9, 17:17 · [Discussion](https://news.ycombinator.com/item?id=48849292)
 
-**Background**: PostgreSQL is a widely used open-source relational database with a 30-year history. Rust is a systems programming language known for memory safety and performance. Using LLMs to translate legacy codebases into modern languages is an emerging area of research and development.
+**Background**: Ghostty is a fast, cross-platform terminal emulator that uses GPU acceleration and native UI. Zig is a system programming language designed as an alternative to C, focusing on simplicity and performance. The interview contrasts Zig's culture with Rust's, where Hashimoto expressed discomfort with Rust's community attitude.
 
-**Discussion**: The community discussion shows mixed reactions. The author explains ongoing improvements to pgrust. Some users suggest mirroring queries to both databases for testing, while others question how to review AI-generated code. A license change from PostgreSQL to AGPL-3.0 is also noted, with concerns about compatibility.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://ghostty.org/">Ghostty</a></li>
+<li><a href="https://github.com/ghostty-org/ghostty">GitHub - ghostty-org/ghostty: 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Zig_(programming_language)">Zig (programming language)</a></li>
 
-**Tags**: `#Rust`, `#PostgreSQL`, `#LLM`, `#Database`, `#Rewrite`
+</ul>
+</details>
+
+**Discussion**: Comments debated Hashimoto's criticism of Rust culture, with some users noting negative experiences with both Rust and Zig communities. Another user praised the pragmatic engineering mindset and was motivated by the interview. A commenter also discussed the challenges of forking open-source projects, agreeing that synchronization work is a significant burden.
+
+**Tags**: `#Zig`, `#Rust`, `#terminal emulator`, `#software engineering culture`, `#open source`
 
 ---
 
 <a id="item-4"></a>
-## [TypeScript 7.0 Released: Go Rewrite Delivers Up to 12x Speedup](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/) ⭐️ 9.0/10
+## [Lisp's Enduring Appeal and Community Debate](https://scotto.me/blog/2026-07-09-why-lisp/) ⭐️ 8.0/10
 
-Microsoft has officially released TypeScript 7.0, a native version rewritten in Go that achieves 8 to 12 times faster full builds compared to the previous version, and supports shared-memory multithreading. This major version upgrade dramatically improves developer productivity and tooling performance, particularly for large codebases, and sets a new precedent for using Go in compiler infrastructure. Users can install TypeScript 7.0 via npm, and major editors support the new language server through LSP; the release introduces --checkers and --builders flags for custom parallelism and a compatibility package for coexistence with TypeScript 6.
+A reflective essay titled 'A road to Lisp: Why Lisp' explores Lisp's unique features, such as macros, and the tension between programmer freedom and safety, accompanied by a high-engagement Hacker News discussion on its learning curve and future in the age of AI. This discussion highlights the enduring appeal of Lisp as a language prioritizing expressiveness and metaprogramming, contrasting with modern trends toward safety and tooling, and raises questions about the impact of AI on programming language evolution. The post itself is a reflective essay, not a technical tutorial, but the community comments point to recent tooling improvements like Mine (a complete Lisp environment) and Olive (a VSCode plugin), as well as a website bug affecting syntax highlighting.
 
-telegram · zaihuapd · Jul 9, 04:01
+hackernews · silcoon · Jul 9, 13:06 · [Discussion](https://news.ycombinator.com/item?id=48845209)
 
-**Background**: TypeScript is a superset of JavaScript that adds static typing, widely used for large-scale web applications. The previous version was written in TypeScript itself, which had performance bottlenecks during compilation. By rewriting the compiler in Go, a language known for fast execution and efficient concurrency, Microsoft achieved substantial speed improvements.
+**Background**: Lisp is one of the oldest programming languages, known for its macro system that allows code to be manipulated as data (homoiconicity), enabling developers to extend the language syntax. This macro facility offers great flexibility but also contributes to a steep learning curve, as highlighted in the discussion. The commenter davidpapermill expresses a long-held dream that Lisp would become mainstream, but wonders if AI will render that dream obsolete.
 
-**Tags**: `#TypeScript`, `#compiler performance`, `#Go`, `#Microsoft`, `#programming languages`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://lisp-journey.gitlab.io/blog/common-lisp-macros-by-example-tutorial/">Common Lisp Macros By Example Tutorial</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community comments generally reflect admiration for Lisp's philosophy, such as the 'Light Side vs. Dark Side' tension between safety and power. Some users note the steep learning curve and ecosystem challenges, while others like vindarel highlight recent improvements in Lisp tooling (e.g., Mine, Olive). Overall, the discussion sees a passionate but niche community grappling with Lisp's future relevance.
+
+**Tags**: `#Lisp`, `#programming languages`, `#macros`, `#software engineering`, `#AI`
 
 ---
 
 <a id="item-5"></a>
-## [Ant Lingbo Open-Sources LingBot-Video, First MoE Embodied Video Foundation Model](https://www.qbitai.com/2026/07/446458.html) ⭐️ 9.0/10
+## [Meta Announces Muse Spark 1.1 Agentic Model](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/) ⭐️ 8.0/10
 
-Ant Lingbo has open-sourced LingBot-Video, the world's first Mixture-of-Experts (MoE) embodied video generation foundation model, under the Apache 2.0 license. The model achieves 3x inference efficiency over dense counterparts with 30B total parameters and only 3B activated parameters, and scores 0.620 on the RBench robotics video benchmark, surpassing models like Wan2.6 and Seedance1.5 Pro. This marks a significant breakthrough in embodied AI and video generation, as the first open-source MoE model tailored for robot-oriented video tasks. Its high efficiency and strong performance could accelerate research in robot action prediction, simulation data generation, and world models, benefiting the entire embodied intelligence community. LingBot-Video incorporates a DiT+MoE architecture for efficient capacity-cost balance, and uses a proprietary embodied data engine with 70,000 hours of diverse interaction data. Its training involves a multi-dimensional reinforcement learning reward system that emphasizes physical plausibility and task completion alongside aesthetics and motion consistency.
+Meta released Muse Spark 1.1, its first paid agentic AI model, on July 9, 2026, via the Meta Model API in public preview for US developers, also available in the Meta AI app's Thinking mode. This launch marks Meta's strategic pivot to charging for its frontier AI models, directly competing with Anthropic and OpenAI, but the model faces community criticism over benchmark evaluation methodology. Pricing is $1.25/$4.5 per million tokens for input/output, with $0.15 for cached input, and the evaluation report for Terminal-Bench 2.1 used a bash-tool-only harness with 6 CPU cores and 8GB RAM, which some community members argue disqualifies the results due to resource overrides.
 
-telegram · zaihuapd · Jul 9, 04:30
+hackernews · ot · Jul 9, 14:10 · [Discussion](https://news.ycombinator.com/item?id=48846184)
 
-**Background**: DiT (Diffusion Transformer) is a class of diffusion models based on transformer architecture, widely used for image and video generation. MoE (Mixture-of-Experts) is a neural network design that activates only a subset of parameters per input, enabling higher efficiency at scale. Embodied intelligence (Embodied AI) focuses on agents that learn through interaction with the physical world, often involving robot manipulation. RBench is a recently introduced benchmark for evaluating robot-oriented video generation models across multiple embodiments and tasks.
+**Background**: Agentic AI refers to systems that can plan, use tools, and act autonomously to accomplish tasks, unlike traditional chatbots. Muse Spark is Meta's proprietary large language model developed by Meta Superintelligence Labs, first released in April 2026, and version 1.1 introduces agentic capabilities and a paid API.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://encord.com/blog/diffusion-models-with-transformers/">Diffusion Transformer (DiT) Models: A Beginner’s Guide</a></li>
-<li><a href="https://arxiv.org/abs/2601.15282">[2601.15282] Rethinking Video Generation Model for the ...RBench: New Robotics Video Generation Benchmark - YouTubeDAGroup-PKU/RBench · Datasets at Hugging FaceRBench Leaderboard - a Hugging Face Space by DAGroup-PKURethinking Robotic Video Generation - emergentmind.comGitHub - DAGroup-PKU/ReVidgen: [ICML 2026 ]Rethinking Video ...</a></li>
+<li><a href="https://www.datacamp.com/blog/muse-spark-1-1">Muse Spark 1.1: Meta's Agentic Model and API | DataCamp</a></li>
+<li><a href="https://www.digitalapplied.com/blog/meta-muse-spark-1-1-agentic-model-api-2026">Meta Muse Spark 1.1: Meta's First Paid Agent Model</a></li>
+<li><a href="https://grokipedia.com/page/Muse_Spark_AI_model">Muse Spark (AI model)</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#MoE`, `#具身智能`, `#视频生成`, `#开源`, `#机器人`
+**Discussion**: Community reactions are mixed: some criticize the benchmark methodology as invalid due to resource caps, while others praise the competitive pricing and accessibility. Simon Willison created an LLM plugin, and some suggest Meta should focus on commoditizing models rather than competing head-to-head.
+
+**Tags**: `#meta`, `#ai`, `#muse-spark`, `#agentic-model`, `#benchmarking`
 
 ---
 
 <a id="item-6"></a>
-## [US Army logistics fragility threatens future war success](https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/) ⭐️ 8.0/10
+## [Internal TLS certificates best practices debated](https://tuxnet.dev/posts/tls-for-internal-services/) ⭐️ 8.0/10
 
-A recent article from the Modern War Institute argues that the US Army's logistics systems are fragile and will fail in future conflicts due to an over-reliance on just-in-time precision supply chains. This analysis highlights a critical vulnerability in US military readiness, as modern warfare demands resilient supply chains, and failure could lead to operational defeat. The article criticizes the outdated 'tooth-to-tail ratio' concept and calls for rebalancing modernization priorities toward logistics. The Army's budget requests have historically underfunded logistics compared to combat systems.
+A blog post on TLS certificates for internal services sparked a debate criticizing split-horizon DNS and advocating DNS-01 validation with ACME for certificate issuance. This debate highlights the complexity and trade-offs in securing internal services with TLS, affecting how organizations manage certificates and DNS infrastructure. Community members criticized split-horizon DNS for introducing complexity and silent deviations, and recommended using DNS-01 challenges with Let's Encrypt and keeping internal IPs in public zones but restricted by VPN access.
 
-hackernews · baud147258 · Jul 9, 13:24 · [Discussion](https://news.ycombinator.com/item?id=48845442)
+hackernews · mrl5 · Jul 9, 14:57 · [Discussion](https://news.ycombinator.com/item?id=48846995)
 
-**Background**: Just-in-time logistics is a supply chain strategy that delivers supplies exactly when needed, reducing inventory costs but increasing vulnerability to disruptions. In military contexts, contested logistics recognizes that supply lines will be attacked. The 'tooth-to-tail ratio' measures the proportion of combat forces (tooth) to support forces (tail), and a low ratio is often seen as efficient but can be fragile.
+**Background**: Split-horizon DNS provides different DNS responses based on the requester's source address, often used to keep internal service names private. ACME (Automatic Certificate Management Environment) is a protocol for automating certificate issuance and validation, commonly used with Let's Encrypt.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.dla.mil/About-DLA/News/News-Article-View/Article/4361608/just-enough-logistics-shifts-paradigm-in-military-supply-chain-readiness/">‘Just enough logistics’ shifts paradigm in military supply ...</a></li>
-<li><a href="https://www.linkedin.com/pulse/supply-chain-fragility-why-logistics-constraints-new-boardroom-jsxxf">Supply Chain Fragility: Why Logistics Constraints Are the New ...</a></li>
-<li><a href="https://www.army.mil/article/292788/army_and_industry_make_significant_strides_on_building_supply_chain_resiliency">Army and industry make significant strides on building supply ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Split-horizon_DNS">Split-horizon DNS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ACME_protocol">ACME protocol</a></li>
+<li><a href="https://tailscale.com/learn/why-split-dns">What is Split DNS & Why Should You Use It?</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely agree with the article, citing historical examples from Hannibal to WWII where logistics determined outcomes. Some argue that new technologies like SpaceX's StarFall might mitigate issues, but others remain skeptical.
+**Discussion**: Commenters expressed strong opposition to split-horizon DNS, calling it 'split-brain' and advocating for ACME-based DNS validation. Others noted the difficulty of configuring trust stores across different programming languages and suggested using public DNS zones with internal IPs restricted by VPN.
 
-**Tags**: `#logistics`, `#military`, `#systems`, `#supply chain`, `#vulnerability`
+**Tags**: `#TLS`, `#certificates`, `#DNS`, `#internal services`, `#security`
 
 ---
 
 <a id="item-7"></a>
-## [Meta Releases Muse Spark 1.1, Charging for Agentic AI](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/) ⭐️ 8.0/10
+## [Meta's Superintelligence Progress Update](https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence) ⭐️ 8.0/10
 
-Meta publicly launched Muse Spark 1.1, an agentic multimodal AI model for coding, and began charging for API access at $1.25 per million input tokens on July 9, 2026. This marks Meta's entry into the competitive AI coding assistant market, challenging OpenAI and Anthropic with a commercial model, and signals a shift in Meta's strategy from open-source giveaways to monetizing AI. On the DeepSWE 1.1 benchmark, Muse Spark 1.1 scored 53.3%, trailing GPT-5.5 (67.0%) and Claude Opus 4.8 (59.0%), but it uses a bash-tool-only harness with resource caps of 6 CPU cores and 8GB RAM, which some critics argue disqualifies results.
-
-hackernews · ot · Jul 9, 14:10 · [Discussion](https://news.ycombinator.com/item?id=48846184)
-
-**Background**: Agentic AI models are systems that can autonomously use tools, plan, and take actions to achieve goals. Muse Spark is Meta's series of agentic models designed for coding tasks, with version 1.1 being the first to be charged for access, marking a departure from Meta's previous open-source approach.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/">Meta enters the crowded AI coding battle with Muse Spark 1.1</a></li>
-<li><a href="https://www.reuters.com/business/meta-debuts-muse-spark-11-with-preview-open-developers-2026-07-09/">Meta debuts Muse Spark 1.1 model with preview open to ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/AI_agent">AI agent - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community comments highlight concerns about evaluation methodology, with user GodelNumbering pointing out that resource caps violate Terminal-Bench rules. Developer simonw shared a plugin for LLM to use Muse Spark, while others noted aggressive pricing compared to competitors and debated Meta's strategy of commoditizing coding models.
-
-**Tags**: `#AI`, `#Meta`, `#Muse Spark`, `#agentic-model`, `#open-source`
-
----
-
-<a id="item-8"></a>
-## [Meta's Superintelligence Update: RL Startup and Massive Compute](https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence) ⭐️ 8.0/10
-
-The newsletter reveals an emergent reinforcement learning environment startup, the most aggressive compute ramp ever seen with 2000km+ scale-across inter-datacenter networking, and strategic advice for Google DeepMind. 这表明Meta在AI基础设施上积极进军，可能重塑竞争格局；同时，强化学习环境初创公司的兴起表明训练先进AI代理的生态系统正在壮大。 The scale-across approach interconnects geographically distributed data centers via ultra-high-speed optical networks, overcoming the power limitations of single sites. The RL environment startup (likely Surge or Mercor) specializes in building tasks and environments for training AI agents.
+A new RL environment startup has emerged, and Meta is executing the most aggressive compute ramp we have ever seen, spanning over 2000km with scale-across networking. The update also offers strategic advice for Google DeepMind. This signifies a major acceleration in AI infrastructure investment, potentially enabling superintelligence-level models. The advice to DeepMind highlights competitive dynamics among leading AI labs. The compute ramp involves scale-across networking connecting clusters over 2000km, a technique typically used for high-bandwidth inter-datacenter connectivity. The RL environment startup is reportedly AMI Labs, founded by Yann LeCun, focusing on world models.
 
 rss · Semianalysis · Jul 9, 19:16
 
-**Background**: Training frontier AI models requires enormous compute beyond 100MW, driving the need to spread workloads across multiple datacenters. RL environments are simulated worlds where AI agents learn through trial and error, and startups are emerging to provide these for frontier labs. Meta is investing heavily in superclusters like Prometheus and Hyperion to achieve industrial-scale compute.
+**Background**: Scale-across networking refers to a network architecture that connects multiple scale-up clusters within a data center or across data centers for high-performance AI training. RL environments are simulations where reinforcement learning agents learn by interacting; world models aim to understand physics and real-world dynamics rather than just language. Meta's superintelligence efforts include both internal labs and external investments.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence">The Future of Meta Superintelligence: A 1 Year Progress Update</a></li>
-<li><a href="https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/">Silicon Valley bets big on 'environments' to train AI agents | TechCrunch</a></li>
-<li><a href="https://medium.com/@aicplight888/the-evolution-of-ai-computing-power-from-scale-up-and-scale-out-to-scale-across-a3a59b3b5c5e">The Evolution of AI Computing Power: From Scale-Up and Scale-Out to Scale-Across | by AICPLIGHT | Medium</a></li>
+<li><a href="https://builtin.com/artificial-intelligence/meta-superintelligence-labs">Meta Superintelligence Labs: What We Know So Far | Built In</a></li>
+<li><a href="https://www.broadcom.com/topics/what-is-scale-across-networking-for-ai-clusters">Scale-across Networking | AI Clusters | AI Infrastructure</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Meta`, `#superintelligence`, `#reinforcement learning`, `#compute infrastructure`, `#AI`
+**Tags**: `#AI`, `#superintelligence`, `#Meta`, `#compute`, `#reinforcement learning`
+
+---
+
+<a id="item-8"></a>
+## [Meta to Mass Produce Custom AI Chip 'Iris' in September](https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/) ⭐️ 8.0/10
+
+Meta plans to mass produce its self-designed AI chip 'Iris' starting September, aiming to double its computing capacity by 2027. The chip, part of the MTIA fourth-generation project, is designed with Broadcom and manufactured by TSMC. This move reduces Meta's reliance on external GPU suppliers like Nvidia and AMD, signaling a strategic shift in the AI compute market. It also reflects the growing trend of tech giants building custom hardware for AI workloads. Meta expects to deploy 7 gigawatts of computing infrastructure this year, doubling to 14 gigawatts by 2027. The company has signed long-term supply agreements with Samsung, SanDisk, and Sumitomo Electric for memory, flash storage, and optical equipment.
+
+telegram · zaihuapd · Jul 9, 12:37
+
+**Background**: Meta's MTIA (Meta Training and Inference Accelerator) is a family of custom AI accelerators designed to handle recommendation systems and generative AI tasks. The 'Iris' chip is the latest iteration, following a rapid development cycle with only six weeks of testing and no major issues found. Meta plans to invest up to $145 billion in AI infrastructure this year.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://aichipfront.com/market-analysis/meta-self-developed-ai-chip-mtia">Meta自研AI芯片MTIA路线图深度解析：摆脱英伟达依赖的算力之战</a></li>
+<li><a href="https://news.qq.com/rain/a/20240902A00ROW00">2024 Hot Chips ｜Meta 下一代MTIA：专用于推荐推理的AI处理器</a></li>
+<li><a href="https://storagereview.com/zh-CN/news/meta-unveils-next-gen-meta-training-and-inference-accelerator-mtia">Meta 推出下一代元训练和推理加速器 (MTIA) - StorageReview.comTop StoriesMeta 自研 AI 推理芯片：四代路线图深度解读_腾讯新闻Meta自研AI芯片“Iris”即将投产，2027年算力目标翻倍至14GWMeta推出4款MTIA芯片，专注于高性能推理_部署_torch_带宽Meta自研AI芯片将于9月开始量产，剑指降低GPU成本</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI chips`, `#Meta`, `#computing infrastructure`, `#hardware`, `#semiconductor`
 
 ---
 
 <a id="item-9"></a>
-## [DJI EV50 Drone Flies Over Mount Everest at 8,861 Meters](https://www.163.com/dy/article/L1CUCV940514R9OJ.html) ⭐️ 8.0/10
+## [OpenAI publishes national security principles, bans autonomous weapons and mass surveillance](https://openai.com/index/government-national-security-partnerships/) ⭐️ 8.0/10
 
-DJI's unreleased EV50 vertical takeoff and landing (VTOL) cargo drone successfully flew at 8,861 meters over the north slope of Mount Everest, setting a world record for the highest altitude achieved by a VTOL drone in a public test and collecting real atmospheric profile data above 8,000 meters. This achievement demonstrates DJI's advanced drone engineering in extreme high-altitude environments, paving the way for applications in logistics, scientific research, and emergency response at altitudes inaccessible to conventional drones. The EV50 is a hybrid fixed-wing VTOL drone that can take off and land vertically and then switch to fixed-wing cruise. During the 12-day mission, it completed 32 flights, climbed a total of 3,730 meters, and still had 30% battery remaining upon return.
+OpenAI has published its national security principles, explicitly banning the use of its technology for mass domestic surveillance, autonomous weapon systems, and high-risk automated decision-making. The company also expanded its Daybreak cyber defense program partnerships with several US allies. This marks a significant policy shift in AI governance, setting clear boundaries on military and surveillance applications while strengthening defensive collaborations with allies. It could influence global AI ethics standards and shape how other AI companies approach national security partnerships. The principles prohibit using OpenAI's technology for 'mass domestic surveillance,' 'autonomous weapon systems,' and 'high-risk automated decision-making.' The Daybreak program now includes partnerships with Australia, Canada, Japan, South Korea, France, Germany, Poland, the Netherlands, and EU institutions.
 
-telegram · zaihuapd · Jul 9, 06:00
+telegram · zaihuapd · Jul 9, 13:22
 
-**Background**: Vertical takeoff and landing (VTOL) fixed-wing drones combine the vertical agility of multirotors with the long endurance of fixed-wing aircraft. High-altitude flight above 8,000 meters presents extreme challenges due to thin air, low temperatures, and strong winds, requiring specialized propulsion and aerodynamic designs. DJI's EV50 is designed for hundred-kilometer cargo transport and low-altitude logistics scenarios.
+**Background**: Autonomous weapons, also known as lethal autonomous weapon systems (LAWS), can independently search for and engage targets without human intervention, raising ethical concerns. OpenAI's Daybreak program is a cyber defense initiative that integrates AI into security platforms to prioritize threats and generate defenses. These developments reflect ongoing debates about balancing AI innovation with security and ethical constraints.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.sina.cn/news/detail/5318723679290091.html">大疆EV50飞越珠峰|大疆|ev50|无人机|采集大气数据_新浪新闻</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/2058534660083282326">大疆EV50发布：当无人机不再只是“飞”，而是“运” - 知乎</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Autonomous_weapons">Autonomous weapons</a></li>
+<li><a href="https://www.cybersecuritydive.com/news/OpenAI-Daybreak-cyber-threats/820122/">OpenAI launches Daybreak to combat cyber threats | Cybersecurity Dive</a></li>
+<li><a href="https://www.prnewswire.com/news-releases/cato-advances-enterprise-defense-joining-the-openai-daybreak-cyber-partner-program-302805920.html">Cato Advances Enterprise Defense, Joining the OpenAI Daybreak Cyber Partner Program</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#drone`, `#DJI`, `#high altitude`, `#logistics`, `#record`
+**Tags**: `#OpenAI`, `#AI ethics`, `#national security`, `#AI policy`, `#international relations`
 
 ---
 
 <a id="item-10"></a>
-## [Meta's self-developed AI chip to start production in September](https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/) ⭐️ 8.0/10
+## [Chinese Courts Rule Game Accounts Inheritable, Invalidating Platform Bans](https://www.tomshardware.com/tech-industry/big-tech/chinese-courts-allow-heirs-to-inherent-accounts-of-deceased-gamers-multiple-cases-spanning-years-establish-precedent-for-digital-ownership-of-games-in-game-items-and-microtransactions) ⭐️ 8.0/10
 
-Meta plans to begin mass production of its self-developed AI chip 'Iris' in September 2026, as part of its MTIA fourth-generation project, aiming to double its computing capacity by 2027. This move reduces Meta's reliance on external suppliers like Nvidia and AMD, potentially reshaping the AI hardware market. Meta's massive infrastructure investment of up to $145 billion this year signals a strategic shift toward owning its AI stack. The Iris chip was designed in collaboration with Broadcom, manufactured by TSMC, and passed initial testing in just six weeks with no major issues. Meta also signed long-term supply agreements with Samsung, SanDisk, and Sumitomo Electric for memory, flash, and fiber optic equipment.
+Chinese courts in multiple cases over several years have ruled that virtual assets such as game accounts, equipment, and cryptocurrencies are inheritable, and that platform clauses prohibiting inheritance are invalid. This landmark legal precedent affirms digital inheritance rights for users and could force platforms to revise their terms of service globally. The courts specified that purely private content like chat logs is not inheritable and will be archived by the platform; platforms may charge reasonable fees for transferring accounts.
 
-telegram · zaihuapd · Jul 9, 12:37
+telegram · zaihuapd · Jul 10, 02:56
 
-**Background**: Meta's MTIA (Meta Training and Inference Accelerator) is a family of custom chips designed for AI workloads. By developing its own silicon, Meta aims to optimize performance and cost for its specific needs, reducing dependence on commodity AI accelerators. The company's plan to deploy 7 GW of computing infrastructure this year and double it to 14 GW by 2027 underscores its aggressive AI expansion.
+**Background**: Digital inheritance refers to the transfer of digital assets after a person's death. Traditionally, many service agreements forbid granting access to accounts to heirs, citing privacy and security concerns. These Chinese rulings challenge such clauses by recognizing virtual assets as property with economic value.
 
-**Tags**: `#Meta`, `#AI chip`, `#hardware`, `#computing infrastructure`, `#semiconductor`
+**Tags**: `#digital inheritance`, `#virtual assets`, `#Chinese courts`, `#property rights`, `#gaming`
 
 ---
 
 <a id="item-11"></a>
-## [OpenAI publishes national security principles, bans autonomous weapons and mass surveillance](https://openai.com/index/government-national-security-partnerships/) ⭐️ 8.0/10
+## [Anthropic Web Crawler-to-Referral Ratio Hits 2800:1](https://www.businessinsider.com/anthropic-web-bots-crawling-referrals-cloudflare-distillation-2026-7) ⭐️ 8.0/10
 
-OpenAI has published its national security principles, explicitly prohibiting the use of its AI technology for autonomous weapons, mass surveillance, and high-risk automated decision-making. The company also announced expanded defensive collaborations with allied nations through its Daybreak cyber defense program. This marks a major AI governance milestone, setting clear ethical boundaries for AI use in national security and influencing global policy. The move could shape how other AI companies and governments approach military and surveillance applications, reinforcing responsible innovation. The principles specifically ban use for 'developing or controlling autonomous weapons systems' and 'mass domestic surveillance,' while supporting legislation for safety guardrails. OpenAI's Daybreak initiative involves partnerships with Australia, Canada, Japan, South Korea, France, Germany, Poland, the Netherlands, and EU institutions to strengthen cyber defenses.
+Cloudflare data shows that for the week of July 1-7, Anthropic's web crawlers crawled about 2,800 webpages for every one referral sent back to the source websites, the highest ratio among major AI companies. This imbalance highlights ethical concerns about AI companies extracting web content for training while providing minimal referral traffic, potentially undermining the incentives for content creators. The ratio has improved from about 8,800:1 in early April and peaked at 24,700:1 in the first week of May. Anthropic has questioned Cloudflare's methodology, stating it cannot verify the calculations and that its new search feature is increasing site visits.
 
-telegram · zaihuapd · Jul 9, 13:22
+telegram · zaihuapd · Jul 10, 04:25
 
-**Background**: OpenAI's Daybreak program bundles frontier AI models like GPT-5.5-Cyber and Codex Security workflows to help defenders find, validate, and fix vulnerabilities faster than attackers. The policy shift comes amid growing debate over AI's dual-use potential in military contexts, with previous restrictions now formalized and expanded to include allied collaboration.
+**Background**: Cloudflare uses machine learning and behavioral analysis to track AI crawler activity across 20% of global internet traffic. The 'crawl-to-refer' ratio measures how many times a company's bots crawl websites for every referral they send back, serving as a metric for ethical data usage in the AI era.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://openai.com/daybreak/">Daybreak | OpenAI for cybersecurity</a></li>
-<li><a href="https://openai.com/index/daybreak-securing-the-world/">Daybreak: Tools for securing every organization in the world</a></li>
+<li><a href="https://www.businessinsider.com/anthropic-web-bots-crawling-referrals-cloudflare-distillation-2026-7">Anthropic Treats the Web Like an All-You-Can-Eat Buffet - Business Insider</a></li>
+<li><a href="https://www.businessinsider.com/anthropic-bot-crawlers-feast-on-web-give-little-back-ranking-2025-9">Anthropic Bot Crawlers Feast on the Web and Give Little Back: Ranking - Business Insider</a></li>
+<li><a href="https://developers.cloudflare.com/ai-crawl-control/features/analyze-ai-traffic/">Analyze AI traffic · Cloudflare AI Crawl Control docs</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI governance`, `#OpenAI`, `#national security`, `#autonomous weapons`, `#ethics`
+**Tags**: `#AI ethics`, `#web scraping`, `#Anthropic`, `#Cloudflare`, `#content attribution`
+
+---
+
+<a id="item-12"></a>
+## [Long March 10B achieves world's first net-based rocket stage recovery at sea](https://weibo.com/7340734455/R814of1Ki) ⭐️ 8.0/10
+
+On July 10, 2026, China's Long March 10B rocket launched from Hainan Commercial Space Launch Site and successfully completed the world's first net-based recovery of its first stage at sea, after stage separation about 6 minutes into flight. This milestone demonstrates China's capability in reusable rocket technology, potentially reducing launch costs and increasing launch frequency, which is crucial for future space missions and commercial launches. The net-based recovery method is similar to the arresting gear used on aircraft carriers, where the descending first stage is caught by a net system on a sea platform. This approach differs from the landing leg method used by SpaceX's Falcon 9.
+
+telegram · zaihuapd · Jul 10, 04:36
+
+**Background**: Rocket stage recovery aims to reuse costly components, dramatically lowering the per-launch cost. Traditional recovery methods involve powered vertical landing with legs, but net capture offers an alternative that may reduce complexity. The Long March 10B is being developed as a partially reusable launch vehicle by China's aerospace industry.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.news.cn/20260710/ba0ac14f31dd492aaf918e7a86ac844a/c.html">长征十号乙首飞成功 我国运载火箭首次实现可控回收-新华网</a></li>
+<li><a href="https://h5.ifeng.com/c/vivoArticle/v0026U0p1yEaP670syi0cuThLxSHZRUClOnfql0NufHtc7Y__?isNews=1&showComments=0">长征十号乙月底发射，再次验证海上网系回收</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#aerospace`, `#rocket recovery`, `#space technology`, `#China`
+
+---
+
+<a id="item-13"></a>
+## [OpenAI, Google Allegedly Served Blacklisted Chinese Firms via Singapore](https://www.ft.com/content/5d6aafa1-5d47-4585-aa95-6ec06a6cd20f) ⭐️ 8.0/10
+
+OpenAI and Google have allegedly provided advanced AI services to Singapore subsidiaries of Alibaba, Baidu, and Tencent, despite their parent companies being on the U.S. Department of Defense's 1260H list, which flags entities with alleged ties to the Chinese military. This raises renewed calls for stricter U.S. export controls on AI software, as current regulations do not broadly restrict Chinese companies from accessing advanced AI models overseas. The issue highlights gaps in national security oversight of AI technology. OpenAI suspended API access for an Alibaba-affiliated user last month after detecting suspected model distillation, and reported it to the U.S. government. Anthropic, in contrast, enforces a stricter policy that fully bans Chinese companies and their overseas entities from accessing its frontier AI models.
+
+telegram · zaihuapd · Jul 10, 09:59
+
+**Background**: The 1260H list is a U.S. Department of Defense list of entities allegedly linked to China's military. Model distillation is a technique to transfer knowledge from a large AI model to a smaller one, which can be used to replicate capabilities. Current U.S. export controls on AI software are primarily focused on physical exports from the U.S., not on services provided by foreign subsidiaries.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/1260H_list">1260H list</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_distillation">Model distillation</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI regulation`, `#export controls`, `#OpenAI`, `#Google`, `#China`
 
 ---
