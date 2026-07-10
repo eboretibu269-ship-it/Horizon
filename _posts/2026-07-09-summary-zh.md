@@ -5,259 +5,247 @@ date: 2026-07-09
 lang: zh
 ---
 
-> 从 35 条内容中筛选出 12 条重要资讯。
+> 从 84 条内容中筛选出 11 条重要资讯。
 
 ---
 
-1. [蜘蛛毒液选择性杀灭瓦螨，不伤蜜蜂](#item-1) ⭐️ 9.0/10
-2. [用 Rust 重写 Bun：一次历史性迁移](#item-2) ⭐️ 9.0/10
-3. [TypeScript 7.0 正式发布，Go 重写提速达 12 倍](#item-3) ⭐️ 9.0/10
-4. [蚂蚁灵波开源全球首个 MoE 具身视频基模](#item-4) ⭐️ 9.0/10
-5. [Meta 自研 AI 芯片 'Iris' 将于 9 月投产](#item-5) ⭐️ 9.0/10
-6. [约翰迪尔与 FTC 就维修权案达成和解](#item-6) ⭐️ 8.0/10
-7. [欧盟议会通过“聊天控制 1.0”，允许无证扫描私信](#item-7) ⭐️ 8.0/10
-8. [OpenAI 揭示编码基准测试中的缺陷](#item-8) ⭐️ 8.0/10
-9. [OpenAI 推出 GPT-Live 语音模式，支持 GPT-5.5 任务委派](#item-9) ⭐️ 8.0/10
-10. [三星显示取消苹果 Vision Air 屏幕研发，项目烂尾](#item-10) ⭐️ 8.0/10
-11. [国家超算互联网核心节点郑州上线，提供超 10 万卡国产算力](#item-11) ⭐️ 8.0/10
-12. [OpenAI 发布国家安全原则](#item-12) ⭐️ 8.0/10
+1. [TypeScript 7.0 用 Rust 重写，速度提升高达 11.9 倍](#item-1) ⭐️ 9.0/10
+2. [约翰迪尔就维修权诉讼与 FTC 达成和解](#item-2) ⭐️ 8.0/10
+3. [Mistral 发布 Robostral Navigate 实现无地图机器人导航](#item-3) ⭐️ 8.0/10
+4. [OpenAI 揭示编程基准 SWE-Bench Pro 的缺陷](#item-4) ⭐️ 7.0/10
+5. [Kenton Varda 禁止 AI 编写的变更描述](#item-5) ⭐️ 7.0/10
+6. [EmTech AI 2026 聚焦 AI 平台崛起](#item-6) ⭐️ 7.0/10
+7. [自我改进 AI 人人可建](#item-7) ⭐️ 7.0/10
+8. [OnlyFans 的 DMCA 删除通知意外清除了被黑政府网站](#item-8) ⭐️ 7.0/10
+9. [战争游戏揭示美国供水系统被黑客攻击的噩梦](#item-9) ⭐️ 7.0/10
+10. [OpenAI 发布政府 AI 合作原则](#item-10) ⭐️ 6.0/10
+11. [三阶段流水线将 AI 图像生成速度提升 1000%](#item-11) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [蜘蛛毒液选择性杀灭瓦螨，不伤蜜蜂](https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming) ⭐️ 9.0/10
+## [TypeScript 7.0 用 Rust 重写，速度提升高达 11.9 倍](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/) ⭐️ 9.0/10
 
-研究人员发现，源自蜘蛛毒液的肽类物质可以选择性地杀死瓦螨，同时不伤害蜜蜂，为控制养蜂业中最具破坏性的害虫提供了新方法。 瓦螨是全球蜜蜂蜂群崩溃的主要原因，威胁授粉和农业。一种选择性强、对蜜蜂安全的治疗方法可以减少蜂群损失，并减少对传统杀螨剂的依赖——传统杀螨剂常污染蜂蜜或面临抗药性问题。 蜘蛛毒液中的肽类物质能特异性靶向瓦螨，而对蜜蜂无害，有望避免当前治疗方法常伴有的蜂蜜污染问题。还需进一步研究才能开发出适合养蜂人使用的实用配方。
+微软发布了 TypeScript 7.0，这是一个主要版本，其编译器完全用 Rust 重写，与 TypeScript 6 相比，编译速度最高提升 11.9 倍，同时保持完全向后兼容。 这一显著的性能提升解决了大型 TypeScript 代码库长期以来的痛点，使开发者体验更加流畅，并可能加速 TypeScript 在性能关键环境中的采用。 用 Rust 重写利用了该语言的零成本抽象和内存安全性，在 VS Code、Sentry 和 Playwright 等真实代码库上实现了 7.7 倍到 11.9 倍的加速。新编译器与现有 TypeScript 代码和工具完全兼容。
 
-hackernews · Jedd · 7月9日 05:14 · [社区讨论](https://news.ycombinator.com/item?id=48841259)
+hackernews · DanRosenwasser · 7月8日 16:06 · [社区讨论](https://news.ycombinator.com/item?id=48833715)
 
-**背景**: 瓦螨是一种体外寄生螨，以蜜蜂为食并传播削弱蜜蜂的病毒，若不治疗会导致蜂群崩溃。当前的化学杀螨剂可能对蜜蜂有毒、在蜂蜜中残留，且面临日益严重的抗药性。蜘蛛毒液中的肽类因其强效且选择性的杀虫活性，长期以来一直被研究作为生物杀虫剂。
+**背景**: TypeScript 是一种流行的类型化 JavaScript 超集，可编译为纯 JavaScript。其原始编译器 tsc 是用 TypeScript 本身编写的，这导致大型项目存在性能瓶颈。Rust 是一种以速度和内存安全性著称的系统编程语言，使其成为重写编译器这类性能关键组件的理想选择。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Varroa_mites">Varroa mites</a></li>
-<li><a href="https://cen.acs.org/articles/95/i11/Spider-venom-insecticide-whose-time.html">Spider venom: An insecticide whose time has come? - C&EN</a></li>
+<li><a href="https://www.totaltypescript.com/rewriting-typescript-in-rust">Rewriting TypeScript in Rust? You'd have to be... | Total TypeScript</a></li>
+<li><a href="https://rust-lang.org/">Rust Programming Language</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者表达了谨慎的乐观，许多养蜂人指出目前控制瓦螨劳动密集，且治疗方法常导致蜂蜜不可食用。一些人质疑其与现有方法（如撒糖粉）相比的成本，另一些人推荐了关于菌丝体增强蜜蜂免疫的相关研究，并讨论了用本地蜜蜂替代蜜蜂的可能性。
+**社区讨论**: 社区反应非常积极，许多人称赞团队的工程成就。一些开发者分享了自己相关的项目，比如将新编译器移植回 TypeScript，而其他人则反思 TypeScript 如何在 JavaScript 生态系统中普及了静态类型。
 
-**标签**: `#bee conservation`, `#varroa mites`, `#spider venom`, `#pest control`, `#agriculture`
+**标签**: `#TypeScript`, `#compiler`, `#Rust`, `#performance`, `#programming languages`
 
 ---
 
 <a id="item-2"></a>
-## [用 Rust 重写 Bun：一次历史性迁移](https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything) ⭐️ 9.0/10
+## [约翰迪尔就维修权诉讼与 FTC 达成和解](https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02) ⭐️ 8.0/10
 
-Bun JavaScript 运行时的创建者 Jarred Sumner 详细记录了将 Bun 从 Zig 完全重写为 Rust 的过程，以提高内存安全性和稳定性。这次重写主要借助 AI 编码代理自动化完成，API 令牌成本约为 16.5 万美元。 这次重写表明，借助先进的 AI 代理，以前被认为不可能的大规模高风险软件迁移现在可以执行。它还增强了 Bun 的可靠性，可能加速其作为 Node.js 替代方案的采用。 重写工作历时 11 天，消耗了 59 亿未缓存输入令牌和 6.9 亿输出令牌。基于 Rust 的新版 Bun 自 2026 年 6 月 17 日起已在 Claude Code 中部署，在 Linux 上启动速度提升了 10%。
+约翰迪尔已与美国联邦贸易委员会及五个州达成和解，要求该公司向农民和独立维修店提供与其授权经销商相同的诊断工具、软件和维修手册。 这一和解标志着维修权运动的重大胜利，可能降低农民的维修成本并减少设备停机时间，同时为汽车和电子等其他行业树立先例。 约翰迪尔必须向五个州共同支付 100 万美元的反垄断执法费用，并在未来 10 年内接受严格的合规监督。该和解解决了 2025 年 1 月提起的诉讼。
 
-rss · Simon Willison · 7月8日 23:57
+hackernews · djoldman · 7月8日 23:37 · [社区讨论](https://news.ycombinator.com/item?id=48838876)
 
-**背景**: Bun 是由 Jarred Sumner 创建的 JavaScript 运行时、打包器和包管理器，最初使用 Zig 编写。Zig 是一种需要手动内存管理的系统语言，这导致了诸如 use-after-free 之类的错误。Rust 通过其所有权模型和 RAII 模式提供内存安全保证，使其成为处理混合垃圾回收和手动管理内存的运行时的理想选择。
+**背景**: 维修权运动倡导消费者能够自行维修产品，而无需被迫使用制造商授权的服务。多年来，约翰迪尔限制了对专有软件和工具的访问，迫使农民依赖昂贵的经销商维修。FTC 和各州指控这些做法违反了反垄断法，不公平地限制了竞争。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Bun_(software)">Bun (software) - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Zig_(programming_language)">Zig (programming language)</a></li>
-<li><a href="https://bun.sh/">Bun — A fast all-in-one JavaScript runtime</a></li>
+<li><a href="https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-states-sue-deere-company-protect-farmers-unfair-corporate-tactics-high-repair-costs">FTC, States Sue Deere & Company to Protect Farmers from Unfair ...</a></li>
+<li><a href="https://nfu.org/news/farmers-win-in-ftc-settlement-with-john-deere/">Farmers Win in FTC Settlement with John Deere</a></li>
+<li><a href="https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair">FTC, States Secure Settlement with Deere & Company, Advancing ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Bun`, `#Rust`, `#Zig`, `#JavaScript runtime`, `#software engineering`
+**社区讨论**: 社区评论庆祝这一和解是迟来的胜利，用户感谢像 Louis Rossmann 这样的活动家。一些人批评 100 万美元的罚款相对于迪尔的利润来说太小，其他人则希望这一先例能扩展到汽车和电动汽车领域。
+
+**标签**: `#right-to-repair`, `#FTC`, `#consumer rights`, `#agriculture`, `#policy`
 
 ---
 
 <a id="item-3"></a>
-## [TypeScript 7.0 正式发布，Go 重写提速达 12 倍](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/) ⭐️ 9.0/10
+## [Mistral 发布 Robostral Navigate 实现无地图机器人导航](https://mistral.ai/news/robostral-navigate/) ⭐️ 8.0/10
 
-微软正式发布 TypeScript 7.0，这是用 Go 语言重写的原生版本，构建速度提升 8 到 12 倍，并支持共享内存多线程。用户可以通过 npm 直接安装，编辑器通过 LSP 支持新语言服务器。 这一版本为 TypeScript 开发者带来了巨大的性能提升，大幅缩短了大型代码库的编译时间。Go 重写还通过多线程支持实现了更好的可扩展性，可能改变整个 TypeScript 生态的工具链开发方式。 新版本引入了 --checkers 和 --builders 参数来自定义并行度，并提供了兼容包以便与 TypeScript 6 并存。但 Vue、Svelte 等嵌入式语言工具链因 API 尚未就绪，目前仍需使用旧版本。
+Mistral AI 发布了 Robostral Navigate，这是一个 80 亿参数的视觉语言模型，仅使用单个 RGB 摄像头即可让机器人在复杂环境中导航，在 R2R-CE 基准测试中达到 76.6% 的准确率，无需深度传感器、激光雷达或预建地图。 这一突破显著降低了自主机器人导航的硬件成本和复杂性，使高级功能对爱好者和小型机器人公司更加可及。它还通过实现陌生室内环境中的无地图导航，解决了长期存在的“绑架机器人问题”。 该模型仅需单个 RGB 摄像头即可运行，无需激光雷达或立体相机等昂贵传感器。目前尚未公开可用，但 Mistral 已展示其通过自然语言指令在复杂室内空间导航的能力。
 
-telegram · zaihuapd · 7月9日 04:01
+hackernews · ottomengis · 7月8日 14:09 · [社区讨论](https://news.ycombinator.com/item?id=48832212)
 
-**背景**: TypeScript 是 JavaScript 的超集，增加了静态类型，广泛用于大型 Web 开发。之前的 TypeScript 编译器是由 TypeScript 自身编写（自托管）并编译为 JavaScript 的，性能受限。通过用 Go（一种编译型、原生快速的语言）重写，微软实现了显著的性能提升。语言服务器协议（LSP）标准化了编辑器与语言服务器之间的通信，使新的 TypeScript 服务器能够与大多数 IDE 配合使用。
+**背景**: 传统机器人导航通常依赖预建地图或同步定位与地图构建（SLAM）来知道机器人的位置。相比之下，无地图导航允许机器人在没有任何环境先验知识的情况下遵循指令，这在动态或未知环境中特别有用。“绑架机器人问题”是指机器人失去位置追踪后，没有地图就无法恢复定位的情况。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Language_Server_Protocol">Language Server Protocol</a></li>
-<li><a href="https://microsoft.github.io/language-server-protocol/">Official page for Language Server Protocol</a></li>
+<li><a href="https://mistral.ai/news/robostral-navigate/">Robostral Navigate: single-camera AI navigation | Mistral AI</a></li>
+<li><a href="https://theaidude.net/blog/mistral-robostral-navigate-8b-single-camera-robotics-model-launch">Mistral Robostral Navigate: One Camera, 8B Params</a></li>
+<li><a href="https://quasa.io/media/mistral-robostral-navigate-single-camera-8b-model-transforms-robot-autonomy">Mistral Robostral Navigate: Single-Camera Robot Autonomy in 2026</a></li>
 
 </ul>
 </details>
 
-**标签**: `#TypeScript`, `#Go`, `#performance`, `#language release`, `#Microsoft`
+**社区讨论**: 社区对无地图导航能力印象深刻，许多人注意到它在农场机器人等爱好者项目中的潜力。一些评论者表示有兴趣将其与 OpenClaw 等开源平台集成，而另一些人则提出了类似 PIGEON 模型的隐私担忧。此外，还有人对扩展该模型以处理抓取物体等操作任务表示好奇。
+
+**标签**: `#robotics`, `#navigation`, `#AI`, `#Mistral`, `#deep learning`
 
 ---
 
 <a id="item-4"></a>
-## [蚂蚁灵波开源全球首个 MoE 具身视频基模](https://www.qbitai.com/2026/07/446458.html) ⭐️ 9.0/10
+## [OpenAI 揭示编程基准 SWE-Bench Pro 的缺陷](https://openai.com/index/separating-signal-from-noise-coding-evaluations/) ⭐️ 7.0/10
 
-蚂蚁灵波团队开源了 LingBot-Video，这是全球首个基于 MoE（混合专家）架构的具身视频生成基础模型，总参数 30B，激活参数仅 3B。该模型在 RBench 评测基准上以 0.620 的总分超越 Wan2.6、Seedance1.5 Pro 和 Cosmos3 Super 等模型，达到最优水平。 这一开源举措降低了具身智能研究的门槛，通过 Apache 2.0 协议提供高性能、高效率的基础模型，可用于机器人动作预测、仿真数据生成和世界模型研究。MoE 架构相比同等规模的稠密模型推理效率提升约 3 倍，使其在实际部署中更加可行。 LingBot-Video 采用 DiT+MoE 架构，使用 DeepSeek-V3 风格的稀疏 MoE（128 个专家，top-8 路由，每层 1.4B 活跃/13B 总参数）。它引入了六奖励强化学习后训练系统，包括由 VLM 评估的物理合理性奖励，并支持动作到视频模式，可根据动作和手部姿态条件预测机器人执行结果。
+OpenAI 发布分析报告，揭示了 SWE-Bench Pro 编程基准中的重大问题，包括基准污染和模糊的任务定义，这些问题夸大了模型的性能得分。 这很重要，因为有缺陷的基准可能会误导 AI 社区对模型真实能力的判断，导致高估进展和资源浪费。它呼吁在 AI 编程评估中采用更严格的标准。 分析发现 SWE-Bench Pro 包含不到 800 个任务，其中一些存在污染或模糊不清。OpenAI 手动审查并清理了数据集，强调了在基准整理中需要人工监督。
 
-telegram · zaihuapd · 7月9日 04:30
+hackernews · OpenAI Blog · 7月8日 21:03 · [社区讨论](https://news.ycombinator.com/item?id=48837396)
 
-**背景**: MoE（混合专家）是一种神经网络架构，将模型分成多个“专家”，每个输入只激活部分专家，从而在不牺牲容量前提下提高效率。DiT（扩散 Transformer）将扩散模型与 Transformer 骨干结合，实现高质量视频生成。具身智能侧重于在物理环境中感知和行动的智能体，视频生成可服务于规划和仿真。
+**背景**: 基准污染是指评估示例出现在模型的训练数据中，导致性能虚高。SWE-Bench Pro 是评估 AI 编程能力的流行基准，但其可靠性一直受到质疑。OpenAI 的分析凸显了在 AI 评估中区分真实信号与噪声的广泛挑战。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.emergentmind.com/topics/deepseek-v3">DeepSeek-V3: Open Sparse MoE Model</a></li>
-<li><a href="https://encord.com/blog/diffusion-models-with-transformers/">Diffusion Transformer (DiT) Models: A Beginner’s Guide</a></li>
+<li><a href="https://www.deeplearning.ai/the-batch/the-problem-with-benchmark-contamination-in-ai">The Problem with Benchmark Contamination in AI - DeepLearning.AI</a></li>
+<li><a href="https://arxiv.org/abs/2406.04244">Benchmark Data Contamination of Large Language Models: A Survey</a></li>
+<li><a href="https://arxiv.org/html/2406.12655v1">Benchmarks and Metrics for Evaluations of Code Generation: A ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: Reddit 上的讨论对物理合理性奖励由 VLM（视觉语言模型）评判提出质疑，认为尽管添加了真实视频负样本，仍可能存在奖励破解风险。评论者还指出缺乏闭环机器人实验结果，且该模型在通用文本到视频评测中仅排第二，推理密集型维度仍由闭源模型领先。
+**社区讨论**: 社区评论对基准的可靠性表示怀疑，用户指出存在虚假结果、奖励黑客行为以及需要效率指标。一些人认为，数据集规模小使得手动审查可行，但对原作者来说却令人尴尬。
 
-**标签**: `#embodied AI`, `#video generation`, `#MoE`, `#open source`, `#robotics`
+**标签**: `#AI`, `#benchmarks`, `#coding evaluations`, `#OpenAI`
 
 ---
 
 <a id="item-5"></a>
-## [Meta 自研 AI 芯片 'Iris' 将于 9 月投产](https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/) ⭐️ 9.0/10
+## [Kenton Varda 禁止 AI 编写的变更描述](https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything) ⭐️ 7.0/10
 
-Meta 计划于 2026 年 9 月起量产其自研的 AI 芯片 'Iris'。该芯片属于 Meta 训练与推理加速器（MTIA）第四代项目，目标是到 2027 年将算力翻倍。 此举降低了 Meta 对英伟达和 AMD 等外部供应商的依赖，使其对 AI 基础设施拥有更多控制权。这也标志着科技巨头在 AI 硬件领域向垂直整合迈进的重要趋势。 'Iris' 芯片由博通协助设计、台积电制造，测试仅用了六周且未发现重大问题。Meta 今年计划部署 7 吉瓦计算基础设施，2027 年翻倍至 14 吉瓦，今年在 AI 基础设施上的投入将高达 1450 亿美元。
+Cloudflare 首席工程师 Kenton Varda 宣布在其团队中暂停使用 AI 编写的变更描述（如 PR、提交信息、问题单），理由是这些描述省略了代码审查所需的高层次上下文。 这凸显了 LLM 在软件开发中的实际局限性：虽然 AI 可以总结代码变更，但往往无法提供人类审查者所需的战略推理，可能降低审查质量和效率。 Varda 指出，AI 描述列出了通过查看代码本身就能看到的细节，但省略了理解变更广泛目的所需的高层次框架。该禁令适用于他在 Cloudflare Workers 的团队。
 
-telegram · zaihuapd · 7月9日 12:37
+rss · Simon Willison's Blog · 7月8日 20:03
 
-**背景**: Meta 的 MTIA（Meta 训练与推理加速器）项目是一系列为 Meta 的 AI 负载设计的定制芯片，涵盖排序推荐和生成式 AI。该项目已快速迭代四代，Iris 是最新成员。通过自研芯片，Meta 旨在优化性能并降低从商业厂商采购的成本。
+**背景**: AI 辅助编程工具（如 GitHub Copilot）已广泛用于生成代码和文档。然而，它们在编写变更描述方面的使用一直存在争议，因为 AI 可能生成冗长但缺乏上下文的文本。代码审查依赖于理解变更背后的意图，而不仅仅是代码差异。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.cnbc.com/2026/07/09/meta-to-put-ai-chip-into-production-in-september-report.html">Meta to put AI chip into production in September as it looks to double computing capacity, Reuters reports</a></li>
-<li><a href="https://finance.yahoo.com/technology/ai/articles/meta-start-production-iris-ai-122141801.html">Meta to start production of Iris AI chip in September 2026</a></li>
+<li><a href="https://x.com/KentonVarda/status/2074924213983740233">I just declared a moratorium against AI-written change ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#hardware`, `#Meta`, `#chip`, `#infrastructure`
+**标签**: `#ai-assisted-programming`, `#code-review`, `#generative-ai`, `#software-engineering`, `#llms`
 
 ---
 
 <a id="item-6"></a>
-## [约翰迪尔与 FTC 就维修权案达成和解](https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02) ⭐️ 8.0/10
+## [EmTech AI 2026 聚焦 AI 平台崛起](https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/) ⭐️ 7.0/10
 
-美国联邦贸易委员会（FTC）与约翰迪尔达成和解，要求该公司允许农民和独立维修店修理迪尔设备。和解协议要求迪尔在至少 10 年内提供维修工具、软件和文档。 此和解是维修权运动的一次重大胜利，该运动主张消费者拥有修理自己产品的权利。它为其他制造商（特别是农业和科技领域）树立了先例，可能降低农民的成本并延长设备使用寿命。 迪尔需向五个州共同支付 100 万美元的反垄断执法费用，并在 10 年内接受严格的合规监督。该和解仅适用于约翰迪尔，不构成对其他公司的法律约束，但可能鼓励类似行动。
+MIT Technology Review 举办的 EmTech AI 2026 大会指出，AI 平台正成为关键趋势，焦点从独立 AI 模型转向整合多种 AI 服务的集成平台。 这一转变标志着向更可扩展、可互操作的 AI 生态系统的战略转移，可能加速企业采用并推动跨行业的新应用。 大会强调，AI 平台整合了模型托管、数据管道和部署工具，降低了开发者和企业的使用门槛。报道未披露具体平台名称或技术基准。
 
-hackernews · djoldman · 7月8日 23:37 · [社区讨论](https://news.ycombinator.com/item?id=48838876)
+rss · MIT Technology Review · 7月8日 16:26
 
-**背景**: 维修权运动旨在让消费者和独立维修店能够获取维修电子产品、车辆和农业设备等产品所需的工具、零件和软件。制造商通常限制维修以维持对售后服务的控制和利润。路易斯·罗斯曼是一位知名倡导者，他运营着消费者权利维基，并支持 FULU 基金会悬赏让 Ring 摄像头无需亚马逊服务器工作的项目。
+**背景**: AI 平台是提供构建、部署和管理 AI 应用端到端能力的集成环境。这与早期开发者需要为每个阶段组装单独工具的方法形成对比。此类平台的兴起类似于云计算平台（如 AWS 和 Azure）的演进。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Right_to_repair_movement">Right to repair movement</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区评论称赞路易斯·罗斯曼的倡导，但批评罚款过小，不足以起到威慑作用。有人表示难以置信这种基本权利竟然需要通过诉讼来实现，而另一些人则指出科技工作者在支持维修权的同时却在构建封闭生态系统的讽刺。有评论者强调维修权是一项基本自由，而非可协商的商业条款。
-
-**标签**: `#right to repair`, `#FTC`, `#John Deere`, `#agriculture`, `#consumer rights`
+**标签**: `#AI platforms`, `#industry trends`, `#conference coverage`, `#MIT Technology Review`
 
 ---
 
 <a id="item-7"></a>
-## [欧盟议会通过“聊天控制 1.0”，允许无证扫描私信](https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/) ⭐️ 8.0/10
+## [自我改进 AI 人人可建](https://www.wired.com/story/frontier-labs-arent-the-only-ones-pursuing-self-improving-ai/) ⭐️ 7.0/10
 
-欧盟议会于 2026 年 7 月 9 日通过了“聊天控制 1.0”法规，允许美国科技公司无需搜查令或事先怀疑即可扫描私人消息，而该法规在 2026 年 3 月曾被两次否决。 该法规削弱了端到端加密并实施大规模监控，影响数百万欧盟公民的隐私，且通过有争议的议会程序强行通过，引发对民主合法性的担忧。 否决该法规的动议未能获得 361 票的绝对多数，结果 314 票反对、276 票赞成、17 票弃权、113 票缺席；该措施有效期至 2028 年，适用于 Instagram、Discord、Snapchat、Skype、Xbox、Gmail 和 iCloud 等平台上的直接消息。
+《连线》杂志的一篇文章表明，自我改进的 AI 系统并非前沿实验室的专利，并提供了构建此类系统的可操作实验。 这使高级 AI 研究民主化，让独立开发者和小团队能够实验递归自我改进，可能加速创新。 文章报道，经过一周实验，构建自我改进 AI 出奇地可行，并提供了涉足此类系统的实用指南。
 
-hackernews · rapnie · 7月9日 11:03 · [社区讨论](https://news.ycombinator.com/item?id=48843923)
+rss · Wired · 7月8日 20:09
 
-**背景**: “聊天控制”正式名称为《儿童性虐待法规》（CSAR），由欧盟委员会于 2022 年 5 月提出，旨在打击在线儿童性虐待。批评者认为，该法规强制对所有私人通信进行大规模监控，且无法在不破坏加密的情况下实施，导致误报和隐私侵犯。原始提案于 2026 年 3 月被否决，但在 2026 年 7 月被恢复并加速进行决定性投票。
+**背景**: 递归自我改进（RSI）是 AI 系统重写自身代码以改进自己的过程，可能导致能力快速提升。虽然通常与 AGI 开发相关，但文章表明，使用现有工具可以实现更简单的 RSI 形式。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Chat_Control_1.0">Chat Control 1.0</a></li>
+<li><a href="https://www.wired.com/story/frontier-labs-arent-the-only-ones-pursuing-self-improving-ai/">I Built a Self-Improving AI, and So Can You - WIRED</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Recursive_self-improvement">Recursive self-improvement - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论强烈反对所使用的程序策略，如在暑假前举行投票并要求绝对多数才能否决。用户指责欧盟利用议会技巧通过不得人心的立法，并警告这可能侵蚀对欧盟项目的信任。
-
-**标签**: `#privacy`, `#EU policy`, `#surveillance`, `#chat control`, `#digital rights`
+**标签**: `#AI`, `#self-improving AI`, `#machine learning`, `#research`
 
 ---
 
 <a id="item-8"></a>
-## [OpenAI 揭示编码基准测试中的缺陷](https://openai.com/index/separating-signal-from-noise-coding-evaluations/) ⭐️ 8.0/10
+## [OnlyFans 的 DMCA 删除通知意外清除了被黑政府网站](https://www.wired.com/story/onlyfans-creators-dmca-hacked-government-websites/) ⭐️ 7.0/10
 
-OpenAI 识别出编码基准测试中的四种常见失败模式：过于严格的测试、提示不明确、覆盖不足以及误导性提示，这些都会扭曲模型评估结果。 这一点很重要，因为有缺陷的基准测试可能导致对 AI 编码能力的不准确比较，可能会误导开发者和组织对模型性能的判断。 这些发现基于 OpenAI 对其基准测试中不到 800 个任务的手动审查，突显了小型基准测试可以由工程师彻底审查。
+诈骗者劫持合法政府网站，用于发布所谓“泄露”OnlyFans 内容的广告，但成人创作者提交的 DMCA 删除通知无意中移除了这些恶意链接，导致被黑页面消失。 这凸显了 DMCA 删除流程的一个意外后果：版权执法可以干扰诈骗活动，但也可能误删合法政府内容。它强调了网络安全、版权法和在线平台政策之间复杂的相互作用。 DMCA 删除流程允许版权持有人请求在线平台移除侵权材料；在此案例中，成人创作者针对未经授权副本的投诉无意中删除了整个被黑政府页面（这些页面托管了广告）。
 
-hackernews · sk4rekr0w · 7月8日 21:03 · [社区讨论](https://news.ycombinator.com/item?id=48837396)
+rss · Wired · 7月8日 10:30
 
-**背景**: 编码基准测试是用于评估 AI 模型编写或理解代码能力的标准化测试。常见的基准测试如 HumanEval 通常包含与提示不一致的隐藏测试用例，导致假阴性或假阳性结果。
+**背景**: 《数字千年版权法案》（DMCA）提供了针对版权侵权的通知-删除机制。当版权持有人提交有效的删除通知时，托管平台必须移除侵权内容以维持安全港保护。诈骗者利用被攻破的政府网站托管恶意广告（通常涉及成人内容），因为这些网站具有高域名权威且不易被屏蔽。
 
-**社区讨论**: 社区成员指出，同样的问题也存在于编码基准测试之外，有人呼吁引入成本感知的基准测试，同时衡量效率和智能。其他人批评说，根本问题是分配给开发人员的任务往往不完整或相互矛盾。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://copyrightalliance.org/education/copyright-law-explained/the-digital-millennium-copyright-act-dmca/dmca-notice-takedown-process/">DMCA Notice & Takedown Process | Copyright Alliance</a></li>
+<li><a href="https://legalclarity.org/dmca-takedown-notices-requirements-process-and-penalties/">DMCA Takedown Notices: Requirements, Process, and Penalties</a></li>
+<li><a href="https://www.medianama.com/2026/06/223-indian-government-websites-hacked-gambling/">Over 100 Indian Government Websites Hijacked to Promote Illegal ...</a></li>
 
-**标签**: `#benchmarks`, `#coding evaluations`, `#AI evaluation`, `#OpenAI`, `#software testing`
+</ul>
+</details>
+
+**标签**: `#cybersecurity`, `#DMCA`, `#government websites`, `#scams`, `#adult content`
 
 ---
 
 <a id="item-9"></a>
-## [OpenAI 推出 GPT-Live 语音模式，支持 GPT-5.5 任务委派](https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything) ⭐️ 8.0/10
+## [战争游戏揭示美国供水系统被黑客攻击的噩梦](https://www.wired.com/story/what-happens-if-china-hacks-the-us-water-supply-war-game-volt-typhoon/) ⭐️ 7.0/10
 
-OpenAI 推出了 GPT-Live，这是一种新的 ChatGPT 语音模式，使用升级后的模型，并能在后台将复杂任务委派给 GPT-5.5，同时保持对话的流畅性。 这一升级显著提升了 ChatGPT 语音交互的实用性，实现了更自然、能力更强的对话，并展示了 OpenAI 处理多样化任务的多模型架构。 GPT-Live 使用的模型比之前的 GPT-4o 时代模型更新，知识截止日期更新，OpenAI 计划持续更新后台使用的前沿模型。预览期间存在一个 bug，导致模型在非笑话场合打断并大笑，据报道 OpenAI 已修复。
+一场闭门战争游戏模拟，涉及保险公司和政府官员，揭示了由 Volt Typhoon 组织发起的中国国家支持的黑客攻击对美国供水系统造成的灾难性后果，包括水管爆裂和医院疏散。 这次模拟凸显了美国关键基础设施的系统性漏洞以及保险行业准备不足的问题，强调了改进网络安全措施和风险评估框架的紧迫性。 这场战争游戏由保险行业组织，旨在测试他们对 Volt Typhoon（一个针对美国关键基础设施的中国国家支持的黑客组织）造成的大规模破坏的应对能力。模拟结果呈现了一场噩梦般的场景，造成广泛破坏且保险赔付不明确。
 
-rss · Simon Willison · 7月8日 23:20
+rss · Wired · 7月8日 10:00
 
-**背景**: GPT-Live 是 OpenAI 推出的新语音模型，用于驱动 ChatGPT 语音功能。它可以将较难的任务委派给 GPT-5.5，这是一个于 2026 年 4 月发布的前沿模型，具有较强的编程和推理能力。此前的 ChatGPT 语音模式基于较旧的 GPT-4o 模型，知识截止于 2024 年。
+**背景**: Volt Typhoon 是一个代表中国进行网络间谍活动的 APT 组织，目标包括美国供水系统等关键基础设施。战争游戏是一种桌面推演，用于模拟网络事件并测试应对策略。美国政府及五眼联盟自 2024 年 3 月起已对 Volt Typhoon 的活动发出警告。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://openai.com/index/introducing-gpt-live/">Introducing GPT-Live | OpenAI</a></li>
-<li><a href="https://openai.com/index/introducing-gpt-5-5/">Introducing GPT-5.5 | OpenAI</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GPT-5.5">GPT-5.5</a></li>
+<li><a href="https://en.m.wikipedia.org/wiki/Volt_Typhoon">Volt Typhoon - Wikipedia</a></li>
+<li><a href="https://umbc.edu/stories/what-is-volt-typhoon-a-cybersecurity-expert-explains-the-chinese-hackers-targeting-us-critical-infrastructure/">What is Volt Typhoon? A cybersecurity expert explains the ... - UMBC:</a></li>
+<li><a href="https://dailysecurityreview.com/security-spotlight/volt-typhoon-energy-grid-cyberattack-exposes-us-infrastructure-vulnerabilities/">Volt Typhoon Energy Grid Cyberattack Exposes US Infrastructure ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#OpenAI`, `#ChatGPT`, `#voice mode`, `#GPT-Live`, `#GPT-5.5`
+**标签**: `#cybersecurity`, `#critical infrastructure`, `#China`, `#war game`, `#water supply`
 
 ---
 
 <a id="item-10"></a>
-## [三星显示取消苹果 Vision Air 屏幕研发，项目烂尾](https://finance.sina.com.cn/stock/t/2026-07-09/doc-inihczpn4610103.shtml) ⭐️ 8.0/10
+## [OpenAI 发布政府 AI 合作原则](https://openai.com/index/government-national-security-partnerships) ⭐️ 6.0/10
 
-三星显示已取消为苹果 Vision Air 头显开发显示面板，标志着该项目正式终止。这款代号为 G-VR 的面板基于改进的 OLEDoS 技术，PPI 约为 1600 至 1700，仅为 Vision Pro 的 3386 PPI 的一半，原本旨在降低成本。 此次取消凸显了苹果战略重心从高成本 VR/AR 头显转向 AI 智能眼镜，此前 Vision Pro 销量低迷且应用生态匮乏。此举影响 AR/VR 供应链，并表明行业焦点正转向更轻便、更实用的可穿戴设备。 G-VR 面板原计划 2028 年后量产，但三星显示已终止开发。苹果此前已削减 Vision Pro 产量、撤下广告并解散研发团队，国行定价近 3 万元，续航仅约 2 小时。
+OpenAI 发布了一份政策声明，概述了其在政府和国家安全合作伙伴关系中负责任使用 AI 的原则，强调民主问责和公共安全。 这一声明为领先 AI 公司如何与政府就敏感的国家安全应用进行合作树立了先例，可能影响行业标准和公众信任。 该声明是一份高层立场文件，没有具体的技术细节或实施指南，重点关注透明度、监督和与民主价值观保持一致等原则。
 
-telegram · zaihuapd · 7月9日 03:16
+rss · OpenAI Blog · 7月8日 13:30
 
-**背景**: OLEDoS（硅基 OLED）是一种微显示技术，将有机发光二极管与硅基背板结合以实现高像素密度，用于 VR/AR 头显。苹果首款头显 Vision Pro 搭载 3386 PPI 的显示屏，但因成本高、机身笨重、续航短（约 2 小时）以及应用生态匮乏而销量不佳。被取消的 Vision Air 原本旨在推出更便宜的版本，但苹果现已将重心转向 AI 智能眼镜。
+**背景**: 随着 AI 能力的提升，各国政府越来越多地寻求与 AI 开发者合作用于国防和安全目的。OpenAI 此举反映了关于 AI 在军事和监控领域伦理边界的日益激烈的辩论。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.sciencedirect.com/science/article/pii/S2949829525000014">OLED-on-silicon (OLEDoS) microdisplays: Technology challenges, design considerations, and adaptation in eXtended Reality (XR) ecosystem – Review - ScienceDirect</a></li>
-<li><a href="https://www.businessresearchinsights.com/market-reports/oledos-technology-market-112940">OLEDoS Technology Market Size Forecast & Outlook till 2035</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Apple`, `#Samsung`, `#VR/AR`, `#Display Technology`, `#AI Smart Glasses`
+**标签**: `#AI policy`, `#national security`, `#OpenAI`, `#responsible AI`
 
 ---
 
 <a id="item-11"></a>
-## [国家超算互联网核心节点郑州上线，提供超 10 万卡国产算力](https://36kr.com/newsflashes/3887797387344387) ⭐️ 8.0/10
+## [三阶段流水线将 AI 图像生成速度提升 1000%](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902258&idx=3&sn=ba308a43c7645e185ee3f0285fcabad0) ⭐️ 6.0/10
 
-7 月 9 日，国家超算互联网核心节点在郑州正式上线，可提供超过 10 万卡的国产人工智能算力。 这一里程碑显著提升了中国的国产 AI 计算基础设施，能够使用本土硬件进行大规模 AI 模型训练和推理，减少对外国芯片的依赖。 该节点是国家超算互联网平台接入的最大单体国产 AI 算力资源池，同时承担运营管理、资源调度等核心功能，并整合供需对接、产业孵化等服务。
+一种三阶段流水线方法声称无需重新训练模型，即可将 AI 图像生成速度提升 1000%。 这一突破可大幅缩短 AI 图像生成的推理时间，使实时应用更加可行，并降低计算成本。 该流水线通过简洁的三阶段流程实现加速，但关于各阶段的具体技术细节在现有资料中未完全披露。
 
-telegram · zaihuapd · 7月9日 07:00
+rss · 量子位 (QbitAI) · 7月8日 03:33
 
-**背景**: 国家超算互联网是一个全国性项目，旨在互联超算中心，实现统一资源调度。郑州核心节点作为中央协调点。国产 AI 计算卡指中国企业开发的加速器，如华为、寒武纪等公司的产品。
+**背景**: 像 Stable Diffusion 和 DALL-E 这样的 AI 图像生成模型通常需要多个去噪步骤，导致推理速度缓慢。优化方法通常涉及模型压缩或蒸馏，这需要重新训练。这种新方法声称无需重新训练即可实现加速，这很不寻常且可能具有重大影响。
 
-**标签**: `#supercomputing`, `#AI`, `#China`, `#computing infrastructure`, `#domestic computing`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://eu.36kr.com/en/p/3886591169736709">1000% Speedup AI Image Generation Without Training: The ...</a></li>
+<li><a href="https://en.eeworld.com.cn/mp/QbitAI/a433068.jspx">AI-powered image processing speeds up image capture by 1000% ...</a></li>
 
----
+</ul>
+</details>
 
-<a id="item-12"></a>
-## [OpenAI 发布国家安全原则](https://openai.com/index/government-national-security-partnerships/) ⭐️ 8.0/10
-
-OpenAI 公布了一套国家安全原则，明确禁止将其技术用于自主武器、大规模监控和高风险自动化决策，同时扩大了与美国盟友的防务合作。 这项政策标志着人工智能治理迈出了重要一步，为军事应用划定了明确红线，并表明了 OpenAI 对道德使用的承诺，这可能会影响行业标准和政府监管。 这些原则包括对大规模国内监控和自主武器系统的严格限制，OpenAI 已通过 Daybreak 网络防御计划与澳大利亚、加拿大、日本、韩国、法国、德国、波兰、荷兰及欧盟机构建立合作。
-
-telegram · zaihuapd · 7月9日 13:22
-
-**背景**: 随着人工智能系统变得更强大，人们越来越担心它们在战争和监控中的潜在滥用。OpenAI 作为领先的人工智能研究机构，此前一直强调安全和道德准则，但直到现在才专门针对国家安全合作提出规范。
-
-**标签**: `#AI governance`, `#national security`, `#OpenAI`, `#ethics`, `#policy`
+**标签**: `#AI`, `#image generation`, `#optimization`, `#pipeline`
 
 ---

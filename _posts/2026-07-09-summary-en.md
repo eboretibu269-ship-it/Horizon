@@ -5,259 +5,247 @@ date: 2026-07-09
 lang: en
 ---
 
-> From 35 items, 12 important content pieces were selected
+> From 84 items, 11 important content pieces were selected
 
 ---
 
-1. [Spider venom selectively kills varroa mites, spares honeybees](#item-1) ⭐️ 9.0/10
-2. [Rewriting Bun in Rust: A Historic Migration](#item-2) ⭐️ 9.0/10
-3. [TypeScript 7.0 with Go-based native rewrite released, up to 12x faster](#item-3) ⭐️ 9.0/10
-4. [Ant Group LingBot Open-Sources World's First MoE Embodied Video Foundation Model](#item-4) ⭐️ 9.0/10
-5. [Meta's Self-Developed AI Chip 'Iris' to Enter Production in September](#item-5) ⭐️ 9.0/10
-6. [John Deere Settles FTC Right-to-Repair Case](#item-6) ⭐️ 8.0/10
-7. [EU Parliament passes Chat Control 1.0 allowing warrantless message scanning](#item-7) ⭐️ 8.0/10
-8. [OpenAI Exposes Flaws in Coding Benchmarks](#item-8) ⭐️ 8.0/10
-9. [OpenAI Launches GPT-Live Voice Mode with GPT-5.5 Delegation](#item-9) ⭐️ 8.0/10
-10. [Samsung Display Cancels Apple Vision Air Panel; Project Ends](#item-10) ⭐️ 8.0/10
-11. [National Supercomputing Internet Core Node Launches in Zhengzhou with 100,000+ Domestic AI Cards](#item-11) ⭐️ 8.0/10
-12. [OpenAI Releases National Security Principles](#item-12) ⭐️ 8.0/10
+1. [TypeScript 7.0 Rewritten in Rust, Up to 11.9x Faster](#item-1) ⭐️ 9.0/10
+2. [John Deere Settles FTC Right-to-Repair Lawsuit](#item-2) ⭐️ 8.0/10
+3. [Mistral Unveils Robostral Navigate for Map-Less Robot Navigation](#item-3) ⭐️ 8.0/10
+4. [OpenAI Exposes Flaws in Coding Benchmark SWE-Bench Pro](#item-4) ⭐️ 7.0/10
+5. [Kenton Varda Bans AI-Written Change Descriptions](#item-5) ⭐️ 7.0/10
+6. [EmTech AI 2026 Highlights Rise of AI Platforms](#item-6) ⭐️ 7.0/10
+7. [Self-Improving AI Is Accessible to Everyone](#item-7) ⭐️ 7.0/10
+8. [OnlyFans DMCA Takedowns Accidentally Remove Hacked Government Sites](#item-8) ⭐️ 7.0/10
+9. [War Game Reveals US Water Supply Hack Nightmare](#item-9) ⭐️ 7.0/10
+10. [OpenAI Releases Principles for Government AI Partnerships](#item-10) ⭐️ 6.0/10
+11. [Three-Stage Pipeline Speeds Up AI Image Generation 1000%](#item-11) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Spider venom selectively kills varroa mites, spares honeybees](https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming) ⭐️ 9.0/10
+## [TypeScript 7.0 Rewritten in Rust, Up to 11.9x Faster](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/) ⭐️ 9.0/10
 
-Researchers have discovered that peptides derived from spider venom can selectively kill varroa mites without harming honeybees, offering a novel approach to controlling one of the most destructive pests in beekeeping. Varroa mites are a major cause of honeybee colony collapse worldwide, threatening pollination and agriculture. A selective, bee-safe treatment could reduce colony losses and lessen reliance on traditional miticides that often contaminate honey or face resistance issues. The spider-venom peptides specifically target varroa mites while leaving bees unharmed, potentially avoiding the honey contamination common with current treatments. Further research is needed to develop a practical formulation for beekeepers.
+Microsoft announced TypeScript 7.0, a major version featuring a complete rewrite of the compiler in Rust, delivering up to 11.9x faster compilation compared to TypeScript 6, while maintaining full backward compatibility. This dramatic performance improvement addresses a long-standing pain point for large TypeScript codebases, making the developer experience significantly smoother and potentially accelerating adoption of TypeScript in performance-critical environments. The rewrite in Rust leverages the language's zero-cost abstractions and memory safety to achieve speedups ranging from 7.7x to 11.9x on real-world codebases like VS Code, Sentry, and Playwright. The new compiler is fully compatible with existing TypeScript code and tooling.
 
-hackernews · Jedd · Jul 9, 05:14 · [Discussion](https://news.ycombinator.com/item?id=48841259)
+hackernews · DanRosenwasser · Jul 8, 16:06 · [Discussion](https://news.ycombinator.com/item?id=48833715)
 
-**Background**: Varroa destructor is an external parasitic mite that feeds on honeybees and transmits debilitating viruses, leading to colony collapse if left untreated. Current chemical miticides can be toxic to bees, leave residues in honey, and face increasing resistance. Spider venom peptides have long been studied as bioinsecticides due to their potent and selective insecticidal activity.
+**Background**: TypeScript is a popular typed superset of JavaScript that compiles to plain JavaScript. Its original compiler, tsc, was written in TypeScript itself, which led to performance bottlenecks on large projects. Rust is a systems programming language known for its speed and memory safety, making it an ideal choice for rewriting performance-critical components like compilers.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Varroa_mites">Varroa mites</a></li>
-<li><a href="https://cen.acs.org/articles/95/i11/Spider-venom-insecticide-whose-time.html">Spider venom: An insecticide whose time has come? - C&EN</a></li>
+<li><a href="https://www.totaltypescript.com/rewriting-typescript-in-rust">Rewriting TypeScript in Rust? You'd have to be... | Total TypeScript</a></li>
+<li><a href="https://rust-lang.org/">Rust Programming Language</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed cautious optimism, with many beekeepers noting that mite control is currently labor-intensive and treatments often make honey inedible. Some questioned the cost compared to existing methods like powdered sugar dusting, while others recommended related research on mycelium-based bee immune boosters and discussed the potential of using native bees instead of honeybees.
+**Discussion**: The community reaction is overwhelmingly positive, with many praising the team's engineering achievement. Some developers shared their own related projects, like porting the new compiler back to TypeScript, while others reflected on how TypeScript has popularized static typing in the JavaScript ecosystem.
 
-**Tags**: `#bee conservation`, `#varroa mites`, `#spider venom`, `#pest control`, `#agriculture`
+**Tags**: `#TypeScript`, `#compiler`, `#Rust`, `#performance`, `#programming languages`
 
 ---
 
 <a id="item-2"></a>
-## [Rewriting Bun in Rust: A Historic Migration](https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything) ⭐️ 9.0/10
+## [John Deere Settles FTC Right-to-Repair Lawsuit](https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02) ⭐️ 8.0/10
 
-Jarred Sumner, creator of the Bun JavaScript runtime, documented the complete rewrite of Bun from Zig to Rust, citing improved memory safety and stability. The rewrite was largely automated using AI coding agents and cost approximately $165,000 in API tokens. This rewrite demonstrates that large-scale, high-stakes software migrations previously considered impossible can now be executed with the help of advanced AI agents. It also strengthens Bun's reliability, potentially accelerating its adoption as a Node.js alternative. The rewrite took 11 days of agentic work, consuming 5.9 billion uncached input tokens and 690 million output tokens. The new Rust-based Bun has been deployed in Claude Code since June 17, 2026, and shows 10% faster startup on Linux.
+John Deere has reached a settlement with the FTC and five states, requiring the company to provide farmers and independent repair shops with the same diagnostic tools, software, and manuals that it gives to its authorized dealers. This settlement marks a major victory for the right-to-repair movement, potentially lowering repair costs and reducing equipment downtime for farmers, and setting a precedent for other industries like automotive and electronics. Deere must pay $1 million collectively to the five states for antitrust enforcement costs and will be subject to strict compliance oversight for the next 10 years. The settlement resolves a lawsuit filed in January 2025.
 
-rss · Simon Willison · Jul 8, 23:57
+hackernews · djoldman · Jul 8, 23:37 · [Discussion](https://news.ycombinator.com/item?id=48838876)
 
-**Background**: Bun is a JavaScript runtime, bundler, and package manager created by Jarred Sumner, originally written in Zig. Zig is a systems language that requires manual memory management, which led to bugs like use-after-free errors. Rust offers memory safety guarantees through its ownership model and RAII patterns, making it a compelling choice for a runtime handling mixed garbage-collected and manually-managed memory.
+**Background**: The right-to-repair movement advocates for consumers' ability to repair their own products without being forced to use manufacturer-authorized services. For years, John Deere restricted access to proprietary software and tools, forcing farmers to rely on expensive dealer repairs. The FTC and states alleged that these practices violated antitrust laws and unfairly limited competition.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Bun_(software)">Bun (software) - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Zig_(programming_language)">Zig (programming language)</a></li>
-<li><a href="https://bun.sh/">Bun — A fast all-in-one JavaScript runtime</a></li>
+<li><a href="https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-states-sue-deere-company-protect-farmers-unfair-corporate-tactics-high-repair-costs">FTC, States Sue Deere & Company to Protect Farmers from Unfair ...</a></li>
+<li><a href="https://nfu.org/news/farmers-win-in-ftc-settlement-with-john-deere/">Farmers Win in FTC Settlement with John Deere</a></li>
+<li><a href="https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair">FTC, States Secure Settlement with Deere & Company, Advancing ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Bun`, `#Rust`, `#Zig`, `#JavaScript runtime`, `#software engineering`
+**Discussion**: Community comments celebrate the settlement as a long-overdue win, with users thanking activists like Louis Rossmann. Some criticize the $1 million fine as too small relative to Deere's profits, and others hope the precedent extends to cars and electric vehicles.
+
+**Tags**: `#right-to-repair`, `#FTC`, `#consumer rights`, `#agriculture`, `#policy`
 
 ---
 
 <a id="item-3"></a>
-## [TypeScript 7.0 with Go-based native rewrite released, up to 12x faster](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/) ⭐️ 9.0/10
+## [Mistral Unveils Robostral Navigate for Map-Less Robot Navigation](https://mistral.ai/news/robostral-navigate/) ⭐️ 8.0/10
 
-Microsoft has released TypeScript 7.0, a complete rewrite in Go that delivers 8-12x faster build times and support for shared-memory multi-threading. Users can install it via npm, and editors support the new language server through LSP. This release represents a dramatic performance improvement for TypeScript developers, reducing compilation times significantly for large codebases. The Go rewrite also enables better scalability with multi-threading, potentially changing how the TypeScript ecosystem approaches tooling. New command-line options --checkers and --builders allow customization of parallelism. A compatibility package enables side-by-side use with TypeScript 6, but tools for embedded languages like Vue and Svelte are not yet supported and must use the older version.
+Mistral AI has released Robostral Navigate, an 8-billion-parameter vision-language model that enables robots to navigate complex environments using only a single RGB camera, achieving 76.6% on the R2R-CE benchmark without any depth sensors, LiDAR, or pre-built maps. This breakthrough significantly lowers the hardware cost and complexity for autonomous robot navigation, making advanced capabilities accessible to hobbyists and smaller robotics companies. It also addresses the long-standing 'kidnapped robot problem' by enabling map-less navigation in unfamiliar indoor environments. The model runs on a single RGB camera, eliminating the need for expensive sensors like LiDAR or stereo cameras. It is not yet openly available, but Mistral has demonstrated its ability to follow natural language instructions through complex indoor spaces.
 
-telegram · zaihuapd · Jul 9, 04:01
+hackernews · ottomengis · Jul 8, 14:09 · [Discussion](https://news.ycombinator.com/item?id=48832212)
 
-**Background**: TypeScript is a superset of JavaScript that adds static typing, widely used for large-scale web development. The previous TypeScript compiler was written in TypeScript itself (self-hosted) and compiled to JavaScript, which limited performance. By rewriting in Go—a compiled, natively fast language—Microsoft achieves significant speed gains. The Language Server Protocol (LSP) standardizes communication between editors and language servers, enabling the new TypeScript server to work with most IDEs.
+**Background**: Traditional robot navigation often relies on pre-built maps or simultaneous localization and mapping (SLAM) to know the robot's position. Map-less navigation, by contrast, allows robots to follow instructions without any prior knowledge of the environment, which is especially useful in dynamic or unknown settings. The 'kidnapped robot problem' occurs when a robot loses track of its location and cannot recover without a map.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Language_Server_Protocol">Language Server Protocol</a></li>
-<li><a href="https://microsoft.github.io/language-server-protocol/">Official page for Language Server Protocol</a></li>
+<li><a href="https://mistral.ai/news/robostral-navigate/">Robostral Navigate: single-camera AI navigation | Mistral AI</a></li>
+<li><a href="https://theaidude.net/blog/mistral-robostral-navigate-8b-single-camera-robotics-model-launch">Mistral Robostral Navigate: One Camera, 8B Params</a></li>
+<li><a href="https://quasa.io/media/mistral-robostral-navigate-single-camera-8b-model-transforms-robot-autonomy">Mistral Robostral Navigate: Single-Camera Robot Autonomy in 2026</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#TypeScript`, `#Go`, `#performance`, `#language release`, `#Microsoft`
+**Discussion**: The community is impressed by the map-less navigation capability, with many noting its potential for hobbyist projects like farm robots. Some commenters express interest in integrating it with open-source platforms like OpenClaw, while others raise privacy concerns similar to those with the PIGEON model. There is also curiosity about extending the model to handle manipulation tasks like picking up objects.
+
+**Tags**: `#robotics`, `#navigation`, `#AI`, `#Mistral`, `#deep learning`
 
 ---
 
 <a id="item-4"></a>
-## [Ant Group LingBot Open-Sources World's First MoE Embodied Video Foundation Model](https://www.qbitai.com/2026/07/446458.html) ⭐️ 9.0/10
+## [OpenAI Exposes Flaws in Coding Benchmark SWE-Bench Pro](https://openai.com/index/separating-signal-from-noise-coding-evaluations/) ⭐️ 7.0/10
 
-Ant Group's LingBot team has open-sourced LingBot-Video, the world's first Mixture-of-Experts (MoE) based embodied video generation foundation model, with 30B total parameters and 3B active parameters. It achieves state-of-the-art performance on the RBench benchmark with a score of 0.620, surpassing models like Wan2.6, Seedance1.5 Pro, and Cosmos3 Super. This open-sourcing lowers the barrier for embodied AI research by providing a high-performance, efficient foundation model under Apache 2.0, enabling applications such as robot action prediction, simulation data generation, and world model studies. The MoE architecture achieves roughly 3x inference efficiency over dense models of similar scale, making it practical for real-world deployment. LingBot-Video uses a DiT+MoE architecture with a DeepSeek-V3-style sparse MoE (128 experts, top-8 routing, 1.4B active out of 13B per layer). It incorporates a six-reward reinforcement learning post-training system, including a physical-plausibility reward evaluated by a VLM, and supports an action-to-video mode that predicts robot rollouts from action and hand-pose conditions.
+OpenAI published an analysis revealing significant issues in the SWE-Bench Pro coding benchmark, including benchmark contamination and ambiguous task definitions that inflate model performance scores. This matters because flawed benchmarks can mislead the AI community about true model capabilities, leading to overestimated progress and wasted resources. It calls for more rigorous evaluation standards in AI coding assessments. The analysis found that SWE-Bench Pro contains fewer than 800 tasks, some of which are contaminated or ambiguous. OpenAI manually reviewed and cleaned the dataset, highlighting the need for human oversight in benchmark curation.
 
-telegram · zaihuapd · Jul 9, 04:30
+hackernews · OpenAI Blog · Jul 8, 21:03 · [Discussion](https://news.ycombinator.com/item?id=48837396)
 
-**Background**: Mixture-of-Experts (MoE) is a neural network architecture that divides the model into multiple 'experts' and activates only a subset per input, improving efficiency without sacrificing capacity. Diffusion Transformers (DiT) combine diffusion models with transformer backbones, enabling high-quality video generation. Embodied AI focuses on agents that perceive and act in physical environments, with video generation serving as a tool for planning and simulation.
+**Background**: Benchmark contamination occurs when evaluation examples appear in a model's training data, leading to inflated performance. SWE-Bench Pro is a popular benchmark for evaluating AI coding abilities, but its reliability has been questioned. OpenAI's analysis underscores the broader challenge of separating genuine signal from noise in AI evaluations.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.emergentmind.com/topics/deepseek-v3">DeepSeek-V3: Open Sparse MoE Model</a></li>
-<li><a href="https://encord.com/blog/diffusion-models-with-transformers/">Diffusion Transformer (DiT) Models: A Beginner’s Guide</a></li>
+<li><a href="https://www.deeplearning.ai/the-batch/the-problem-with-benchmark-contamination-in-ai">The Problem with Benchmark Contamination in AI - DeepLearning.AI</a></li>
+<li><a href="https://arxiv.org/abs/2406.04244">Benchmark Data Contamination of Large Language Models: A Survey</a></li>
+<li><a href="https://arxiv.org/html/2406.12655v1">Benchmarks and Metrics for Evaluations of Code Generation: A ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Reddit discussion raised concerns about the physical-plausibility reward being judged by a VLM (Vision-Language Model), questioning whether it is a defensible measure or prone to reward hacking despite added real-video negatives. Commenters also noted the lack of closed-loop robot results and that the model is only second on general text-to-video evaluation, with reasoning-heavy dimensions still led by closed models.
+**Discussion**: Community comments express skepticism about benchmark reliability, with users pointing out fake results, reward hacking, and the need for efficiency metrics. Some argue that the small dataset size makes manual review feasible but embarrassing for original authors.
 
-**Tags**: `#embodied AI`, `#video generation`, `#MoE`, `#open source`, `#robotics`
+**Tags**: `#AI`, `#benchmarks`, `#coding evaluations`, `#OpenAI`
 
 ---
 
 <a id="item-5"></a>
-## [Meta's Self-Developed AI Chip 'Iris' to Enter Production in September](https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/) ⭐️ 9.0/10
+## [Kenton Varda Bans AI-Written Change Descriptions](https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything) ⭐️ 7.0/10
 
-Meta plans to mass-produce its self-designed AI chip code-named 'Iris' starting in September 2026. The chip is part of the fourth generation of the Meta Training and Inference Accelerator (MTIA) program and aims to double Meta's computing capacity by 2027. This move reduces Meta's reliance on external suppliers like NVIDIA and AMD, giving it more control over its AI infrastructure. It also signals a major trend among tech giants toward vertical integration in AI hardware. The 'Iris' chip was co-designed with Broadcom and will be manufactured by TSMC; testing took only six weeks with no major issues found. Meta plans to deploy 7 gigawatts of computing infrastructure this year and increase it to 14 gigawatts by 2027, investing up to $145 billion in AI infrastructure this year.
+Kenton Varda, a principal engineer at Cloudflare, announced a moratorium on AI-written change descriptions (PRs, commits, issues) from his team, citing that they omit high-level context needed for effective code review. This highlights a practical limitation of LLMs in software development: while AI can summarize code changes, it often fails to provide the strategic reasoning that human reviewers need, potentially reducing review quality and efficiency. Varda noted that AI descriptions outline code details visible by looking at the code itself, but omit the higher-level framing necessary to understand the broader purpose of the changes. The moratorium applies to his team at Cloudflare Workers.
 
-telegram · zaihuapd · Jul 9, 12:37
+rss · Simon Willison's Blog · Jul 8, 20:03
 
-**Background**: Meta's MTIA (Meta Training and Inference Accelerator) program is a family of custom chips designed for Meta's AI workloads, covering ranking and recommendation as well as generative AI. The program has rapidly evolved across four generations, with Iris being the latest addition. By developing its own chips, Meta aims to optimize performance and reduce costs compared to buying from commercial vendors.
+**Background**: AI-assisted programming tools, such as GitHub Copilot, have become popular for generating code and documentation. However, their use in writing change descriptions has been debated, as they may produce verbose but context-poor text. Code review relies on understanding the intent behind changes, not just the code diff.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.cnbc.com/2026/07/09/meta-to-put-ai-chip-into-production-in-september-report.html">Meta to put AI chip into production in September as it looks to double computing capacity, Reuters reports</a></li>
-<li><a href="https://finance.yahoo.com/technology/ai/articles/meta-start-production-iris-ai-122141801.html">Meta to start production of Iris AI chip in September 2026</a></li>
+<li><a href="https://x.com/KentonVarda/status/2074924213983740233">I just declared a moratorium against AI-written change ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#hardware`, `#Meta`, `#chip`, `#infrastructure`
+**Tags**: `#ai-assisted-programming`, `#code-review`, `#generative-ai`, `#software-engineering`, `#llms`
 
 ---
 
 <a id="item-6"></a>
-## [John Deere Settles FTC Right-to-Repair Case](https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02) ⭐️ 8.0/10
+## [EmTech AI 2026 Highlights Rise of AI Platforms](https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/) ⭐️ 7.0/10
 
-The Federal Trade Commission (FTC) reached a settlement with John Deere, requiring the company to allow farmers and independent repair shops to repair Deere equipment. The settlement mandates that Deere provide repair tools, software, and documentation for at least 10 years. This settlement is a significant victory for the right-to-repair movement, which advocates for consumers' ability to fix products they own. It sets a precedent for other manufacturers, especially in agriculture and technology, potentially reducing costs for farmers and increasing equipment longevity. Deere must pay $1 million collectively to five states for antitrust enforcement costs and will be subject to strict compliance oversight for 10 years. The settlement applies only to John Deere and does not create a binding legal precedent for other companies, but it may encourage similar actions.
+MIT Technology Review's EmTech AI 2026 conference reported that AI platforms are emerging as a key trend, shifting the focus from standalone AI models to integrated platforms that orchestrate multiple AI services. This shift signifies a strategic move towards more scalable, interoperable AI ecosystems, potentially accelerating enterprise adoption and enabling new applications across industries. The conference highlighted that AI platforms combine model hosting, data pipelines, and deployment tools, reducing friction for developers and businesses. No specific platform names or technical benchmarks were disclosed in the report.
 
-hackernews · djoldman · Jul 8, 23:37 · [Discussion](https://news.ycombinator.com/item?id=48838876)
+rss · MIT Technology Review · Jul 8, 16:26
 
-**Background**: The right-to-repair movement seeks to give consumers and independent repair shops access to the tools, parts, and software needed to repair products like electronics, vehicles, and farm equipment. Manufacturers often restrict repairs to maintain control and profit from aftermarket services. Louis Rossmann is a prominent advocate who runs Consumer Rights Wiki and supports initiatives like the FULU Foundation bounty for making Ring cameras work without Amazon servers.
+**Background**: AI platforms are integrated environments that provide end-to-end capabilities for building, deploying, and managing AI applications. They contrast with earlier approaches where developers had to assemble separate tools for each stage. The rise of such platforms mirrors the evolution of cloud computing platforms like AWS and Azure.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Right_to_repair_movement">Right to repair movement</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community comments praised Louis Rossmann's advocacy but criticized the small fine as insufficient deterrent. Some expressed disbelief that such a basic right required litigation, while others noted the irony of tech workers supporting right-to-repair while building closed ecosystems. A commenter emphasized that right to repair is a fundamental freedom, not a negotiable business term.
-
-**Tags**: `#right to repair`, `#FTC`, `#John Deere`, `#agriculture`, `#consumer rights`
+**Tags**: `#AI platforms`, `#industry trends`, `#conference coverage`, `#MIT Technology Review`
 
 ---
 
 <a id="item-7"></a>
-## [EU Parliament passes Chat Control 1.0 allowing warrantless message scanning](https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/) ⭐️ 8.0/10
+## [Self-Improving AI Is Accessible to Everyone](https://www.wired.com/story/frontier-labs-arent-the-only-ones-pursuing-self-improving-ai/) ⭐️ 7.0/10
 
-The EU Parliament passed Chat Control 1.0 on July 9, 2026, allowing US tech companies to scan private messages without a warrant or prior suspicion, after the regulation had been rejected twice in March 2026. This regulation undermines end-to-end encryption and mass surveillance, affecting millions of EU citizens' privacy, and was pushed through via controversial parliamentary procedures, raising concerns about democratic legitimacy. The motion to reject the regulation failed to secure an absolute majority of 361 votes, with 314 against, 276 in favor, 17 abstentions, and 113 absent; the measure will remain in effect until 2028 and applies to direct messages on platforms like Instagram, Discord, Snapchat, Skype, Xbox, Gmail, and iCloud.
+A Wired article demonstrates that self-improving AI systems are not limited to frontier labs and provides accessible experiments for building them. This democratizes advanced AI research, enabling independent developers and smaller teams to experiment with recursive self-improvement, potentially accelerating innovation. The article reports that after a week of experimentation, building a self-improving AI is surprisingly feasible, and it provides practical guidance for dabbling with such systems.
 
-hackernews · rapnie · Jul 9, 11:03 · [Discussion](https://news.ycombinator.com/item?id=48843923)
+rss · Wired · Jul 8, 20:09
 
-**Background**: Chat Control, officially the Child Sexual Abuse Regulation (CSAR), was proposed by the European Commission in May 2022 to combat online child sexual abuse. Critics argue it mandates mass surveillance of all private communications and cannot be implemented without breaking encryption, leading to false positives and privacy violations. The original proposal was rejected in March 2026 but was revived and fast-tracked for a decisive vote in July 2026.
+**Background**: Recursive self-improvement (RSI) is a process where an AI system rewrites its own code to improve itself, potentially leading to rapid capability gains. While often associated with AGI development, the article shows that simpler forms of RSI can be implemented with current tools.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Chat_Control_1.0">Chat Control 1.0</a></li>
+<li><a href="https://www.wired.com/story/frontier-labs-arent-the-only-ones-pursuing-self-improving-ai/">I Built a Self-Improving AI, and So Can You - WIRED</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Recursive_self-improvement">Recursive self-improvement - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments express strong disapproval of the procedural tactics used, such as holding the vote just before the summer break and requiring an absolute majority to reject. Users accuse the EU of using parliamentary tricks to pass unpopular legislation and warn that this could erode trust in the EU project.
-
-**Tags**: `#privacy`, `#EU policy`, `#surveillance`, `#chat control`, `#digital rights`
+**Tags**: `#AI`, `#self-improving AI`, `#machine learning`, `#research`
 
 ---
 
 <a id="item-8"></a>
-## [OpenAI Exposes Flaws in Coding Benchmarks](https://openai.com/index/separating-signal-from-noise-coding-evaluations/) ⭐️ 8.0/10
+## [OnlyFans DMCA Takedowns Accidentally Remove Hacked Government Sites](https://www.wired.com/story/onlyfans-creators-dmca-hacked-government-websites/) ⭐️ 7.0/10
 
-OpenAI identified four common failure modes in coding benchmarks—overly strict tests, underspecified prompts, low coverage, and misleading prompts—that distort model evaluation results. This matters because flawed benchmarks can lead to inaccurate comparisons of AI coding abilities, potentially misleading developers and organizations about model performance. The findings are based on OpenAI's manual review of fewer than 800 tasks in their benchmark, highlighting that small benchmark sizes can be thoroughly vetted by engineers.
+Scammers have been hijacking legitimate government websites to host ads for leaked OnlyFans content, but adult creators' DMCA takedown complaints are inadvertently removing those malicious links, causing the hacked pages to disappear. This highlights an unintended consequence of the DMCA takedown process, where copyright enforcement can disrupt scam operations but also potentially remove legitimate government content. It underscores the complex interplay between cybersecurity, copyright law, and online platform policies. The DMCA takedown process allows copyright holders to request removal of infringing material from online platforms; in this case, adult creators targeting unauthorized copies of their content inadvertently took down the entire hacked government pages hosting the ads.
 
-hackernews · sk4rekr0w · Jul 8, 21:03 · [Discussion](https://news.ycombinator.com/item?id=48837396)
+rss · Wired · Jul 8, 10:30
 
-**Background**: Coding benchmarks are standardized tests used to evaluate how well AI models can write or understand code. Common benchmarks like HumanEval often have hidden test cases that may not align with the prompt, leading to false negatives or positives.
+**Background**: The Digital Millennium Copyright Act (DMCA) provides a notice-and-takedown system for copyright infringement. When a copyright holder files a valid takedown notice, the hosting platform must remove the infringing content to maintain safe harbor protections. Scammers have been exploiting compromised government websites to host malicious ads, often for adult content, as these sites have high domain authority and are less likely to be blocked.
 
-**Discussion**: Community members noted that the same issues extend beyond coding benchmarks, with some calling for cost-aware benchmarks that measure efficiency alongside intelligence. Others criticized that the fundamental problem is that tasks assigned to developers are often incomplete or contradictory.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://copyrightalliance.org/education/copyright-law-explained/the-digital-millennium-copyright-act-dmca/dmca-notice-takedown-process/">DMCA Notice & Takedown Process | Copyright Alliance</a></li>
+<li><a href="https://legalclarity.org/dmca-takedown-notices-requirements-process-and-penalties/">DMCA Takedown Notices: Requirements, Process, and Penalties</a></li>
+<li><a href="https://www.medianama.com/2026/06/223-indian-government-websites-hacked-gambling/">Over 100 Indian Government Websites Hijacked to Promote Illegal ...</a></li>
 
-**Tags**: `#benchmarks`, `#coding evaluations`, `#AI evaluation`, `#OpenAI`, `#software testing`
+</ul>
+</details>
+
+**Tags**: `#cybersecurity`, `#DMCA`, `#government websites`, `#scams`, `#adult content`
 
 ---
 
 <a id="item-9"></a>
-## [OpenAI Launches GPT-Live Voice Mode with GPT-5.5 Delegation](https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything) ⭐️ 8.0/10
+## [War Game Reveals US Water Supply Hack Nightmare](https://www.wired.com/story/what-happens-if-china-hacks-the-us-water-supply-war-game-volt-typhoon/) ⭐️ 7.0/10
 
-OpenAI has introduced GPT-Live, a new voice mode for ChatGPT that uses an upgraded model and can delegate complex tasks to GPT-5.5 in the background while maintaining conversation flow. This upgrade significantly improves the utility of voice interactions with ChatGPT, enabling more natural and capable conversations, and demonstrates OpenAI's multi-model architecture for handling diverse tasks. GPT-Live uses a newer model than the previous GPT-4o era model, with a knowledge cut-off updated to be more recent, and OpenAI plans to continuously update the frontier model used in the background. During preview, a bug caused the model to interrupt with laughter at non-jokes, which OpenAI reportedly fixed.
+A closed-door war game simulation, involving insurers and government officials, revealed the catastrophic consequences of a Chinese state-sponsored hack on the US water supply by the Volt Typhoon group, including burst water mains and evacuated hospitals. This simulation highlights systemic vulnerabilities in US critical infrastructure and the insurance industry's lack of preparedness, underscoring the urgent need for improved cybersecurity measures and risk assessment frameworks. The war game was conducted by the insurance industry to test their response to a mass disruption by Volt Typhoon, a Chinese state-sponsored hacker group targeting US critical infrastructure. The scenario resulted in a nightmare scenario with widespread damage and no clear insurance coverage.
 
-rss · Simon Willison · Jul 8, 23:20
+rss · Wired · Jul 8, 10:00
 
-**Background**: GPT-Live is a new voice model from OpenAI powering ChatGPT Voice. It can delegate harder tasks to GPT-5.5, a frontier model released in April 2026 with strong coding and reasoning capabilities. Previous ChatGPT voice mode was based on an older GPT-4o model with a 2024 knowledge cutoff.
+**Background**: Volt Typhoon is an advanced persistent threat (APT) group engaged in cyberespionage on behalf of China, targeting US critical infrastructure including water systems. War games are tabletop exercises used to simulate cyber incidents and test response strategies. The US government and Five Eyes allies have warned about Volt Typhoon's activities since March 2024.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://openai.com/index/introducing-gpt-live/">Introducing GPT-Live | OpenAI</a></li>
-<li><a href="https://openai.com/index/introducing-gpt-5-5/">Introducing GPT-5.5 | OpenAI</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GPT-5.5">GPT-5.5</a></li>
+<li><a href="https://en.m.wikipedia.org/wiki/Volt_Typhoon">Volt Typhoon - Wikipedia</a></li>
+<li><a href="https://umbc.edu/stories/what-is-volt-typhoon-a-cybersecurity-expert-explains-the-chinese-hackers-targeting-us-critical-infrastructure/">What is Volt Typhoon? A cybersecurity expert explains the ... - UMBC:</a></li>
+<li><a href="https://dailysecurityreview.com/security-spotlight/volt-typhoon-energy-grid-cyberattack-exposes-us-infrastructure-vulnerabilities/">Volt Typhoon Energy Grid Cyberattack Exposes US Infrastructure ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#OpenAI`, `#ChatGPT`, `#voice mode`, `#GPT-Live`, `#GPT-5.5`
+**Tags**: `#cybersecurity`, `#critical infrastructure`, `#China`, `#war game`, `#water supply`
 
 ---
 
 <a id="item-10"></a>
-## [Samsung Display Cancels Apple Vision Air Panel; Project Ends](https://finance.sina.com.cn/stock/t/2026-07-09/doc-inihczpn4610103.shtml) ⭐️ 8.0/10
+## [OpenAI Releases Principles for Government AI Partnerships](https://openai.com/index/government-national-security-partnerships) ⭐️ 6.0/10
 
-Samsung Display has canceled its development of display panels for Apple's Vision Air headset, effectively ending the project. The panel, codenamed G-VR, was based on improved OLEDoS technology with a PPI of 1600-1700, half that of Vision Pro's 3386 PPI, and was intended to reduce costs. This cancellation highlights Apple's strategic pivot from high-cost VR/AR headsets to AI smart glasses, following the Vision Pro's poor sales and lackluster ecosystem. It impacts the AR/VR supply chain and signals a shift in industry focus toward lighter, more practical wearable devices. The G-VR panel was designed for mass production after 2028, but Samsung Display pulled the plug. Apple had already reduced Vision Pro production, removed advertisements, and disbanded the development team, with Chinese pricing near 30,000 RMB and a 2-hour battery life.
+OpenAI published a policy statement outlining its principles for responsible AI use in government and national security partnerships, emphasizing democratic accountability and public safety. This announcement sets a precedent for how leading AI companies engage with governments on sensitive national security applications, potentially influencing industry-wide standards and public trust. The statement is a high-level position document without specific technical details or implementation guidelines. It focuses on values such as transparency, oversight, and alignment with democratic values.
 
-telegram · zaihuapd · Jul 9, 03:16
+rss · OpenAI Blog · Jul 8, 13:30
 
-**Background**: OLEDoS (OLED on Silicon) is a microdisplay technology combining organic LEDs with silicon backplanes to achieve high pixel density, used in VR/AR headsets. Apple's first headset, Vision Pro, featured a 3386 PPI display but suffered from high cost, heavy weight, limited battery life, and poor app ecosystem, leading to weak sales. The canceled Vision Air was meant to be a more affordable version, but Apple has now shifted focus to AI-powered smart glasses.
+**Background**: As AI capabilities advance, governments increasingly seek partnerships with AI developers for defense and security purposes. OpenAI's move reflects growing debate over ethical boundaries of AI in military and surveillance contexts.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.sciencedirect.com/science/article/pii/S2949829525000014">OLED-on-silicon (OLEDoS) microdisplays: Technology challenges, design considerations, and adaptation in eXtended Reality (XR) ecosystem – Review - ScienceDirect</a></li>
-<li><a href="https://www.businessresearchinsights.com/market-reports/oledos-technology-market-112940">OLEDoS Technology Market Size Forecast & Outlook till 2035</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Apple`, `#Samsung`, `#VR/AR`, `#Display Technology`, `#AI Smart Glasses`
+**Tags**: `#AI policy`, `#national security`, `#OpenAI`, `#responsible AI`
 
 ---
 
 <a id="item-11"></a>
-## [National Supercomputing Internet Core Node Launches in Zhengzhou with 100,000+ Domestic AI Cards](https://36kr.com/newsflashes/3887797387344387) ⭐️ 8.0/10
+## [Three-Stage Pipeline Speeds Up AI Image Generation 1000%](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902258&idx=3&sn=ba308a43c7645e185ee3f0285fcabad0) ⭐️ 6.0/10
 
-On July 9, the core node of China's National Supercomputing Internet went live in Zhengzhou, providing over 100,000 cards of domestic AI computing power. This milestone significantly boosts China's domestic AI computing infrastructure, enabling large-scale AI model training and inference with locally produced hardware, reducing reliance on foreign chips. The node is the largest single domestic AI computing resource pool connected to the National Supercomputing Internet platform, and it also serves as a national hub for resource scheduling, operation management, and industry incubation.
+A three-stage pipeline method claims to accelerate AI image generation by 1000% without requiring any retraining of the model. This breakthrough could significantly reduce inference time for AI image generation, making real-time applications more feasible and lowering computational costs. The pipeline achieves speedup through a concise three-stage process, though specific technical details about the stages are not fully disclosed in the available sources.
 
-telegram · zaihuapd · Jul 9, 07:00
+rss · 量子位 (QbitAI) · Jul 8, 03:33
 
-**Background**: The National Supercomputing Internet is a nationwide initiative to interconnect supercomputing centers, providing unified resource scheduling. The core node in Zhengzhou acts as the central coordination point. Domestic AI computing cards refer to accelerators developed by Chinese companies, such as those from Huawei, Cambricon, or others.
+**Background**: AI image generation models like Stable Diffusion and DALL-E typically require multiple denoising steps, leading to slow inference. Optimization methods often involve model compression or distillation, which require retraining. This new approach claims to achieve speedup without retraining, which is unusual and potentially impactful.
 
-**Tags**: `#supercomputing`, `#AI`, `#China`, `#computing infrastructure`, `#domestic computing`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://eu.36kr.com/en/p/3886591169736709">1000% Speedup AI Image Generation Without Training: The ...</a></li>
+<li><a href="https://en.eeworld.com.cn/mp/QbitAI/a433068.jspx">AI-powered image processing speeds up image capture by 1000% ...</a></li>
 
----
+</ul>
+</details>
 
-<a id="item-12"></a>
-## [OpenAI Releases National Security Principles](https://openai.com/index/government-national-security-partnerships/) ⭐️ 8.0/10
-
-OpenAI has published a set of national security principles that explicitly ban the use of its technology for autonomous weapons, mass surveillance, and high-risk automated decision-making, while expanding defense collaborations with US allies. This policy marks a significant step in AI governance, setting clear red lines for military applications and signaling OpenAI's commitment to ethical use, which could influence industry standards and government regulations. The principles include hard restrictions on mass domestic surveillance and autonomous weapon systems, and OpenAI has partnered with countries including Australia, Canada, Japan, South Korea, France, Germany, Poland, the Netherlands, and EU institutions through the Daybreak cyber defense program.
-
-telegram · zaihuapd · Jul 9, 13:22
-
-**Background**: As AI systems become more powerful, concerns have grown about their potential misuse in warfare and surveillance. OpenAI, a leading AI research organization, has previously emphasized safety and ethical guidelines but had not specifically addressed national security partnerships until now.
-
-**Tags**: `#AI governance`, `#national security`, `#OpenAI`, `#ethics`, `#policy`
+**Tags**: `#AI`, `#image generation`, `#optimization`, `#pipeline`
 
 ---
