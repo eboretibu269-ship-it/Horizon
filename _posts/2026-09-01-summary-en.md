@@ -5,150 +5,191 @@ date: 2026-09-01
 lang: en
 ---
 
-> From 37 items, 6 important content pieces were selected
+> From 43 items, 8 important content pieces were selected
 
 ---
 
-1. [Tim Cook Steps Down, John Ternus Becomes Apple CEO to Lead AI Push](#item-1) ⭐️ 9.0/10
-2. [Google Pulls Manifest V2 Extensions, Including uBlock Origin, from Chrome Web Store](#item-2) ⭐️ 8.0/10
-3. [NAT as the Original Sin of Internet Centralization](#item-3) ⭐️ 8.0/10
-4. [Sliding-Window Attention Beats Linear on Long-Context Reasoning](#item-4) ⭐️ 8.0/10
-5. [SynthFin-AML: New Benchmark Exposes Temporal Leakage in GNNs](#item-5) ⭐️ 8.0/10
-6. [DeepSeek releases V4-Flash-Vision-Exp, first multimodal V4 model](#item-6) ⭐️ 8.0/10
+1. [Anthropic Debuts Claude Fable 5.1 and Claude Mythos 5.1](#item-1) ⭐️ 9.0/10
+2. [Virtualizor Update System Hit by BGP Hijacking, Root Backdoor Delivered](#item-2) ⭐️ 9.0/10
+3. [Dan Luu Assesses Ed Zitron's AI Prediction Accuracy](#item-3) ⭐️ 8.0/10
+4. [Codex Desktop App Bundles LibreOffice, Python, Node.js Runtimes](#item-4) ⭐️ 8.0/10
+5. [Small Transformer Trained in 1.5 Hours Outperforms Many LLMs on ARC](#item-5) ⭐️ 8.0/10
+6. [Python 3.15.0 RC 2 Announced as Final Release Candidate Before October Launch](#item-6) ⭐️ 8.0/10
+7. [Korea's Trillion-Dollar Sovereign AI Drive: Nvidia Gains, Hynix Faces Hurdles](#item-7) ⭐️ 8.0/10
+8. [EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses](#item-8) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Tim Cook Steps Down, John Ternus Becomes Apple CEO to Lead AI Push](https://www.bloomberg.com/news/articles/2026-08-30/apple-s-new-ceo-john-ternus-takes-reins-from-tim-cook-focusing-on-ai) ⭐️ 9.0/10
+## [Anthropic Debuts Claude Fable 5.1 and Claude Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) ⭐️ 9.0/10
 
-Tim Cook officially stepped down as Apple CEO on August 31, 2026, with John Ternus taking over on September 1 and Cook remaining as executive chairman. Ternus's top priority is accelerating Apple's AI efforts, including fixing delayed Siri upgrades, ahead of the September 9 event where the first foldable iPhone is expected to debut. This leadership transition marks a generational shift at one of the world's most influential technology companies, signaling Apple's strategic pivot toward AI. The new CEO's focus and the upcoming foldable iPhone launch will shape Apple's competitive position against rivals such as Samsung and Google. Ternus, a 51-year-old hardware engineering veteran, has led hardware design since 2021 and was instrumental in the development of Apple silicon Macs. The first foldable iPhone is reported to feature 12 GB RAM and deep Siri AI integration, understanding real-world scenes through screen, calendar, and camera context.
+Anthropic has released Claude Fable 5.1 and Claude Mythos 5.1, the latest versions of its most advanced AI models. The update brings improved writing style, reduced cache-read pricing (from $1/M to $0.25/M), and stronger performance on science benchmarks. These models are Anthropic's most capable for coding and knowledge work, and the price cut on cache reads could pressure competitors and reshape LLM API pricing. The improved writing style and science gains may expand Claude's appeal among developers and researchers. Fable 5.1 keeps the same input/output prices as Fable 5, but cuts cache-read pricing to $0.25/M tokens, making it cheaper than Opus's cache reads. The release also includes breaking changes that patch chain-of-thought disclosure issues, and a system card details safety and benchmark results.
 
-telegram · zaihuapd · Aug 31, 10:21
+hackernews · denysvitali · Sep 1, 17:53 · [Discussion](https://news.ycombinator.com/item?id=49525378)
 
-**Background**: Apple Intelligence, introduced in June 2024, is Apple's suite of AI features combining on-device and server processing, available on iOS 18, iPadOS 18, and macOS Sequoia, and supported on devices with Apple silicon or newer iPhones. John Ternus previously served as Apple's senior vice president of Hardware Engineering, overseeing design and development of products such as the Mac, iPad, and iPhone.
+**Background**: Claude Mythos is Anthropic's most powerful model family; the original Mythos Preview was withheld from the public due to concerns about its ability to find software vulnerabilities. In June 2026, Anthropic released Claude Fable 5 as a 'Mythos-class' model for general use with safety safeguards, alongside restricted-access Claude Mythos 5. According to industry estimates, Mythos has roughly 8 trillion parameters while Fable has around 5 trillion.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/John_Ternus">John Ternus</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Apple_Intelligence">Apple Intelligence</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Fable_5">Claude Fable 5</a></li>
+<li><a href="https://platform.claude.com/docs/en/models/fable-5-1/overview">Claude Fable 5.1 - Claude Platform Docs</a></li>
+<li><a href="https://www.anthropic.com/claude/mythos">Claude Mythos \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Apple`, `#CEO transition`, `#AI`, `#Tim Cook`, `#John Ternus`
+**Discussion**: Comments highlight the significant cache-read price drop and question whether it signals weak demand for Fable's original pricing. An Anthropic employee praises Fable 5.1's writing style and reliability, while researchers note that without Terminal-Bench-Science, improvements appear limited. Others discuss breaking changes that fix unintended chain-of-thought disclosure and share test results of the model's reasoning effort levels.
+
+**Tags**: `#Anthropic`, `#Claude`, `#LLM`, `#AI`, `#model release`
 
 ---
 
 <a id="item-2"></a>
-## [Google Pulls Manifest V2 Extensions, Including uBlock Origin, from Chrome Web Store](https://webiterate.dev/google-removed-extensions-ublock-origin-108/) ⭐️ 8.0/10
+## [Virtualizor Update System Hit by BGP Hijacking, Root Backdoor Delivered](https://www.virtualizor.com/blog/security-incident-bgp-hijacking/) ⭐️ 9.0/10
 
-Google has enforced its Manifest V3 migration by removing all Manifest V2 extensions from the Chrome Web Store, including popular privacy and ad-blocking tools like uBlock Origin. This removal makes it much harder for users to install these extensions on Chrome. This marks the end of an era for Chrome extensions, forcing users of privacy tools to switch to alternatives like Firefox or accept the less capable uBlock Origin Lite. It also raises concerns about a single company controlling how users block ads and protect their privacy. Manifest V3 replaces the older extension APIs that allowed deep, dynamic network interception with a more limited declarativeNetRequest model, which removed capabilities uBlock Origin relied on. The full uBlock Origin still works in Firefox, which continues to support the more permissive WebExtensions API.
+Virtualizor's update infrastructure was compromised by a BGP route hijacking between August 28 and 30, 2026, during which attackers delivered malicious update packages bearing valid TLS certificates. The malicious updates could install a root backdoor, and only installations updated within that window are affected. This is a serious supply-chain attack because it compromises the trust anchor of software distribution: updates signed with valid TLS certificates can be delivered to many servers simultaneously. Since Virtualizor is a widely used VPS control panel, a root backdoor on a hypervisor can give attackers full control over all virtual machines hosted on it. Independent forensics showed the malicious package writes a root SSH key, installs a Java payload, and creates a persistent service; officials stress this was a hijacked distribution channel rather than a software code vulnerability. Hosting provider AlbaHost detected indicators on 5 of its 34 hypervisors, while Softaculous stated there is currently no evidence that other products were affected.
 
-hackernews · twapi · Aug 31, 21:10 · [Discussion](https://news.ycombinator.com/item?id=49514878)
+telegram · zaihuapd · Sep 1, 06:05
 
-**Background**: Chrome extensions are built on a set of capabilities defined by a manifest version. Manifest V2 (MV2) has been the standard for years, but Google introduced Manifest V3 (MV3) in 2020 to improve privacy, security, and performance. By 2025, MV2 was effectively phased out for most Chrome users, and the Chrome Web Store has now removed MV2 extensions entirely. Ad blockers like uBlock Origin are affected because MV3 restricts the ability to block network requests in the flexible ways MV2 allowed.
+**Background**: BGP (Border Gateway Protocol) is the routing system that directs traffic between independent networks on the Internet, and it relies on trust between autonomous systems. BGP hijacking occurs when an attacker falsely advertises an IP prefix, causing traffic intended for a legitimate server to be rerouted to an attacker-controlled destination. Virtualizor is a web-based VPS control panel by Softaculous that supports hypervisors such as KVM and Xen, so a compromised update for this software can give attackers control over the virtualization layer and all guest systems.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3">Extensions / Manifest V3 | Chrome for Developers</a></li>
-<li><a href="https://www.pcworld.com/article/3160794/the-last-lifeline-for-ublock-origin-in-chrome-is-almost-gone-for-good.html">The last lifeline for uBlock Origin in Chrome is almost gone for good | PCWorld</a></li>
-<li><a href="https://factually.co/fact-checks/technology/manifest-v3-impact-ublock-origin-chromium-blocking-workarounds-4c8757">How Does Manifest V3 Change What uBlock Origin Can Blo...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/BGP_hijacking">BGP hijacking - Wikipedia</a></li>
+<li><a href="https://www.cloudflare.com/learning/security/glossary/bgp-hijacking/">What is BGP hijacking? - Cloudflare</a></li>
+<li><a href="https://www.virtualizor.com/">Virtualizor – Cloud Control Panel</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters on the news item are overwhelmingly critical of Google's decision. Many recommend switching to Firefox, noting that uBlock Origin always worked best there, while others express resentment toward Google's control over the web and say they will keep using Firefox or its forks even if the browser's market share shrinks. Some highlight that ad blocking is now a safety issue, especially for less tech-savvy users who may fall for malicious ads.
-
-**Tags**: `#Chrome`, `#Manifest V3`, `#ad blocking`, `#privacy`, `#web extensions`
+**Tags**: `#security`, `#BGP hijacking`, `#supply chain attack`, `#Virtualizor`, `#rootkit`
 
 ---
 
 <a id="item-3"></a>
-## [NAT as the Original Sin of Internet Centralization](https://dreamstation.systems/personal/ntppost.html) ⭐️ 8.0/10
+## [Dan Luu Assesses Ed Zitron's AI Prediction Accuracy](https://danluu.com/zitron/) ⭐️ 8.0/10
 
-An essay argues that NAT, not just later developments, was a foundational cause of internet centralization, eroding self-hosting and normalizing the client-server model. It reframes address scarcity as a key force that shaped how people perceive the internet. This reframes the narrative of internet centralization by shifting responsibility to an early technical artifact that most users do not even know about. It matters to anyone concerned with self-hosting, net neutrality, and the power balance between users and large cloud platforms. The author calls NAT the original sin and notes that it trained people to see client-server as natural, when that was an artifact of IPv4 address scarcity. The essay also suggests that running a server used to be trivial before NAT became ubiquitous.
+Dan Luu published an analysis scrutinizing tech commentator Ed Zitron's AI-related predictions, checking which have held up. The post focuses on claims Zitron made during 2024 and 2025. The piece is notable because it pushes back against the growing polarization between AI boosters and skeptics, urging readers to evaluate claims on their literal accuracy. It provides a useful meta-analysis for anyone trying to separate signal from hype in AI discourse. Luu engages with the literal text of Zitron's numerous predictions from 2024 and 2025 rather than reinterpreting them. Community commenters note the difficulty of fair evaluation and point out that both Zitron and AI industry leaders frequently exaggerate.
 
-hackernews · robinpie · Aug 31, 02:23 · [Discussion](https://news.ycombinator.com/item?id=49504905)
+hackernews · jatins · Sep 1, 18:35 · [Discussion](https://news.ycombinator.com/item?id=49526069)
 
-**Background**: NAT (Network Address Translation) maps multiple private IP addresses to a single public IP address, allowing many devices to share one public address, and was widely adopted to conserve limited IPv4 addresses. The client-server model is a computing architecture where clients request resources from centralized servers, as opposed to peer-to-peer or self-hosted setups where each node can act as both provider and consumer.
+**Background**: Ed Zitron is a tech podcaster and columnist known for sharp criticism of the AI industry, often arguing that AI hype far exceeds real-world results. Dan Luu is a well-known engineer and blogger who frequently analyzes technical and industry topics with data. The essay sits within a broader online debate about whose AI claims can be trusted, as both skeptics and boosters face accusations of bias.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Network_address_translation">Network address translation - Wikipedia</a></li>
-<li><a href="https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-address-translation-nat.html">What Is Network Address Translation (NAT)? - Cisco</a></li>
-<li><a href="https://www.geeksforgeeks.org/system-design/client-server-architecture-system-design/">Client-Server Architecture - System Design - GeeksforGeeks</a></li>
+**Discussion**: Commenters generally praise the meta-analysis but diverge on fairness. One user wants a similar audit of OpenAI and Anthropic leaders' predictions, while another argues Zitron has become the mirror image of the boosters he attacks, unable to admit being wrong. A third notes that people often project their own views onto Zitron, making the literal-text approach more valuable.
 
-</ul>
-</details>
-
-**Discussion**: Commenters are divided. RustyRussell, the Linux NAT implementer, apologizes for the current NAT system, admitting it eroded the ability to have public endpoints. Others argue that NAT is not the original sin, noting that Carrier Grade NAT is the real problem while regular NAT is manageable and protected many insecure devices from exposure.
-
-**Tags**: `#NAT`, `#networking`, `#internet architecture`, `#centralization`, `#history`
+**Tags**: `#AI`, `#prediction`, `#analysis`, `#Dan Luu`, `#Ed Zitron`
 
 ---
 
 <a id="item-4"></a>
-## [Sliding-Window Attention Beats Linear on Long-Context Reasoning](https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/) ⭐️ 8.0/10
+## [Codex Desktop App Bundles LibreOffice, Python, Node.js Runtimes](https://simonwillison.net/2026/Sep/1/codex-libreoffice/) ⭐️ 8.0/10
 
-A new arXiv preprint (2608.28444) reports that sliding-window attention with attention sinks achieves 2 to 10 times higher performance than linear attention on Needle-in-a-Haystack and BABILong long-context reasoning benchmarks. The authors argue that the post-training-to-linear pipeline has not been properly compared to simpler baselines and recommend switching to SWA. This challenges the recent industry direction of investing post-training compute to convert LLMs to linear attention for efficiency. If SWA matches or beats these models without any post-training, it could shift focus back to simpler, cheaper baselines and reshape long-context LLM design. The gap is reported as massive: SWA performance is 2 to 10 times higher than linear attention on the selected benchmarks, which include Needle-in-a-Haystack and BABILong. The authors concede that linear attention 'may have shown some promise, but they likely require to be trained from scratch or extensive post-training in order to even match SWA.' The paper's recommendation is to switch to SWA instead of post-training linear models.
+Simon Willison discovered that OpenAI's Codex/ChatGPT desktop app stores a 1.7GB 'codex-primary-runtime' folder in ~/.cache, containing full Python and Node.js installations along with native binaries for LibreOffice, Poppler, and git. The app also includes document-handling plugins that tell Codex how to use these binaries. This sheds light on how OpenAI's desktop app handles document processing for LLM prompts—by bundling an entire open-source office suite locally instead of relying on cloud services. It also raises broader questions about app bloat, dependency management, and the potential disruption of traditional office software. The runtime folder includes libreoffice-headless (429.7 MB), poppler (187.9 MB), git (148.1 MB), libheif, and jxrlib, alongside node and python directories. The ~/.cache directory on the author's machine totalled 442.1 GB, with 356.8 GB consumed by Hugging Face and 82.5 GB by uv.
 
-reddit · r/MachineLearning · /u/Justgototheeffinmoon · Aug 31, 16:35
+rss · Simon Willison · Sep 1, 19:03 · [Discussion](https://news.ycombinator.com/item?id=49527396)
 
-**Background**: Standard Transformer attention has quadratic cost with sequence length, making long-context inference memory- and compute-intensive. Linear attention variants attempt to reduce this to linear complexity through kernel approximations or recurrent formulations, but often require post-training to adapt existing LLMs. Sliding-window attention (SWA) restricts each token's attention to a fixed local window, which also achieves linear scaling in a simple way, and adding 'attention sinks' helps stabilize it. BABILong is a long-context reasoning benchmark that probes models' ability to reason over distributed facts in very long documents.
+**Background**: LibreOffice is an open-source office suite forked from OpenOffice.org in 2010, commonly used to read and convert document formats such as old XLS files. Poppler is a PDF rendering library, and OmniDiskSweeper is a macOS disk space analyzer that displays files sorted by size. The Codex app, now rebranded as ChatGPT, appears to bundle these tools to process documents locally.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2608.28444">[2608.28444] Sliding-window beats linear attention - arXiv.org</a></li>
-<li><a href="https://arxiv.org/abs/2406.10149">[2406.10149] BABILong: Testing the Limits of LLMs with Long ...BABILong: Testing the Limits of LLMs with Long Context ...BABILong Benchmark - emergentmind.comRMT-team/babilong · Datasets at Hugging FaceBABILong Benchmark Scores & AI Model Leaderboard | BenchmarkListCogniFold/benchmarks/babilong/README.md at main - GitHub</a></li>
-<li><a href="https://www.digitalocean.com/community/tutorials/sliding-window-attention-efficient-long-context-models">Sliding Window Attention: Efficient Long-Context Modeling | DigitalOcean</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Poppler_(software)">Poppler (software) - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OmniDiskSweeper">OmniDiskSweeper</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#machine learning`, `#attention mechanisms`, `#long-context reasoning`, `#linear attention`, `#LLM efficiency`
+**Discussion**: Commenters had mixed reactions: one developer confirmed bundling LibreOffice for reading old XLS files, while another questioned whether these dependencies are pre-installed or downloaded on demand. Others criticized the app's overall messiness and large dependencies, speculated that LibreOffice is used to render Office documents (explaining poor rendering quality), and one saw it as a potential threat to Microsoft Office's dominance.
+
+**Tags**: `#OpenAI`, `#ChatGPT`, `#LibreOffice`, `#desktop app`, `#dependencies`
 
 ---
 
 <a id="item-5"></a>
-## [SynthFin-AML: New Benchmark Exposes Temporal Leakage in GNNs](https://www.reddit.com/r/MachineLearning/comments/1w3imxy/your_gnn_is_probably_just_an_overcomplicated_mlp/) ⭐️ 8.0/10
+## [Small Transformer Trained in 1.5 Hours Outperforms Many LLMs on ARC](https://mvakde.github.io/blog/44-on-arc-1/) ⭐️ 8.0/10
 
-The authors release SynthFin-AML v10.0, a 100k-node, 1.2M-edge synthetic benchmark that enforces strict causal boundaries in dynamic graph evaluation. They show that standard transductive random splits leak future edges into GNN training, and propose a 3-snapshot point-in-time split to fix this issue. This addresses a critical evaluation flaw in dynamic graph research, where models can cheat by seeing future information, inflating reported performance. The benchmark, submitted to PyTorch Geometric, could become a standard for causal evaluation and help the AML community reliably compare GNNs against simpler baselines. The 3-snapshot architecture uses train graph edges up to Day 7, validation up to Day 8, and test up to Day 10, physically bounding the GNN's receptive field. The authors also eliminated the 'amount split cheat' by making fraud and retail transaction amounts follow the same lognormal distribution (μ=8.517, σ=0.8).
+A developer trained a small autoregressive transformer from scratch in just 1.5 hours and achieved competitive results on the ARC benchmark, outperforming many much larger LLMs. The author emphasizes this is not an LLM but a targeted architecture that solves complex problems efficiently. This result challenges the assumption that massive scale and enormous training costs are necessary for strong reasoning performance. It highlights the potential of efficient, task-specific architectures and could inspire more sample-efficient approaches in AI research. The model is a small autoregressive transformer, not an LLM, trained on ARC puzzles with relatively modest compute. The author notes that ARC is a metalearning benchmark, so learning from eval puzzles is allowed; 'training on test' specifically means training on test labels, which was not done.
 
-reddit · r/MachineLearning · /u/Glabmayt2075 · Aug 31, 16:21
+hackernews · porridgeraisin · Sep 1, 09:52 · [Discussion](https://news.ycombinator.com/item?id=49519939)
 
-**Background**: Dynamic graphs model evolving relationships, such as financial transaction networks where edges appear over time. GNNs compute node embeddings by aggregating neighbor information; if training uses a static snapshot containing future edges, the model can access information unavailable at prediction time. This temporal leakage inflates performance, and standard random splits are particularly problematic for financial transaction graphs. SynthFin-AML is a synthetic benchmark designed to prevent such leakage; it follows the spirit of earlier synthetic AML datasets like SynthAML, which was built on real bank data.
+**Background**: ARC (Abstraction and Reasoning Corpus) is a benchmark introduced by François Chollet in 2019 to measure AI skill acquisition and generalization via core knowledge priors that are easy for humans but hard for AI. It is designed to test abstract reasoning and fluid intelligence, with the principle 'Easy for Humans, Hard for AI.' Many current LLMs struggle on ARC, while even a small, efficiently trained transformer can achieve strong results.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.nature.com/articles/s41597-023-02569-2">A synthetic data set to benchmark anti-money laundering methods | Scientific Data</a></li>
-<li><a href="https://arxiv.org/html/2509.23631v2">Leakage-Free Evaluation and Distribution-Robust Spatio-Temporal Graph ...</a></li>
-<li><a href="https://deepwiki.com/2024SIG/SIG/7.3-data-leakage-prevention">Data Leakage Prevention | 2024SIG/SIG | DeepWiki</a></li>
+<li><a href="https://arcprize.org/arc-agi">ARC Prize - What is ARC-AGI?</a></li>
+<li><a href="https://lab42.global/arc/">About ARC – Lab42</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#graph neural networks`, `#temporal leakage`, `#anti-money laundering`, `#benchmark`, `#causality`
+**Discussion**: The author actively engaged in the discussion, clarifying that the model is not an LLM and that using ARC's eval puzzles is legitimate because ARC is a metalearning benchmark. Commenters raised points about sample inefficiency in modern LLMs, debated methodology (e.g., 'squeezing the lemon' architecture tweaks), and congratulated the author on the result, while others noted the personal story about saving their own life.
+
+**Tags**: `#ARC`, `#transformers`, `#efficiency`, `#benchmark`, `#AI research`
 
 ---
 
 <a id="item-6"></a>
-## [DeepSeek releases V4-Flash-Vision-Exp, first multimodal V4 model](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp) ⭐️ 8.0/10
+## [Python 3.15.0 RC 2 Announced as Final Release Candidate Before October Launch](https://simonwillison.net/2026/Sep/1/python-315-rc-2/) ⭐️ 8.0/10
 
-DeepSeek has released DeepSeek-V4-Flash-Vision-Exp, an experimental multimodal variant of its V4-Flash model that adds a vision module through continued training. On the ApexBench multimodal agent benchmark, it improves from 26.2 to 36.5 compared to V4-Flash-0731, while text agent performance remains roughly unchanged. This is DeepSeek's first V4-generation multimodal model, and the large jump on ApexBench signals a significant improvement in multimodal agent capabilities. It strengthens DeepSeek's position in the competitive open-weight LLM landscape and provides a strong baseline for agentic AI development. The model builds on the V4-Flash-0731 architecture with an added vision module and continued training. It shows a 10.3-point gain on ApexBench (from 26.2 to 36.5) for multimodal agent tasks, while text agent performance stays approximately flat, indicating training was well-targeted.
+Python 3.15.0 candidate 2 has been announced by release manager Hugo van Kemenade as the final release candidate ahead of the planned October release. Third-party maintainers are strongly encouraged to test their projects and publish Python 3.15 wheels on PyPI during this phase. This final RC marks a critical milestone for the Python ecosystem, giving maintainers a last window before release to ensure compatibility and avoid shipping bugs. Python developers and package maintainers will be directly affected, as wheels built against this RC will work with future 3.15 versions. During the release candidate phase, only reviewed code changes that are clear bug fixes are permitted, limiting the risk of new regressions. The RC is not yet available via GitHub Actions, but developers can test it now by adding 'allow-prereleases: true' and 'check-latest: true' to their setup-python matrix.
 
-telegram · zaihuapd · Aug 31, 11:41
+rss · Simon Willison · Sep 1, 14:59
 
-**Background**: Multimodal models combine text and visual understanding, enabling agents to perceive images, screenshots, or UI layouts while reasoning and acting. Benchmarks like ApexBench evaluate AI agents on long-horizon, real-world-style tasks such as poster editing, code refactoring, and knowledge-work scenarios, making them relevant for agentic AI systems. DeepSeek's V4 series is the latest generation of its open-weight models, and this experimental release adds vision capabilities to the existing V4-Flash line.
+**Background**: A release candidate is a pre-release version of Python that becomes the final release unless critical bugs are found during testing, meaning the core team generally freezes non-bugfix changes. Wheels are Python's binary distribution format, a ZIP-format archive with a .whl extension, which allows packages to install faster and more predictably than building from source. PyPI is the official third-party software repository for Python, where maintainers distribute these wheels.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.emergentmind.com/topics/apex-bench">APEX-Bench: High-Fidelity Benchmarking</a></li>
-<li><a href="https://www.mercor.com/apex/">APEX Benchmarks: AI Productivity Index Leaderboards | Mercor</a></li>
-<li><a href="https://link.springer.com/article/10.1007/s11390-025-4802-8">Multimodal Agent AI: A Survey of Recent Advances and Future ...</a></li>
+<li><a href="https://realpython.com/ref/glossary/release-candidate/">release candidate | Python Glossary</a></li>
+<li><a href="https://packaging.python.org/en/latest/specifications/binary-distribution-format/">Binary distribution format - Python Packaging User Guide</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Python_Package_Index">Python Package Index - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#DeepSeek`, `#multimodal`, `#model release`, `#AI`, `#LLM`
+**Tags**: `#Python`, `#Release Candidate`, `#Software Development`, `#Ecosystem`, `#Compatibility`
+
+---
+
+<a id="item-7"></a>
+## [Korea's Trillion-Dollar Sovereign AI Drive: Nvidia Gains, Hynix Faces Hurdles](https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign) ⭐️ 8.0/10
+
+South Korea has launched a trillion-dollar sovereign AI initiative, including a nationwide AI tournament (the 'Squid Game' of AI) where the best non-Chinese open-source model will be selected and potentially eliminated. The analysis argues this reshapes the AI supply chain, favoring Nvidia while creating strategic challenges for SK Hynix and Samsung. Korea's massive state-backed AI investment signals a major geopolitical shift toward sovereign AI, affecting global AI infrastructure and semiconductor demand. The outcome will influence which companies dominate AI compute and memory markets, with Nvidia positioned as a winner and Korean memory makers facing strategic uncertainty. The initiative includes a citizen lottery to select judges for scoring sovereign AI models, with winners powering a free national AI service for 51 million residents. Nvidia benefits from open-source AI adoption because it expands the ecosystem for its GPUs, while Hynix and Samsung could lose if national models rely less on cutting-edge HBM memory.
+
+rss · Semianalysis · Sep 1, 20:14
+
+**Background**: Sovereign AI refers to a nation's ability to control its entire AI stack—compute, data, models, and infrastructure—independent of foreign providers. Korea's AI competition, organized by the Ministry of Science and ICT, aims to democratize AI participation across ages. HBM (High Bandwidth Memory) is a critical component for AI accelerators, and Korean companies like SK Hynix and Samsung are leading suppliers.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-sovereign-ai">What is sovereign AI? | McKinsey</a></li>
+<li><a href="https://en.sedaily.com/news/2026/03/26/korea-launches-nationwide-ai-competition-for-all-ages">Korea Launches Nationwide AI Competition for All Ages - Seoul Economic Daily</a></li>
+<li><a href="https://www.cadence.com/en_US/home/explore/high-bandwidth-memory-hbm.html">Explore all about High Bandwidth Memory (HBM) for AI Systems</a></li>
+<li><a href="https://www.techtimes.com/articles/323429/20260806/korea-opens-citizen-lottery-pick-national-ai-champion-starting-friday.htm">Korea Opens Citizen Lottery to Pick National AI Champion Starting Friday</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI infrastructure`, `#sovereign AI`, `#semiconductors`, `#Nvidia`, `#Hynix`
+
+---
+
+<a id="item-8"></a>
+## [EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses](https://www.reddit.com/r/MachineLearning/comments/1w4m0hq/evoundo_recoverabilityconstrained_selfevolution/) ⭐️ 8.0/10
+
+The paper introduces EvoUndo, a framework for representing, synthesizing, diagnosing, and independently verifying recoverability of model-generated self-modifications in LLM agents. Across 600 unseen one-shot self-evolution tasks, the framework identified 197 capability-improving mutations that fail recoverability verification, and an extended recovery calculus increased empirical oracle recovery to 191/197. This matters because it directly addresses the safety and reliability of self-modifying LLM agents, which are increasingly used in real-world agentic systems. The results show that dependable self-evolution depends on co-designing verification, state grounding, witness semantics, and recovery-language expressivity, not just better prompting. Under the original recovery representation L0, deterministic oracle analysis recovered 48/197 natural failures, while conventional repair strategies recovered 0/197. A protocol-locked 2×2 grounding-by-expressivity intervention showed that exact state-address grounding improved recovery from 0/48 to 38/48 (79.2%) when the original language sufficed, while the extended recovery language enabled 142/143 (99.3%) recovery in the S1 stratum; using gpt-oss-120b reduced this to 133/143 (93.0%), a negative interaction not reproduced in a Qwen3.8-27B replication.
+
+reddit · r/MachineLearning · /u/AccomplishedLeg1508 · Sep 1, 19:17
+
+**Background**: LLM agents increasingly modify their own prompts, tools, middleware, resources, and execution harnesses at runtime to improve capability. However, a successful mutation may leave persistent effects that cannot be safely reversed in states different from the one in which it was created. EvoUndo provides a framework for verifying recoverability of these self-modifications across counterfactual harness states, and its diagnosis highlights the need for co-designing verification, state grounding, witness semantics, and recovery-language expressivity. The paper is available on arXiv (2608.28363) and was highlighted on Hugging Face Papers.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2608.28363">[2608.28363] EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses</a></li>
+<li><a href="https://huggingface.co/papers/2608.28363">EvoUndo: Recoverability-Constrained Self-Evolution for LLM ...</a></li>
+<li><a href="https://arxiv.org/html/2608.28363">EvoUndo: Recoverability-ConstrainedSelf-Evolution for LLM Agent Harnesses</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#LLM`, `#AI Safety`, `#Self-Improvement`, `#Agentic AI`, `#Recoverability`
 
 ---

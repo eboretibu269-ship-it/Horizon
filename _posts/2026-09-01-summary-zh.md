@@ -5,150 +5,191 @@ date: 2026-09-01
 lang: zh
 ---
 
-> 从 37 条内容中筛选出 6 条重要资讯。
+> 从 43 条内容中筛选出 8 条重要资讯。
 
 ---
 
-1. [库克卸任苹果 CEO，特努斯接棒主推 AI](#item-1) ⭐️ 9.0/10
-2. [谷歌移除 MV2 扩展，uBlock Origin 等遭下架](#item-2) ⭐️ 8.0/10
-3. [NAT：互联网中心化的原罪](#item-3) ⭐️ 8.0/10
-4. [滑动窗口注意力在长上下文推理上胜过线性注意力](#item-4) ⭐️ 8.0/10
-5. [SynthFin-AML：新基准揭示图神经网络的时间泄漏问题](#item-5) ⭐️ 8.0/10
-6. [DeepSeek 发布 V4 系列首款多模态模型 V4-Flash-Vision-Exp](#item-6) ⭐️ 8.0/10
+1. [Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1](#item-1) ⭐️ 9.0/10
+2. [Virtualizor 更新系统遭 BGP 劫持，被植入 Root 后门](#item-2) ⭐️ 9.0/10
+3. [Dan Luu 评估 Ed Zitron 的 AI 预测准确度](#item-3) ⭐️ 8.0/10
+4. [Codex 桌面应用捆绑了 LibreOffice、Python、Node.js 运行时](#item-4) ⭐️ 8.0/10
+5. [1.5 小时训练的小型 Transformer 在 ARC 上击败众多 LLM](#item-5) ⭐️ 8.0/10
+6. [Python 3.15.0 候选版 2 发布，十月正式版前最后候选版](#item-6) ⭐️ 8.0/10
+7. [韩国万亿主权 AI 计划：英伟达受益，海力士承压](#item-7) ⭐️ 8.0/10
+8. [EvoUndo：可恢复性约束下的 LLM 智能体自进化框架](#item-8) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [库克卸任苹果 CEO，特努斯接棒主推 AI](https://www.bloomberg.com/news/articles/2026-08-30/apple-s-new-ceo-john-ternus-takes-reins-from-tim-cook-focusing-on-ai) ⭐️ 9.0/10
+## [Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) ⭐️ 9.0/10
 
-库克于 2026 年 8 月 31 日正式卸任苹果 CEO，约翰·特努斯于 9 月 1 日接任，库克留任执行主席。特努斯的首要任务是加快 AI 落地，补齐 Siri 升级延期等短板，9 月 9 日发布会上预计将亮相首款折叠屏 iPhone。 这次领导层交接标志着苹果这家全球最具影响力的科技公司之一正在经历代际更替，也表明其战略重心转向 AI。新 CEO 的聚焦方向以及即将发布的折叠屏 iPhone 将决定苹果在与三星、谷歌等对手竞争中的地位。 51 岁的特努斯是硬件工程老将，自 2021 年起负责硬件设计，并在 Apple silicon Mac 的研发中发挥了关键作用。据称首款折叠屏 iPhone 将配备 12 GB 内存，并深度整合 Siri AI，可结合屏幕、日历与相机理解现实场景。
+Anthropic 发布了 Claude Fable 5.1 和 Claude Mythos 5.1，这是其最先进 AI 模型的最新版本。此次更新改进了写作风格，将缓存读取价格从 $1/M 降至 $0.25/M，并在科学基准测试上取得更强表现。 这些模型是 Anthropic 在编程和知识工作方面最强大的模型，缓存读取降价可能施压竞争对手并重塑 LLM API 定价。写作风格和科学能力的提升有望扩大 Claude 在开发者和研究人员中的吸引力。 Fable 5.1 的输入/输出价格与 Fable 5 相同，但缓存读取价格降至 $0.25/M tokens，比 Opus 的缓存读取更便宜。该版本还包含修复思维链泄露问题的破坏性变更，系统卡中详细说明了安全性和基准测试结果。
 
-telegram · zaihuapd · 8月31日 10:21
+hackernews · denysvitali · 9月1日 17:53 · [社区讨论](https://news.ycombinator.com/item?id=49525378)
 
-**背景**: Apple Intelligence 是苹果于 2024 年 6 月推出的 AI 功能套件，结合设备端和服务器端处理，随 iOS 18、iPadOS 18 和 macOS Sequoia 发布，适用于 Apple silicon 设备及新 iPhone。约翰·特努斯此前担任苹果硬件工程高级副总裁，负责 Mac、iPad 和 iPhone 等产品的设计与开发。
+**背景**: Claude Mythos 是 Anthropic 最强大的模型系列；最初的 Mythos 预览版因担心其发现软件漏洞的能力而未公开发布。2026 年 6 月，Anthropic 发布了 Claude Fable 5，作为带有安全保障的“Mythos 级”通用模型，同时发布了受限访问的 Claude Mythos 5。据行业估计，Mythos 约有 8 万亿参数，而 Fable 约有 5 万亿参数。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/John_Ternus">John Ternus</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Apple_Intelligence">Apple Intelligence</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Fable_5">Claude Fable 5</a></li>
+<li><a href="https://platform.claude.com/docs/en/models/fable-5-1/overview">Claude Fable 5.1 - Claude Platform Docs</a></li>
+<li><a href="https://www.anthropic.com/claude/mythos">Claude Mythos \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Apple`, `#CEO transition`, `#AI`, `#Tim Cook`, `#John Ternus`
+**社区讨论**: 评论强调缓存读取价格大幅下降，并质疑这是否表明 Fable 原定价需求乏力。一位 Anthropic 员工称赞 Fable 5.1 的写作风格和可靠性，而研究人员指出，若不看 Terminal-Bench-Science，改进似乎有限。还有人讨论修复思维链意外泄露的破坏性变更，并分享模型推理努力级别的测试结果。
+
+**标签**: `#Anthropic`, `#Claude`, `#LLM`, `#AI`, `#model release`
 
 ---
 
 <a id="item-2"></a>
-## [谷歌移除 MV2 扩展，uBlock Origin 等遭下架](https://webiterate.dev/google-removed-extensions-ublock-origin-108/) ⭐️ 8.0/10
+## [Virtualizor 更新系统遭 BGP 劫持，被植入 Root 后门](https://www.virtualizor.com/blog/security-incident-bgp-hijacking/) ⭐️ 9.0/10
 
-Google 已执行其 Manifest V3 迁移计划，将 Chrome 网上应用店中所有 Manifest V2 扩展下架，其中包括 uBlock Origin 等广受欢迎的隐私和广告拦截工具。这一移除使得用户更难在 Chrome 上安装这些扩展。 这标志着 Chrome 扩展一个时代的结束，迫使隐私工具用户转向 Firefox 等替代方案，或接受功能较弱的 uBlock Origin Lite。此举也引发了人们对单一公司控制用户屏蔽广告和保护隐私方式的担忧。 Manifest V3 用更有限的 declarativeNetRequest 模型取代了早期允许深度、动态网络拦截的扩展 API，这移除了 uBlock Origin 此前依赖的能力。完整版 uBlock Origin 仍可在继续支持更宽松的 WebExtensions API 的 Firefox 中运行。
+Virtualizor 的更新基础设施在 2026 年 8 月 28 日至 30 日遭到 BGP 路由劫持，攻击者利用有效的 TLS 证书投递了恶意更新包。这些恶意更新可植入 Root 后门，官方表示只有在该窗口期内进行更新的安装受影响。 这是一起严重的供应链攻击，因为它破坏了软件分发的信任基础：使用有效 TLS 证书的更新可同时被大量服务器接收。Virtualizor 是广泛使用的 VPS 控制面板，被植入 Root 后门后，攻击者可完全控制 hypervisor 上托管的所有虚拟机。 独立取证显示，恶意软件包会写入 root SSH 密钥、安装 Java 载荷并创建持久化服务；官方强调这是分发渠道被劫持，而非软件代码漏洞。托管商 AlbaHost 在其 34 台 hypervisor 中发现 5 台存在入侵指标，Softaculous 表示目前无证据表明其他产品受影响。
 
-hackernews · twapi · 8月31日 21:10 · [社区讨论](https://news.ycombinator.com/item?id=49514878)
+telegram · zaihuapd · 9月1日 06:05
 
-**背景**: Chrome 扩展基于清单版本定义的一组能力构建。Manifest V2（MV2）多年来一直是标准，但 Google 在 2020 年推出了 Manifest V3（MV3），以改善隐私、安全性和性能。到 2025 年，MV2 在大多数 Chrome 用户中实际上已被淘汰，而 Chrome 网上应用店现在已完全移除 MV2 扩展。uBlock Origin 等广告拦截器之所以受影响，是因为 MV3 限制了以 MV2 所允许的灵活方式拦截网络请求的能力。
+**背景**: BGP（边界网关协议）是互联网上在不同网络之间传输流量所依赖的路由系统，其运行基础是各自治系统之间的信任。BGP 劫持是指攻击者伪造 IP 前缀通告，使原本发往合法服务器的流量被重定向到攻击者控制的服务器。Virtualizor 是 Softaculous 推出的基于 Web 的 VPS 控制面板，支持 KVM、Xen 等 hypervisor，因此该软件更新被投毒后，攻击者可能控制虚拟化层及其中的所有客户系统。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3">Extensions / Manifest V3 | Chrome for Developers</a></li>
-<li><a href="https://www.pcworld.com/article/3160794/the-last-lifeline-for-ublock-origin-in-chrome-is-almost-gone-for-good.html">The last lifeline for uBlock Origin in Chrome is almost gone for good | PCWorld</a></li>
-<li><a href="https://factually.co/fact-checks/technology/manifest-v3-impact-ublock-origin-chromium-blocking-workarounds-4c8757">How Does Manifest V3 Change What uBlock Origin Can Blo...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/BGP_hijacking">BGP hijacking - Wikipedia</a></li>
+<li><a href="https://www.cloudflare.com/learning/security/glossary/bgp-hijacking/">What is BGP hijacking? - Cloudflare</a></li>
+<li><a href="https://www.virtualizor.com/">Virtualizor – Cloud Control Panel</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 新闻评论者对 Google 的决定普遍持批评态度。许多人建议改用 Firefox，指出 uBlock Origin 在那里一直运行得最好；还有人表达了对 Google 掌控网络的不满，并表示即使 Firefox 市场份额萎缩也会继续使用它或其分支。一些评论者强调，广告拦截如今已成为安全问题，尤其是对容易点击恶意广告、不太懂技术的用户而言。
-
-**标签**: `#Chrome`, `#Manifest V3`, `#ad blocking`, `#privacy`, `#web extensions`
+**标签**: `#security`, `#BGP hijacking`, `#supply chain attack`, `#Virtualizor`, `#rootkit`
 
 ---
 
 <a id="item-3"></a>
-## [NAT：互联网中心化的原罪](https://dreamstation.systems/personal/ntppost.html) ⭐️ 8.0/10
+## [Dan Luu 评估 Ed Zitron 的 AI 预测准确度](https://danluu.com/zitron/) ⭐️ 8.0/10
 
-一篇论文认为，NAT（网络地址转换）不仅是后来的因素，而是互联网中心化的一个根本原因，它削弱了自托管能力，并使客户端-服务器模式成为常态。该文将地址稀缺重新定义为塑造人们对互联网认知的关键力量。 该观点重新定义了互联网中心化的叙事，将对中心化的责任归于大多数用户甚至不知道的早期技术产物。这对于关心自托管、网络中立性以及用户与大型云平台之间权力平衡的人们来说意义重大。 作者称 NAT 为原罪，并指出它让人们习惯了客户端-服务器模式，而这种模式本是 IPv4 地址稀缺的产物。文章还提到，在 NAT 普及之前，架设服务器曾经是轻而易举的事情。
+Dan Luu 发表了一篇分析文章，逐一审视科技评论员 Ed Zitron 过去对 AI 的预测是否正确，重点考察其在 2024 至 2025 年间发表的观点。 这篇文章之所以重要，是因为它对抗 AI 支持者与怀疑者之间日益加剧的对立，呼吁读者依据原话判断预测是否成真。它为希望在海量 AI 讨论中分辨真伪的读者提供了一份有价值的元分析。 Luu 选择直接引用 Zitron 在 2024 和 2025 年的大量预测原文，而不是重新解读。评论区指出，公平评估存在难度，并认为 Zitron 与 AI 行业领袖都存在夸大其词的问题。
 
-hackernews · robinpie · 8月31日 02:23 · [社区讨论](https://news.ycombinator.com/item?id=49504905)
+hackernews · jatins · 9月1日 18:35 · [社区讨论](https://news.ycombinator.com/item?id=49526069)
 
-**背景**: NAT（网络地址转换）将多个私有 IP 地址映射到一个公共 IP 地址，使许多设备可以共享一个公共地址，这一技术被广泛采用以节省有限的 IPv4 地址资源。客户端-服务器模型是一种计算架构，客户端从中心化服务器请求资源，而点对点或自托管模式中每个节点都可以同时作为提供者和消费者。
+**背景**: Ed Zitron 是科技播客主持人和专栏作家，以尖锐批评 AI 产业著称，常认为 AI 的炒作远超过实际成果。Dan Luu 则是知名的工程师与博主，经常用数据和细节分析技术及行业话题。这篇文章属于更大的网络辩论的一部分，即 AI 怀疑者与支持者谁的观点更可信，而双方都被指责带有偏见。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Network_address_translation">Network address translation - Wikipedia</a></li>
-<li><a href="https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-address-translation-nat.html">What Is Network Address Translation (NAT)? - Cisco</a></li>
-<li><a href="https://www.geeksforgeeks.org/system-design/client-server-architecture-system-design/">Client-Server Architecture - System Design - GeeksforGeeks</a></li>
+**社区讨论**: 评论区总体上赞赏这种元分析，但对公正性看法不一。有用户希望也能整理 OpenAI、Anthropic 等高管预测的核对清单；也有人认为 Zitron 已变成他所嘲讽的 AI 拥趸的镜像，无法承认自己错了。还有评论指出，人们常把自己的观点投射到 Zitron 身上，因此逐字核对原文的方式更有价值。
 
-</ul>
-</details>
-
-**社区讨论**: 评论者意见不一。Linux NAT 实现者 RustyRussell 道歉称，当前的 NAT 系统削弱了公共端点的能力。其他人则认为 NAT 并非原罪，运营商级 NAT（CGNAT）才是真正的问题，而普通 NAT 是可管理的，并且保护了许多不安全设备免于暴露。
-
-**标签**: `#NAT`, `#networking`, `#internet architecture`, `#centralization`, `#history`
+**标签**: `#AI`, `#prediction`, `#analysis`, `#Dan Luu`, `#Ed Zitron`
 
 ---
 
 <a id="item-4"></a>
-## [滑动窗口注意力在长上下文推理上胜过线性注意力](https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/) ⭐️ 8.0/10
+## [Codex 桌面应用捆绑了 LibreOffice、Python、Node.js 运行时](https://simonwillison.net/2026/Sep/1/codex-libreoffice/) ⭐️ 8.0/10
 
-一篇新的 arXiv 预印本（2608.28444）报告称，带注意力汇的滑动窗口注意力在 Needle-in-a-Haystack 和 BABILong 长上下文推理基准上，性能比线性注意力高出 2 到 10 倍。作者认为，后训练转线性模型的路线没有与更简单的基线进行充分比较，并建议改用 SWA。 这一发现挑战了近期业界投入大量后训练算力将大语言模型转换为线性注意力以提高效率的研究方向。如果 SWA 无需任何后训练就能达到或超过这些模型的表现，可能会让研究重点回归更简单、更廉价的基线，并重塑长上下文 LLM 的设计思路。 报告称差距巨大：在选定的基准测试（包括 Needle-in-a-Haystack 和 BABILong）上，SWA 的性能比线性注意力高出 2 到 10 倍。作者承认，线性注意力“可能显示出一些前景，但很可能需要从头训练或大量后训练才能达到甚至接近 SWA 的水平。”论文的建议是改用 SWA，而不是对线性模型进行后训练。
+Simon Willison 发现 OpenAI 的 Codex/ChatGPT 桌面应用在 ~/.cache 中存储了一个 1.7GB 的“codex-primary-runtime”文件夹，其中包含完整的 Python 和 Node.js 安装，以及 LibreOffice、Poppler 和 git 的原生二进制文件。该应用还包含文档处理插件，指导 Codex 如何使用这些二进制文件。 这揭示了 OpenAI 桌面应用如何处理供 LLM 提示使用的文档——通过在本地捆绑一整套开源办公套件，而非依赖云服务。这也引发了关于应用臃肿、依赖管理以及传统办公软件可能被颠覆的更广泛讨论。 该运行时文件夹包含 libreoffice-headless（429.7 MB）、poppler（187.9 MB）、git（148.1 MB）、libheif 和 jxrlib，以及 node 和 python 目录。作者机器上的 ~/.cache 目录总计 442.1 GB，其中 Hugging Face 占用 356.8 GB，uv 占用 82.5 GB。
 
-reddit · r/MachineLearning · /u/Justgototheeffinmoon · 8月31日 16:35
+rss · Simon Willison · 9月1日 19:03 · [社区讨论](https://news.ycombinator.com/item?id=49527396)
 
-**背景**: 标准 Transformer 的注意力随序列长度呈二次方增长，使得长上下文推理在内存和计算上开销很大。线性注意力变体试图通过核近似或循环公式将其复杂度降到线性，但通常需要对现有 LLM 进行后训练才能适配。滑动窗口注意力（SWA）将每个 token 的注意力限制在一个固定局部窗口内，也能以更简单的方式实现线性扩展，而加入“注意力汇”有助于稳定训练。BABILong 是一个长上下文推理基准，用来测试模型在超长文档中跨分散事实进行推理的能力。
+**背景**: LibreOffice 是一款开源的办公套件，2010 年从 OpenOffice.org 分支而来，常用于读取和转换旧版 XLS 等文档格式。Poppler 是一个 PDF 渲染库，而 OmniDiskSweeper 是一款 macOS 磁盘空间分析工具，按大小排序显示文件。Codex 应用（现已更名为 ChatGPT）似乎捆绑了这些工具来处理本地文档。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2608.28444">[2608.28444] Sliding-window beats linear attention - arXiv.org</a></li>
-<li><a href="https://arxiv.org/abs/2406.10149">[2406.10149] BABILong: Testing the Limits of LLMs with Long ...BABILong: Testing the Limits of LLMs with Long Context ...BABILong Benchmark - emergentmind.comRMT-team/babilong · Datasets at Hugging FaceBABILong Benchmark Scores & AI Model Leaderboard | BenchmarkListCogniFold/benchmarks/babilong/README.md at main - GitHub</a></li>
-<li><a href="https://www.digitalocean.com/community/tutorials/sliding-window-attention-efficient-long-context-models">Sliding Window Attention: Efficient Long-Context Modeling | DigitalOcean</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Poppler_(software)">Poppler (software) - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OmniDiskSweeper">OmniDiskSweeper</a></li>
 
 </ul>
 </details>
 
-**标签**: `#machine learning`, `#attention mechanisms`, `#long-context reasoning`, `#linear attention`, `#LLM efficiency`
+**社区讨论**: 评论者反应不一：一位开发者确认其因读取旧版 XLS 文件而捆绑 LibreOffice，另一位则质疑这些依赖是预装还是按需下载。其他人批评该应用整体混乱且依赖体积庞大，猜测 LibreOffice 被用于渲染 Office 文档（这解释了某些文件渲染质量不佳），还有人认为这可能对 Microsoft Office 的主导地位构成威胁。
+
+**标签**: `#OpenAI`, `#ChatGPT`, `#LibreOffice`, `#desktop app`, `#dependencies`
 
 ---
 
 <a id="item-5"></a>
-## [SynthFin-AML：新基准揭示图神经网络的时间泄漏问题](https://www.reddit.com/r/MachineLearning/comments/1w3imxy/your_gnn_is_probably_just_an_overcomplicated_mlp/) ⭐️ 8.0/10
+## [1.5 小时训练的小型 Transformer 在 ARC 上击败众多 LLM](https://mvakde.github.io/blog/44-on-arc-1/) ⭐️ 8.0/10
 
-作者发布了 SynthFin-AML v10.0，一个包含 10 万节点、120 万边的合成基准，用于在动态图评估中强制执行严格的因果边界。他们证明标准的直推式随机划分会把未来边泄漏到 GNN 训练中，并提出一种 3 快照的时间点划分方法来修复该问题。 这解决了动态图研究中一个关键的评估缺陷——模型可以通过看到未来信息来作弊，从而虚报性能。该基准已提交给 PyTorch Geometric，可能成为因果评估的标准，并帮助反洗钱社区可靠地比较 GNN 与更简单基线的表现。 3 快照架构使用截至第 7 天的训练图边、截至第 8 天的验证边和截至第 10 天的测试边，从物理上限制了 GNN 的感受野。作者还通过让欺诈交易与零售交易金额服从相同的对数正态分布（μ=8.517, σ=0.8），消除了“金额划分作弊”。
+一位开发者从零开始仅用 1.5 小时训练了一个小型自回归 Transformer，在 ARC 基准上取得了有竞争力的成绩，超越了众多更大的 LLM。作者强调这不是 LLM，而是一种能够高效解决复杂问题的针对性架构。 这一结果挑战了“强大推理能力必须依赖大规模模型和巨大训练成本”的假设。它凸显了高效、任务专用架构的潜力，并可能推动 AI 研究中更注重样本效率的方法。 该模型是一个小型自回归 Transformer，而非 LLM，使用较少算力在 ARC 谜题上训练。作者指出，ARC 是一个元学习基准，因此从评估谜题中学习是被允许的；‘在测试集上训练’特指导训练测试标签，而他们并未这样做。
 
-reddit · r/MachineLearning · /u/Glabmayt2075 · 8月31日 16:21
+hackernews · porridgeraisin · 9月1日 09:52 · [社区讨论](https://news.ycombinator.com/item?id=49519939)
 
-**背景**: 动态图建模不断演变的关系，例如随时间产生边的金融交易网络。GNN 通过聚合邻居信息来计算节点嵌入；如果训练时使用包含未来边的静态快照，模型就能访问预测时无法获得的信息。这种时间泄漏会虚增性能，而标准随机划分对金融交易图尤其成问题。SynthFin-AML 是一个旨在防止此类泄漏的合成基准，它延续了早期合成 AML 数据集（如基于真实银行数据构建的 SynthAML）的思路。
+**背景**: ARC（抽象与推理语料库）是 François Chollet 于 2019 年提出的基准，旨在通过人类容易但 AI 困难的核心知识先验来衡量 AI 的技能获取和泛化能力。其设计宗旨是测试抽象推理和流体智力，遵循‘对人类容易、对 AI 困难’的原则。许多当前的 LLM 在 ARC 上表现不佳，而一个高效训练的小型 Transformer 却能取得很好的结果。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.nature.com/articles/s41597-023-02569-2">A synthetic data set to benchmark anti-money laundering methods | Scientific Data</a></li>
-<li><a href="https://arxiv.org/html/2509.23631v2">Leakage-Free Evaluation and Distribution-Robust Spatio-Temporal Graph ...</a></li>
-<li><a href="https://deepwiki.com/2024SIG/SIG/7.3-data-leakage-prevention">Data Leakage Prevention | 2024SIG/SIG | DeepWiki</a></li>
+<li><a href="https://arcprize.org/arc-agi">ARC Prize - What is ARC-AGI?</a></li>
+<li><a href="https://lab42.global/arc/">About ARC – Lab42</a></li>
 
 </ul>
 </details>
 
-**标签**: `#graph neural networks`, `#temporal leakage`, `#anti-money laundering`, `#benchmark`, `#causality`
+**社区讨论**: 作者积极参与讨论，澄清该模型不是 LLM，并解释使用 ARC 评估谜题是合理的，因为 ARC 是一个元学习基准。评论者提出了现代 LLM 样本效率低下的问题，就方法论（如‘榨柠檬’式的架构调整）展开辩论，并对作者的结果表示祝贺，还有人注意到作者关于自救的个人经历。
+
+**标签**: `#ARC`, `#transformers`, `#efficiency`, `#benchmark`, `#AI research`
 
 ---
 
 <a id="item-6"></a>
-## [DeepSeek 发布 V4 系列首款多模态模型 V4-Flash-Vision-Exp](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp) ⭐️ 8.0/10
+## [Python 3.15.0 候选版 2 发布，十月正式版前最后候选版](https://simonwillison.net/2026/Sep/1/python-315-rc-2/) ⭐️ 8.0/10
 
-DeepSeek 发布了 DeepSeek-V4-Flash-Vision-Exp，这是 V4-Flash 的实验性多模态版本，通过持续训练加入了视觉模块。在 ApexBench 多模态 agent 基准上，相比 V4-Flash-0731，成绩从 26.2 提升至 36.5，而文本 agent 表现基本持平。 这是 DeepSeek 首款 V4 代多模态模型，ApexBench 上的大幅跃升表明其多模态 agent 能力显著增强。这巩固了 DeepSeek 在开源权重大模型竞争格局中的地位，也为 agentic AI 开发提供了强力基线。 该模型基于 V4-Flash-0731 架构，新增了视觉模块并进行了持续训练。它在 ApexBench 上多模态 agent 任务取得 10.3 分的提升（从 26.2 到 36.5），同时文本 agent 性能基本持平，表明训练针对性很强。
+Python 3.15.0 候选版本 2 已由发布经理 Hugo van Kemenade 宣布，这是计划于十月发布的最终版本前的最后一个候选版。官方强烈鼓励第三方项目维护者在当前阶段测试其项目并上传 Python 3.15 的 wheel 包到 PyPI。 这个最终候选版标志着 Python 生态系统的关键里程碑，为维护者提供了发布前最后的机会来确保兼容性并避免带 bug 发布。Python 开发者和包维护者将直接受到影响，因为针对这个 RC 构建的 wheel 包将与未来 3.15 版本兼容。 在候选版本阶段，只允许经过审查且明确属于 bug 修复的代码更改，从而降低引入新回归的风险。该 RC 尚未在 GitHub Actions 中提供，但开发者可以通过在 setup-python 矩阵中添加 'allow-prereleases: true' 和 'check-latest: true' 来立即测试它。
 
-telegram · zaihuapd · 8月31日 11:41
+rss · Simon Willison · 9月1日 14:59
 
-**背景**: 多模态模型结合了文本与视觉理解能力，使 agent 能够感知图像、截图或 UI 布局，同时进行推理和行动。像 ApexBench 这样的基准测试会在海报编辑、代码重构和知识工作等长周期、贴近真实场景的任务中评估 AI agent，因此对 agentic AI 系统具有参考价值。DeepSeek 的 V4 系列是其最新一代开源权重模型，此次实验性发布为现有 V4-Flash 产品线新增了视觉能力。
+**背景**: 候选版本（release candidate）是 Python 的预发布版本，除非在测试中发现严重 bug，否则将成为最终发布版，因此核心团队通常会冻结非 bug 修复的改动。Wheel 是 Python 的二进制发行格式，是一种带有 .whl 扩展名的 ZIP 格式归档，能够让包比从源码构建更快、更可预测地安装。PyPI 是 Python 的官方第三方软件仓库，维护者在这里分发这些 wheel 包。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.emergentmind.com/topics/apex-bench">APEX-Bench: High-Fidelity Benchmarking</a></li>
-<li><a href="https://www.mercor.com/apex/">APEX Benchmarks: AI Productivity Index Leaderboards | Mercor</a></li>
-<li><a href="https://link.springer.com/article/10.1007/s11390-025-4802-8">Multimodal Agent AI: A Survey of Recent Advances and Future ...</a></li>
+<li><a href="https://realpython.com/ref/glossary/release-candidate/">release candidate | Python Glossary</a></li>
+<li><a href="https://packaging.python.org/en/latest/specifications/binary-distribution-format/">Binary distribution format - Python Packaging User Guide</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Python_Package_Index">Python Package Index - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#DeepSeek`, `#multimodal`, `#model release`, `#AI`, `#LLM`
+**标签**: `#Python`, `#Release Candidate`, `#Software Development`, `#Ecosystem`, `#Compatibility`
+
+---
+
+<a id="item-7"></a>
+## [韩国万亿主权 AI 计划：英伟达受益，海力士承压](https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign) ⭐️ 8.0/10
+
+韩国启动了一项万亿级主权 AI 计划，包括一场全国性 AI 竞赛（被称为“AI 鱿鱼游戏”），将选出最佳的非中国开源模型并可能淘汰其他模型。分析认为这将重塑 AI 供应链，利好英伟达，同时给 SK 海力士和三星带来战略挑战。 韩国大规模政府支持的 AI 投资标志着向主权 AI 的重大地缘政治转变，影响全球 AI 基础设施和半导体需求。其结果将决定哪些公司主导 AI 计算和存储市场，英伟达处于赢家地位，而韩国存储厂商面临战略不确定性。 该计划包括通过公民抽签选出评委，对主权 AI 模型进行评分，获胜者将为 5100 万居民提供免费国家 AI 服务。英伟达受益于开源 AI 的普及，因为这扩大了其 GPU 生态系统，而如果国家模型减少对尖端 HBM 存储的依赖，海力士和三星可能受损。
+
+rss · Semianalysis · 9月1日 20:14
+
+**背景**: 主权 AI 是指一个国家控制其整个 AI 堆栈——计算、数据、模型和基础设施——而不依赖外国供应商的能力。韩国的 AI 竞赛由科学与信息通信技术部组织，旨在让各年龄段人群都能参与 AI。HBM（高带宽内存）是 AI 加速器的关键组件，SK 海力士和三星等韩国公司是主要供应商。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-sovereign-ai">What is sovereign AI? | McKinsey</a></li>
+<li><a href="https://en.sedaily.com/news/2026/03/26/korea-launches-nationwide-ai-competition-for-all-ages">Korea Launches Nationwide AI Competition for All Ages - Seoul Economic Daily</a></li>
+<li><a href="https://www.cadence.com/en_US/home/explore/high-bandwidth-memory-hbm.html">Explore all about High Bandwidth Memory (HBM) for AI Systems</a></li>
+<li><a href="https://www.techtimes.com/articles/323429/20260806/korea-opens-citizen-lottery-pick-national-ai-champion-starting-friday.htm">Korea Opens Citizen Lottery to Pick National AI Champion Starting Friday</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI infrastructure`, `#sovereign AI`, `#semiconductors`, `#Nvidia`, `#Hynix`
+
+---
+
+<a id="item-8"></a>
+## [EvoUndo：可恢复性约束下的 LLM 智能体自进化框架](https://www.reddit.com/r/MachineLearning/comments/1w4m0hq/evoundo_recoverabilityconstrained_selfevolution/) ⭐️ 8.0/10
+
+该论文提出了 EvoUndo 框架，用于对 LLM 智能体中模型生成的自我修改进行表示、合成、诊断和独立验证可恢复性。在 600 个未见过的单次自进化任务中，该框架识别出 197 个未能通过可恢复性验证的能力改进突变，而扩展的恢复演算将经验性 oracle 恢复成功率提升至 191/197。 这很重要，因为它直接关系到自我修改的 LLM 智能体的安全性和可靠性，而这类智能体正越来越多地应用于现实世界的代理系统中。结果表明，可靠的自我进化依赖于对验证、状态锚定、见证语义和恢复语言表达力的协同设计，而不仅仅是更好的提示。 在原始恢复表示 L0 下，确定性 oracle 分析恢复了 197 个自然失败中的 48 个，而常规修复策略恢复了 0/197。一项协议锁定的 2×2 接地性×表达力干预显示，当原始语言足够时，精确状态地址接地将恢复成功率从 0/48 提升至 38/48（79.2%），而扩展的恢复语言在 S1 层实现了 142/143（99.3%）的恢复；在 gpt-oss-120b 主干上，这一数字降至 133/143（93.0%），这一负面交互在 Qwen3.8-27B 的重复实验中未复现。
+
+reddit · r/MachineLearning · /u/AccomplishedLeg1508 · 9月1日 19:17
+
+**背景**: LLM 智能体越来越多地在运行时修改自身的提示、工具、中间件、资源和执行 harness（执行框架），以提升能力。然而，成功的突变可能会留下持久影响，在与创建时不同的状态下无法安全逆转。EvoUndo 提供了一个用于在反事实 harness 状态下验证这些自我修改可恢复性的框架，其诊断结果强调了协同设计验证、状态接地、见证语义和恢复语言表达力的必要性。该论文可在 arXiv（2608.28363）上获取，并已在 Hugging Face Papers 上被重点介绍。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2608.28363">[2608.28363] EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses</a></li>
+<li><a href="https://huggingface.co/papers/2608.28363">EvoUndo: Recoverability-Constrained Self-Evolution for LLM ...</a></li>
+<li><a href="https://arxiv.org/html/2608.28363">EvoUndo: Recoverability-ConstrainedSelf-Evolution for LLM Agent Harnesses</a></li>
+
+</ul>
+</details>
+
+**标签**: `#LLM`, `#AI Safety`, `#Self-Improvement`, `#Agentic AI`, `#Recoverability`
 
 ---
