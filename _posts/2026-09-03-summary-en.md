@@ -5,151 +5,169 @@ date: 2026-09-03
 lang: en
 ---
 
-> From 39 items, 6 important content pieces were selected
+> From 33 items, 7 important content pieces were selected
 
 ---
 
-1. [Google Announces Gemini 3.8 Flash and Cyber Security Model](#item-1) ⭐️ 9.0/10
-2. [Meta Releases Muse Spark 1.3, a Low-Cost Top Performer on DeepSWE](#item-2) ⭐️ 8.0/10
-3. [Investigation: 3 content farms produced 215,128 'best software' pages AI cites](#item-3) ⭐️ 8.0/10
-4. [Most Open-Source AI Detectors Fail the 0.5% False-Positive Bar](#item-4) ⭐️ 8.0/10
-5. [NVIDIA Unveils DLSS 5 Neural Rendering, Debuts Sept 3 with NBA 2K27](#item-5) ⭐️ 8.0/10
-6. [Moonshot AI seeks up to 30% revenue share for Kimi K3 from US cloud giants](#item-6) ⭐️ 8.0/10
+1. [OpenAI Unveils GPT-6 Astra with Near-Perfect ARC-AGI-3 Score](#item-1) ⭐️ 10.0/10
+2. [Plan to Terminate Third-Level .name Domains Raises Stability Concerns](#item-2) ⭐️ 8.0/10
+3. [Ported My 1993 Amiga Assembly Game to Godot in an Evening Using an LLM](#item-3) ⭐️ 8.0/10
+4. [Audacity 4.0 Released with Qt6-Based UI Overhaul and Community Debate](#item-4) ⭐️ 8.0/10
+5. [Google Antigravity ToS sparks concern over third-party use and full account suspension](#item-5) ⭐️ 8.0/10
+6. [Moonshot AI (Kimi) Confidentially Files for Hong Kong IPO at $50B Pre-Money Valuation](#item-6) ⭐️ 8.0/10
+7. [US Government Backs OpenAI in NYT Copyright Suit, Calling AI Training Fair Use](#item-7) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Google Announces Gemini 3.8 Flash and Cyber Security Model](https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/) ⭐️ 9.0/10
+## [OpenAI Unveils GPT-6 Astra with Near-Perfect ARC-AGI-3 Score](https://openai.com/index/gpt-6-astra/) ⭐️ 10.0/10
 
-Google has released Gemini 3.8 Flash, a fast and cost-efficient AI model that achieves top benchmark scores, alongside Gemini 3.8 Flash Cyber, a specialized variant for cybersecurity defenders. The Cyber model is initially available to trusted defenders through the Fairwind Program and replaces the previous 3.5 Cyber version. This release matters because Gemini 3.8 Flash performs comparably to much larger frontier models, such as Opus 5, at a fraction of the cost, making high-quality AI more accessible for high-volume applications. The Cyber variant points to a growing trend of specialized AI models for security tasks like autonomous vulnerability discovery. According to Google DeepMind, Gemini 3.8 Flash was evaluated across coding, knowledge work, multimodal capabilities, long-context, computer use, and scientific reasoning benchmarks, and it outperforms most larger frontier models on complex engineering tasks at a fraction of the cost. DataCamp reports that Gemini 3.8 Flash scores 90.8% on Terminal-Bench 2.1, and Gemini 3.8 Flash Cyber offers frontier-level performance in autonomous vulnerability discovery.
+OpenAI announced GPT-6 Astra, a new flagship model release, together with a deployment-safety system card. The model reportedly reaches 99.9% on the ARC-AGI-3 benchmark and shows major gains on coding and reasoning evaluations such as the Artificial Analysis Coding Agent Index. This is a full-version jump in OpenAI's flagship line rather than a point release, so it resets expectations for frontier model capability. A near-perfect ARC-AGI-3 result intensifies debates about whether these systems are approaching general or agentic intelligence, and it affects developers, researchers, and AI-safety conversations. Commenters note that the public ARC-AGI-3 scorecard may be misleading: it lists GPT-5.6 Sol at 7.8%, but with the same responses-API harness used for GPT-6 Astra, Sol would be estimated to score around 30%. OpenAI also published a deployment-safety system card at deploymentsafety.openai.com/gpt-6-astra.
 
-hackernews · bratao · Sep 2, 15:12 · [Discussion](https://news.ycombinator.com/item?id=49537553)
+hackernews · kibae · Sep 3, 18:41 · [Discussion](https://news.ycombinator.com/item?id=49554643)
 
-**Background**: Gemini Flash is Google's lightweight model family designed for fast responses and low cost, making it suitable for high-volume applications like prototyping, media analysis, and agentic workflows. Unlike the larger Pro and Ultra tiers, Flash models emphasize efficiency while still aiming for competitive intelligence and coding abilities. The Cyber variant is a specialized security-focused model distributed under a controlled early-access program to trusted defenders rather than being broadly available.
+**Background**: ARC-AGI-3 is an interactive reasoning benchmark that asks AI agents to explore novel, abstract, turn-based environments, infer goals on the fly, and build adaptable world models; it is designed to measure agentic intelligence rather than static skill recall. The Artificial Analysis Coding Agent Index is a composite coding score built from benchmarks including DeepSWE, Terminal-Bench v2.1, and SWE-Atlas-QnA. AI system cards are documentation artifacts that describe the architecture, data, and safety context of an AI system as a whole.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://deepmind.google/models/gemini/flash/">Gemini 3.8 Flash — Google DeepMind</a></li>
-<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/">Introducing Gemini 3.8 Flash and 3.8 Flash Cyber</a></li>
-<li><a href="https://www.datacamp.com/blog/gemini-3-8-flash-cyber">Gemini 3.8 Flash: Features, Benchmarks, and Pricing | DataCamp</a></li>
+<li><a href="https://arcprize.org/blog/astra">OpenAI's GPT-6 Astra on ARC-AGI-3</a></li>
+<li><a href="https://artificialanalysis.ai/agents/coding-agents">AI Coding Agent Benchmarks & Leaderboard - Artificial Analysis</a></li>
+<li><a href="https://www.redhat.com/en/blog/security-beyond-model-introducing-ai-system-cards">Security beyond the model: Introducing AI system cards</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reactions were largely positive, with developers highlighting the model's speed, low cost, and strong HTML/JavaScript generation, as well as its competitive benchmark standing against Opus 5. Some users reported real-world improvements in personal apps, while one commenter noted that low thinking effort seemed to be a regression in 3.8 compared to 3.7. Another user emphasized that Gemini models' multimodal support for audio and video input, combined with Flash-level pricing, makes them well suited for media analysis.
+**Discussion**: A common sentiment on Hacker News was respect for the ARC-AGI-3 result combined with caution about how it is reported: intenex argued the scorecard is misleading because it shows GPT-5.6 Sol at 7.8% even though the same responses-API harness would put Sol at roughly 30%. abixb said gains outside ARC-AGI-3 look comparable to ordinary point releases and questioned whether this truly represents an AGI step; astrobiased connected the trend to François Chollet's argument that frontier-model progress still resembles skill acquisition. Meanwhile, some commenters dismissed the autonomous-purchase demos as unconvincing.
 
-**Tags**: `#Gemini`, `#AI models`, `#Google`, `#benchmarks`, `#machine learning`
+**Tags**: `#OpenAI`, `#GPT-6`, `#AI`, `#benchmarks`, `#AGI`
 
 ---
 
 <a id="item-2"></a>
-## [Meta Releases Muse Spark 1.3, a Low-Cost Top Performer on DeepSWE](https://developer.meta.com/ai/models/muse-spark/) ⭐️ 8.0/10
+## [Plan to Terminate Third-Level .name Domains Raises Stability Concerns](https://neil.fraser.name/news/2026/09/03/) ⭐️ 8.0/10
 
-Meta has released Muse Spark 1.3, a low-cost coding large language model that scored 75.4 on the DeepSWE benchmark, the highest recorded result so far. The model delivers near-frontier performance while maintaining very low usage costs. This release intensifies competition among coding-focused AI models, especially after Google's Gemini 3.8 Flash briefly held the top DeepSWE spot. Low-cost options with benchmark-leading scores put downward pressure on prices and make strong coding assistance available to a much wider range of developers. DeepSWE is a long-horizon software engineering benchmark built from 113 original tasks drawn from active open-source repositories, rather than mined GitHub pull requests. In a hands-on test, Simon Willison found the model noticeably better than Muse Spark 1.2 for an SVG generation task, costing roughly 4.2 cents and taking about 38 seconds.
+ICANN is considering a proposal to terminate all existing third-level registrations under the .name top-level domain and release the corresponding second-level domains. If enacted, names of the form first.last.name would no longer function for their current registrants. The proposal threatens the stability and security of existing registrations, contradicts ICANN's mission of ensuring stable and secure operation of the Internet's identifier systems, and could enable squatting when second-level domains are released. Thousands of individuals who registered personal names under the .name scheme could lose long-held addresses. The proposal affects third-level domain names such as first.last.name, which .name originally allowed; owners of already-registered second-level domains like last.name would not be affected. Commenters also note that the proposal does not explain how released second-level domains will be handled, and they doubt registry operator Verisign will reserve them to prevent squatting.
 
-hackernews · bvaldivielso · Sep 2, 19:35 · [Discussion](https://news.ycombinator.com/item?id=49541256)
+hackernews · pavel_lishin · Sep 3, 14:54 · [Discussion](https://news.ycombinator.com/item?id=49550772)
 
-**Background**: Muse Spark is Meta's large language model family developed by Meta Superintelligence Labs (MSL), introduced in April 2026 and first launched as version 1.1 in July 2026. DeepSWE, created by Datacurve, measures frontier coding agents on original long-horizon engineering tasks, making it a widely watched leaderboard for coding models. The new release signals Meta's push to close the gap with frontier coding models while competing aggressively on price.
+**Background**: Domain names are organized hierarchically: a top-level domain (TLD) such as .com or .name is the part after the final dot, a second-level domain is the label immediately before it (e.g., google in google.com), and a third-level domain is an additional label further left, such as blog in blog.website.com. Third-level domains often act as subdomains for organizing website content. .name is a TLD originally intended for individuals, and its registration model allowed third-level personal names before second-level registrations were later added.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Muse_Spark">Muse Spark - Wikipedia</a></li>
-<li><a href="https://deepswe.datacurve.ai/">DeepSWE</a></li>
-<li><a href="https://benchlm.ai/benchmarks/deepswe">DeepSWE Leaderboard & Scores — September 2026 | BenchLM.ai</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Domain_name">Domain name - Wikipedia</a></li>
+<li><a href="https://www.dynadot.com/help/question/what-is-third-level-domain">What is a third-level domain? | Dynadot</a></li>
+<li><a href="https://www.cloudflare.com/learning/dns/top-level-domain/">What is a top-level domain (TLD)? - CloudflareList of Internet top-level domains - WikipediaWhat is a top-level domain? TLD definition and examplesWhat Is a Top-Level Domain (TLD)?What is TLD? Understanding top-level domains and their roleTop-Level Domain Extensions 2026: Complete TLD Guide - Bluehost</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters are broadly enthusiastic, praising the strong DeepSWE result and low price, and noting that competition is pushing prices down. Several highlight quality improvements confirmed by hands-on testing, while others discuss the "contributor" pricing model that offers cheaper access in exchange for allowing Meta to train on their data, with mixed feelings about that trade-off.
+**Discussion**: Commenters generally sympathize with affected third-level registrants and argue that cancellation should not be abrupt. Some insist the scheme contradicts ICANN's core mission, while others clarify that only third-level names are affected and second-level owners are safe; one commenter also notes that domain names are leased assets and can ultimately disappear.
 
-**Tags**: `#Meta`, `#AI model`, `#software engineering`, `#benchmark`, `#coding assistant`
+**Tags**: `#domain names`, `#ICANN`, `#internet governance`, `#DNS`, `#policy`
 
 ---
 
 <a id="item-3"></a>
-## [Investigation: 3 content farms produced 215,128 'best software' pages AI cites](https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/) ⭐️ 8.0/10
+## [Ported My 1993 Amiga Assembly Game to Godot in an Evening Using an LLM](https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/) ⭐️ 8.0/10
 
-A new investigation reveals that three content farms generated 215,128 programmatically produced 'best software' recommendation pages, and that Perplexity frequently cites these pages in its AI-generated answers. This finding shows that AI search engines can be manipulated at industrial scale by SEO content farms, even when the generated pages contain little genuine editorial value. It raises doubts about the reliability of AI-driven product recommendations for users and unfairly affects software makers who are not part of such content operations. The pages were built as 'best software' lists designed to appear in AI answers, a practice sometimes called answer engine optimization (AEO). The report argues these are bulk-generated pages aimed at influencing AI algorithms rather than serving human readers.
+A developer ported his 1993 Amiga game, originally written in MC68000 assembly in Baghdad, to Godot in a single evening using a large language model. He also released the original game for free and published detailed notes about the process. This is a concrete demonstration that LLMs can make decades-old 68000 assembly code legible and portable to a modern engine, potentially lowering the barrier for preserving and reviving retro games. It also sparked thoughtful community discussion about AI-assisted reverse engineering and retrocomputing archaeology. The author had the model first reassemble the code with vasm on a Mac, iterating until the binary was byte-identical to the original game files. A residual 108-byte discrepancy was explained by AsmOne's in-memory assembly workflow, since the shipped files were memory snapshots after the game had run, though the author notes he never verified this explanation himself.
 
-hackernews · jakobgreenfeld · Sep 2, 13:59 · [Discussion](https://news.ycombinator.com/item?id=49536375)
+hackernews · rabahs · Sep 3, 14:28 · [Discussion](https://news.ycombinator.com/item?id=49550375)
 
-**Background**: A content farm, or content mill, is an organization that mass-produces web content specifically designed to perform well in search engine algorithms. AI answer engines such as Perplexity summarize results from across the web, so when content farms flood the index with pages optimized for AI queries, large language models may treat those pages as authoritative sources. This report highlights a growing SEO tactic: creating content in a style likely to be quoted by AI systems.
+**Background**: The Commodore Amiga was powered by the Motorola 68000, a 16/32-bit CISC microprocessor that game developers often programmed directly in assembly for speed and direct hardware access. vasm is a portable, retargetable assembler that can generate binary output from assembly source, which the author used to verify the LLM's reconstructed code. AsmOne was an integrated macro assembler for the Amiga that assembled code in memory; because the original game saved memory after it had already run, the shipped binaries were not clean assembler output, explaining the 108-byte discrepancy the author found.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Perplexity_AI">Perplexity AI - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Content_farm">Content farm - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Motorola_68000">Motorola 68000 - Wikipedia</a></li>
+<li><a href="http://sun.hasenbraten.de/vasm/">vasm portable and retargetable assembler</a></li>
+<li><a href="https://aminet.net/package/dev/asm/ASM-One">Aminet - dev/asm/ASM-One.lhaAsm One 1.02 Manual : Rune Gram-Madsen : Free Download ...Commodore Software - ASM-One v1.02 ManualASM-One Macro Assembler - HandWikiAmiga Assembler Tutorial - Carl HenrikAsm One 1.02 Manual : Free Download, Borrow, and Streaming ...Asm-One v1.20 by The Flame Arrows :: pouët.net</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely agree that LLMs and AI search tools lack source skepticism and tend to favor AI-generated or low-quality content, with some sharing personal examples of Claude, Codex, and Perplexity recommending fabricated or useless links. One commenter notes the problem also extends to AI models training on human output, while another predicts the exploit window will close as models improve at evaluating the motives behind published information.
+**Discussion**: Commenters praised the experiment as a "crazy" demonstration of AI-assisted archaeology: one recalled using Claude to convert a ZX81 memory dump to Go, while another plans to port a forgotten game that is not his own. Others expressed admiration for the original 1993 assembly work and suggested follow-ups such as an exportable engineering guide for similar LLM-based ports.
 
-**Tags**: `#AI search`, `#LLM reliability`, `#SEO manipulation`, `#content farms`, `#Perplexity`
+**Tags**: `#LLM`, `#Godot`, `#retrocomputing`, `#game development`, `#reverse engineering`
 
 ---
 
 <a id="item-4"></a>
-## [Most Open-Source AI Detectors Fail the 0.5% False-Positive Bar](https://www.reddit.com/r/MachineLearning/comments/1w58erw/most_opensource_ai_detectors_cant_hold_a_05/) ⭐️ 8.0/10
+## [Audacity 4.0 Released with Qt6-Based UI Overhaul and Community Debate](https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0) ⭐️ 8.0/10
 
-A new public evaluation of six open-source AI text detectors found that most cannot maintain a 0.5% false-positive rate after threshold calibration on the same human documents. The best model caught only 41.6% of humanizer-paraphrased AI text, while MAGE could not reach the target false-positive rate at any threshold and the old OpenAI RoBERTa detector performed worse than a coin flip. The results challenge the reliability of open-source AI detectors used in academic integrity, hiring, and content moderation. Because all evaluated models flag non-native English essays at higher rates than native ones, these tools risk unfair penalties on human writers and need substantially better evaluation practices before high-stakes deployment. The protocol used public data only: 6,930 human documents for threshold calibration, 5,000 pre-LLM 2018 FineWeb pages as the human pool, and a 1,060-text frontier set from GPT-5.x, Claude Opus 5, and Gemini 3.x. One of the six detectors was disclosed as the author's own open-weights model, and all datasets and methodology were released for reruns.
+Audacity 4.0 has been officially released, featuring a major graphical user interface overhaul built on Qt6 and a collection of bug fixes. The release marks a significant technical transition for the popular open-source audio editor. This release matters because Audacity is one of the most widely used open-source audio editors, and the Qt6 migration brings a modernized interface that could improve usability across Linux, Windows, and macOS. It also intensifies the community debate about the project's technical direction and privacy concerns, which may influence future contributions and user trust. The new UI is based on Qt6, a cross-platform application framework offering native look-and-feel and support for high-DPI displays. Despite the overhaul, community members note that long-standing issues such as non-persistent JACK client handling and unwanted clicking noise between clips remain unaddressed, and some express concerns about integrated audio.com features.
 
-reddit · r/MachineLearning · /u/grumpyp2 · Sep 2, 12:04
+hackernews · ClydeN · Sep 3, 10:53 · [Discussion](https://news.ycombinator.com/item?id=49548395)
 
-**Background**: AI detectors usually set a confidence threshold to achieve a target false-positive rate (FPR), the proportion of human-written text incorrectly labeled as AI-generated; ROC-AUC measures overall ranking quality across thresholds. MAGE refers to machine-generated text detection in the wild, a testbed/framework for evaluating detectors, and the table includes an open-source detector named yaful/MAGE. The OpenAI RoBERTa detector was created by fine-tuning RoBERTa on outputs from the 1.5B-parameter GPT-2 model, which explains its weak performance on modern LLMs. Humanizer tools rewrite AI-generated text specifically to evade these detectors.
+**Background**: Audacity is a free, open-source digital audio editor used for recording, editing, and mixing audio, available on Linux, Windows, and macOS. Qt6 is the latest major version of the Qt framework, which developers use to create graphical user interfaces for desktop and embedded platforms; its release introduced improved graphics capabilities and better support for modern display technologies.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2305.13242">[2305.13242] MAGE: Machine-generated Text Detection in the Wild</a></li>
-<li><a href="https://huggingface.co/openai-community/roberta-base-openai-detector">openai-community/roberta-base-openai-detector · Hugging Face</a></li>
-<li><a href="https://medium.com/freelancers-hub/i-tried-7-ai-humanizers-heres-the-best-tool-to-bypass-ai-detectors-628590da5ccf">I Re-Tested 30+ AI Humanizers in 2026. Here Are the 14 That Actually Sound Human | by Anangsha Alammyan | Freelancer’s Hub | Medium</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Qt_(software)">Qt (software) - Wikipedia</a></li>
+<li><a href="https://doc.qt.io/qt-6/qt-intro.html">Introduction to Qt | Qt 6.11Qt (software) - WikipediaQt 6.11Qt5 vs Qt6: Understanding the Key Differences & Upgrade BenefitsFrom QtWidgets to Qt6 and Beyond: What Is Qt Capable Of?Difference between QT6 and LT20 QT6? : r/qBittorrent - Reddit</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI detection`, `#machine learning`, `#evaluation`, `#LLM`, `#bias`
+**Discussion**: Comments show a mix of enthusiasm and skepticism. Some users recommend developer videos praising the new UI, while others express disappointment that technical deficiencies they experienced in earlier versions, such as JACK integration quirks and clip-clicking artifacts, persist in 4.0. Additionally, several commenters reference privacy-related forks like Tenacity and Sneedacity, indicating lingering distrust over telemetry and audio.com integration.
+
+**Tags**: `#Audacity`, `#Open Source`, `#Audio Software`, `#Qt6`, `#Release`
 
 ---
 
 <a id="item-5"></a>
-## [NVIDIA Unveils DLSS 5 Neural Rendering, Debuts Sept 3 with NBA 2K27](https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/) ⭐️ 8.0/10
+## [Google Antigravity ToS sparks concern over third-party use and full account suspension](https://twitter.com/GergelyOrosz/status/2095453567955968398) ⭐️ 8.0/10
 
-NVIDIA has unveiled DLSS 5, introducing 3D-guided neural rendering that uses AI to generate realistic lighting and material details in real time. It arrives on September 3 at 9 p.m. PT with NBA 2K27 on GeForce RTX 50-series PCs, laptops, and GeForce NOW Ultimate. This marks a shift from DLSS's earlier role of reconstructing existing frames to actually generating lighting and material detail that real-time constraints previously forced developers to omit. It could accelerate the adoption of generative AI in game rendering and set a new template for real-time graphics. According to NVIDIA, with DLSS 5 enabled in NBA 2K27, an RTX 5090 can reach up to 370 FPS at 4K ultra-quality with ray tracing, and up to 590 FPS at 1440p. Players will need the new GeForce Game Ready driver released the same day.
+Google Antigravity's terms of service initially stated that third-party API usage could lead to suspension of the user's entire Google account. Varun Mohan, head of Antigravity, clarified on X that only the Antigravity account is affected and said the ToS wording will be changed. This matters because a Google account often holds years of emails, calendars, and other critical data, so a policy that could suspend the whole account over an AI-service violation is seen as deeply user-hostile. The controversy could make developers and enterprises more reluctant to adopt Google's AI products, highlighting how essential transparent terms are for trust in AI platforms. The disputed wording is on the official terms page at antigravity.google/terms. Varun Mohan, from the Antigravity team, clarified that the account referred to in the terms is the Antigravity account, not the broader Google account. Some users with direct experience reported that enforcement has affected only Antigravity access, while the un-suspension process can be extremely cumbersome.
 
-telegram · zaihuapd · Sep 2, 03:00
+hackernews · tosh · Sep 3, 11:01 · [Discussion](https://news.ycombinator.com/item?id=49548452)
 
-**Background**: DLSS (Deep Learning Super Sampling) is NVIDIA's suite of AI-powered rendering technologies, typically used for upscaling, frame generation, and ray reconstruction. In DLSS 5, 3D-guided neural rendering acts as a generative AI stage attached to the end of the render pipeline, taking the engine-drawn frame and repainting how that frame responds to light. Previous DLSS versions primarily reconstructed existing scene data to deliver higher-resolution images or extra frames; DLSS 5 instead attempts to generate richer lighting and material details automatically.
+**Background**: Google Antigravity is Google's agentic development platform, consisting of a chat-oriented development environment, an IDE, a CLI, and an SDK for orchestrating autonomous AI agents in code generation, execution, and testing. The terms govern how users download, install, access, and use this AI service. Because AI agents often interact with third-party APIs, users were particularly alarmed to see language that appeared to permit suspension of an entire Google account over such usage, especially given how much personal data is stored there.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/">DLSS 5: 3D-Guided Neural Rendering Debuts in NBA 2K27 | NVIDIA</a></li>
-<li><a href="https://www.back2gaming.com/features/nvidia-dlss-5-technical-preview-3d-guided-neural-rendering/">NVIDIA DLSS 5 Technical Preview: Inside 3D-Guided Neural Rendering - Back2Gaming</a></li>
+<li><a href="https://antigravity.google/terms">Google Antigravity - Terms of Service</a></li>
+<li><a href="https://x.com/GergelyOrosz/status/2095453567955968398">Gergely Orosz on X: "Antigravity's terms of services make it crystal ...</a></li>
+<li><a href="https://discuss.ai.google.dev/t/antigravity-account-disabled-violation-of-terms-of-service-requesting-support/123014">Antigravity account disabled - "violation of Terms of Service ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#NVIDIA`, `#DLSS`, `#neural rendering`, `#graphics`, `#real-time rendering`
+**Discussion**: Commenters called the original wording wildly user-hostile, saying they would rather avoid Google AI products than risk losing their entire account. Some raised the broader stakes of government identity systems that force reliance on Google or Apple accounts, where a ban could lock people out of public services. Others who had experienced suspensions noted that enforcement often only blocks Antigravity access, but that the appeal process can be byzantine, and they welcomed the official clarification.
+
+**Tags**: `#Google`, `#Terms of Service`, `#AI policy`, `#Account suspension`, `#Cloud computing`
 
 ---
 
 <a id="item-6"></a>
-## [Moonshot AI seeks up to 30% revenue share for Kimi K3 from US cloud giants](https://www.jiemian.com/article/15040119.html) ⭐️ 8.0/10
+## [Moonshot AI (Kimi) Confidentially Files for Hong Kong IPO at $50B Pre-Money Valuation](https://www.21jingji.com/article/20260903/herald/4a31937e4c968dcce1d233b83a4759f8.html) ⭐️ 8.0/10
 
-Moonshot AI is in early discussions with Microsoft, Amazon, and Google about a revenue-sharing deal for its Kimi K3 model, initially seeking up to a 30% cut. If finalized, it would be the first major model revenue-sharing arrangement between a Chinese AI company and big US cloud providers. A deal could create a new cross-border monetization path for Chinese AI models and set a precedent for how frontier open-weight models are distributed through Western cloud platforms. It would also give Microsoft, Amazon, and Google access to a competitive model lineup to offer enterprise customers, while raising questions about how revenue sharing and model licensing work across regulatory boundaries. The talks are still early, and core terms have not been finalized; Microsoft, Amazon, and Google declined to comment. Kimi K3 was released in July 2026 with 2.8 trillion total parameters, built with Kimi Delta Attention and Attention Residuals, and is described as the world's first open 3-trillion-parameter scale model; Moonshot AI's annual recurring revenue reportedly surpassed $300 million by mid-June.
+Moonshot AI, the developer of the Kimi chatbot, has confidentially submitted its A1 filing to the Hong Kong Stock Exchange, formally starting its Hong Kong IPO process. It is also advancing a new funding round at a US$50 billion pre-money valuation, likely its final financing before listing. The move signals that one of China's leading AI foundation-model companies is entering the public capital markets amid surging AI valuations. It could reshape the competitive landscape for Chinese AI startups and be followed by DeepSeek, which is widely expected to list in the first half of next year. The A1 filing is confidential, and the company responded that it has no further information to disclose. Its valuation jumped from about US$4.3 billion at the end of 2025 to US$35 billion post-money in July this year—roughly an 8-fold increase in half a year—while Kimi launched K2.5, K2.6, and K3 in January through July on roughly a three-month iteration cycle.
 
-telegram · zaihuapd · Sep 2, 07:36
+telegram · zaihuapd · Sep 3, 03:15
 
-**Background**: Moonshot AI is a Chinese AI startup best known for Kimi, a chatbot and family of large language models. After releasing the open-weight Kimi K2 in July 2025, it launched Kimi K3 in July 2026 as a 2.8-trillion-parameter open-weight model with native vision and a 1-million-token context window. In large language models, parameters are the learned weights that shape model behavior, and extremely large models such as Kimi K3 require massive compute to train and serve, making distribution partnerships important.
+**Background**: An A1 filing is the document a sponsor submits to the Hong Kong Stock Exchange to formally begin the city's IPO review process; it discloses financials, business model, and risks to investors. Pre-money valuation is a company's value before new investment is added, while post-money valuation equals pre-money plus the newly injected capital. For example, if a company valued at US$10 billion pre-money raises US$1 billion, its post-money valuation becomes US$11 billion. Understanding these terms clarifies why the reported US$50 billion pre-money valuation would rise once the new round closes.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Kimi_(AI)">Kimi (AI) - Wikipedia</a></li>
-<li><a href="https://huggingface.co/moonshotai/Kimi-K3">moonshotai/Kimi-K3 · Hugging Face</a></li>
-<li><a href="https://platform.kimi.ai/docs/guide/kimi-k3-quickstart">Kimi K3 - Kimi API Platform</a></li>
+<li><a href="https://qifu.zcqtz.com/article/22267.html">香港ipo的a1是指什么 (香港IPO中A1文件含义)-中国香港百科-丝路企服</a></li>
+<li><a href="https://www.zhihu.com/question/48450676">大神能不能用例子说明下投前估值和投后估值的区别？ - 知乎</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Models`, `#Cloud Computing`, `#Business Deal`, `#Moonshot AI`, `#Kimi`
+**Tags**: `#AI`, `#IPO`, `#融资`, `#月之暗面`, `#大模型`
+
+---
+
+<a id="item-7"></a>
+## [US Government Backs OpenAI in NYT Copyright Suit, Calling AI Training Fair Use](https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/) ⭐️ 8.0/10
+
+The U.S. government filed an amicus brief in Manhattan federal court backing OpenAI in its copyright dispute with The New York Times, arguing that training large language models on copyrighted material generally constitutes fair use. This is the first U.S. government statement on the issue in a major AI copyright case. Although non-binding, the brief could influence how courts and policymakers view AI training and give tech companies more confidence in similar litigation. It also places the U.S. government on one side of a high-stakes debate over the future of generative AI and creator compensation. The brief reportedly argues that using copyrighted works to train AI models generally qualifies as fair use, a position opposed by The New York Times. The Times accused the government of siding with 'a few trillion-dollar AI companies' at the expense of creators, and its 2023 lawsuit against OpenAI and Microsoft alleged unauthorized use of millions of its articles to train ChatGPT.
+
+telegram · zaihuapd · Sep 3, 05:45
+
+**Background**: Fair use is a U.S. legal doctrine that permits limited use of copyrighted material without permission under certain circumstances, such as for commentary, criticism, or transformative purposes. An amicus brief is a document filed by a non-party with an interest in the case, providing information or perspectives to assist the court. The outcome of this lawsuit could have broad consequences for how AI companies obtain training data and whether they must license or pay content owners.
+
+**Tags**: `#AI`, `#copyright`, `#OpenAI`, `#fair-use`, `#legal`
 
 ---
